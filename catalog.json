@@ -1,4 +1,15 @@
 {
   "version": 1,
-  "mods": []
+  "mods": [
+    {
+      "id": "motion-blur",
+      "name": "Motion Blur",
+      "description": "Плавное размытие в движении для Horizon 26.3 с адаптацией под 144 Гц и настройками силы и качества в игре.",
+      "version": "1.0.0",
+      "file_name": "motion-blur.hshader",
+      "download_url": "mods/motion-blur.hshader",
+      "icon_url": "icons/motion-blur.png",
+      "size_kb": 2
+    }
+  ]
 }

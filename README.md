@@ -1,2 +1,15 @@
-# horizon-mods
-Mod catalog for Horizon Offline Launcher 26.3
+# Horizon Mods Catalog
+
+Официальный каталог модов и шейдер-паков для **Horizon Offline Launcher (Minecraft 26.3)**.
+
+## Доступные дополнения
+
+| Название | Версия | Файл | Описание |
+| :--- | :--- | :--- | :--- |
+| **Motion Blur** | `1.0.0` | `mods/motion-blur.hshader` | Плавное размытие в движении (WGSL post-processing) с поддержкой 144 Гц и живыми настройками (`Blur Strength`, `Quality`, `Blur Sky`) в меню шейдеров игры. |
+
+## Как установить
+
+1. Открой **Horizon Offline Launcher** → вкладка **Моды**.
+2. Нажми **«Обновить»** в правом каталоге и кликни **«Скачать»** рядом с нужным модом или шейдером.
+3. Шейдеры `.hshader` автоматически устанавливаются в `shaderpacks/` и активируются.
