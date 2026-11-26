@@ -1,0 +1,39 @@
+schema = 1
+api = "0.1"
+id = "cyberpunk_neon"
+name = "Cyberpunk Neon"
+version = "1.0.0"
+
+[[options]]
+id = "neon_intensity"
+name = "Neon Intensity"
+description = "Strength of cyberpunk color grading and glow."
+type = "float"
+default = 0.70
+min = 0.15
+max = 1.25
+step = 0.05
+
+[[options]]
+id = "chroma_shift"
+name = "Chromatic Fringe"
+description = "Subtle neon lens RGB edge shift."
+type = "float"
+default = 0.35
+min = 0.0
+max = 1.0
+step = 0.05
+
+[[lights]]
+color = [2.0, 0.25, 1.45]
+blocks = ["minecraft:torch", "minecraft:wall_torch", "minecraft:lantern", "minecraft:redstone_torch", "minecraft:crying_obsidian", "minecraft:nether_portal"]
+
+[[lights]]
+color = [0.20, 1.85, 2.0]
+blocks = ["minecraft:soul_torch", "minecraft:soul_lantern", "minecraft:sea_lantern", "minecraft:glowstone", "minecraft:end_rod", "minecraft:beacon"]
+
+[material]
+file = "material.wgsl"
+
+[[post]]
+file = "post.wgsl"

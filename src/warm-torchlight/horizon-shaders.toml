@@ -1,0 +1,28 @@
+schema = 1
+api = "0.1"
+id = "warm_torchlight"
+name = "Warm Cozy Torchlight"
+version = "1.0.0"
+
+[[options]]
+id = "torch_warmth"
+name = "Amber Warmth"
+description = "How warm and golden indoor torchlight appears."
+type = "float"
+default = 0.75
+min = 0.15
+max = 1.30
+step = 0.05
+
+[[options]]
+id = "flicker_amount"
+name = "Flame Flicker"
+description = "Subtle organic flame flicker on block light."
+type = "float"
+default = 0.08
+min = 0.0
+max = 0.25
+step = 0.01
+
+[material]
+file = "material.wgsl"

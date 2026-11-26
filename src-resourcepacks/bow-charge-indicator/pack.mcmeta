@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "description": "Bow Charge Indicator — Цветовая подсветка стадий натяжения лука (красный → жёлтый → ярко-зелёный при 100% заряде).",
+    "pack_format": 55,
+    "min_format": 15,
+    "max_format": 999
+  }
+}

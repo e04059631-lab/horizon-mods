@@ -1,0 +1,56 @@
+schema = 1
+api = "0.1"
+id = "colored_lights"
+name = "Dynamic Colored Lights"
+version = "1.0.0"
+
+[[options]]
+id = "light_intensity"
+name = "Colored Light Strength"
+description = "Intensity of colored block lighting around light sources."
+type = "float"
+default = 0.85
+min = 0.2
+max = 1.6
+step = 0.05
+
+[[options]]
+id = "emissive_boost"
+name = "Glowing Blocks Boost"
+description = "Extra self-illumination on light-emitting blocks."
+type = "float"
+default = 0.35
+min = 0.0
+max = 0.9
+step = 0.05
+
+[[lights]]
+color = [1.8, 1.05, 0.42]
+blocks = ["minecraft:torch", "minecraft:wall_torch", "minecraft:lantern", "minecraft:campfire", "minecraft:jack_o_lantern", "minecraft:shroomlight", "minecraft:ochre_froglight"]
+
+[[lights]]
+color = [0.35, 1.45, 1.85]
+blocks = ["minecraft:soul_torch", "minecraft:soul_wall_torch", "minecraft:soul_lantern", "minecraft:soul_campfire", "minecraft:soul_fire"]
+
+[[lights]]
+color = [1.85, 0.22, 0.18]
+blocks = ["minecraft:redstone_torch", "minecraft:redstone_wall_torch", "minecraft:redstone_ore", "minecraft:deepslate_redstone_ore"]
+
+[[lights]]
+color = [1.95, 0.68, 0.16]
+blocks = ["minecraft:lava", "minecraft:flowing_lava", "minecraft:magma_block", "minecraft:fire"]
+
+[[lights]]
+color = [0.55, 1.65, 1.45]
+blocks = ["minecraft:sea_lantern", "minecraft:conduit", "minecraft:verdant_froglight", "minecraft:glow_lichen"]
+
+[[lights]]
+color = [1.45, 0.55, 1.95]
+blocks = ["minecraft:crying_obsidian", "minecraft:respawn_anchor", "minecraft:nether_portal", "minecraft:amethyst_cluster", "minecraft:pearlescent_froglight"]
+
+[[lights]]
+color = [1.65, 1.38, 0.72]
+blocks = ["minecraft:glowstone", "minecraft:end_rod", "minecraft:beacon"]
+
+[material]
+file = "material.wgsl"

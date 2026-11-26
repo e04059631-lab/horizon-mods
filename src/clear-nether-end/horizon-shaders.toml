@@ -1,0 +1,19 @@
+schema = 1
+api = "0.1"
+id = "clear_nether_end"
+name = "Clear Nether & End"
+version = "1.0.0"
+
+[[options]]
+id = "nether_lift"
+name = "Nether & End Lift"
+description = "Gentle brightness lift in the Nether and End."
+type = "float"
+default = 0.45
+min = 0.0
+max = 1.0
+step = 0.05
+
+[material]
+file = "material.wgsl"
+fog = false

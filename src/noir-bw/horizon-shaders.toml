@@ -1,0 +1,25 @@
+schema = 1
+api = "0.1"
+id = "noir_bw"
+name = "Noir Black & White"
+version = "1.0.0"
+
+[[options]]
+id = "contrast"
+name = "Noir Contrast"
+description = "Strength of black-and-white S-curve contrast."
+type = "float"
+default = 1.25
+min = 0.85
+max = 1.80
+step = 0.05
+
+[[options]]
+id = "keep_reds"
+name = "Sin City Red Accents"
+description = "Keep crimson/red objects vivid against monochrome."
+type = "bool"
+default = true
+
+[[post]]
+file = "post.wgsl"

@@ -1,0 +1,31 @@
+schema = 1
+api = "0.1"
+id = "horror_fog"
+name = "Horror Fog"
+version = "1.0.0"
+
+[[options]]
+id = "fog_density"
+name = "Fog Density"
+description = "How close the eerie fog closes in."
+type = "float"
+default = 0.045
+min = 0.015
+max = 0.12
+step = 0.005
+
+[[options]]
+id = "desaturation"
+name = "Bleakness"
+description = "Color desaturation for a cold horror atmosphere."
+type = "float"
+default = 0.55
+min = 0.0
+max = 0.90
+step = 0.05
+
+[sky]
+file = "sky.wgsl"
+
+[[post]]
+file = "post.wgsl"

@@ -1,0 +1,30 @@
+schema = 1
+api = "0.1"
+id = "anime_cel_shading"
+name = "Anime Cel-Shading"
+version = "1.0.0"
+
+[[options]]
+id = "outline_strength"
+name = "Ink Outline Strength"
+description = "Darkness of edge outlines around blocks and mobs."
+type = "float"
+default = 0.75
+min = 0.0
+max = 1.0
+step = 0.05
+
+[[options]]
+id = "cel_bands"
+name = "Toon Light Bands"
+description = "Number of quantized shading steps."
+type = "int"
+default = 4
+min = 2
+max = 8
+
+[material]
+file = "material.wgsl"
+
+[[post]]
+file = "post.wgsl"

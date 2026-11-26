@@ -1,0 +1,32 @@
+schema = 1
+api = "0.1"
+id = "pvp_boost_minimal"
+name = "PvP Boost Minimal"
+version = "1.0.0"
+
+[[options]]
+id = "shadow_lift"
+name = "Shadow Visibility"
+description = "Minimum brightness so opponents never hide in dark corners."
+type = "float"
+default = 0.72
+min = 0.30
+max = 1.05
+step = 0.05
+
+[[options]]
+id = "pvp_sharpness"
+name = "Crisp Edges (CAS)"
+description = "Adaptive sharpening for clean target tracking."
+type = "float"
+default = 0.55
+min = 0.0
+max = 1.0
+step = 0.05
+
+[material]
+file = "material.wgsl"
+fog = false
+
+[[post]]
+file = "post.wgsl"

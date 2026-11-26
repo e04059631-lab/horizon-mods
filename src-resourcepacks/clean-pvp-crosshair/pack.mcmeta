@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "description": "Clean PvP Crosshair — Аккуратный киберспортивный прицел с центральной точкой и зазором для точной наводки.",
+    "pack_format": 55,
+    "min_format": 15,
+    "max_format": 999
+  }
+}

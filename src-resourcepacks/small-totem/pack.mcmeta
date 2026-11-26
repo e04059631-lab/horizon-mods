@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "description": "Small Totem — Компактный тотем бессмертия в руке — занимает минимум места внизу экрана и не мешает в PvP.",
+    "pack_format": 55,
+    "min_format": 15,
+    "max_format": 999
+  }
+}

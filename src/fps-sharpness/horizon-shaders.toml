@@ -1,0 +1,18 @@
+schema = 1
+api = "0.1"
+id = "fps_sharpness"
+name = "FPS Sharpness (CAS)"
+version = "1.0.0"
+
+[[options]]
+id = "sharpness"
+name = "Sharpness Strength"
+description = "Contrast-adaptive sharpening intensity."
+type = "float"
+default = 0.70
+min = 0.10
+max = 1.25
+step = 0.05
+
+[[post]]
+file = "post.wgsl"

@@ -1,0 +1,31 @@
+schema = 1
+api = "0.1"
+id = "golden_sunset"
+name = "Golden Sunset"
+version = "1.0.0"
+
+[[options]]
+id = "warmth"
+name = "Golden Warmth"
+description = "Intensity of warm golden-hour color grading."
+type = "float"
+default = 0.65
+min = 0.1
+max = 1.2
+step = 0.05
+
+[[options]]
+id = "vignette"
+name = "Cinema Vignette"
+description = "Subtle darkening at screen corners."
+type = "float"
+default = 0.28
+min = 0.0
+max = 0.7
+step = 0.05
+
+[sky]
+file = "sky.wgsl"
+
+[[post]]
+file = "post.wgsl"

@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "description": "Sticky Piston Marker — Зелёная метка слизи по бокам липких поршней, чтобы сразу отличать их от обычных в механизмах.",
+    "pack_format": 55,
+    "min_format": 15,
+    "max_format": 999
+  }
+}

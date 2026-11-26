@@ -1,0 +1,28 @@
+schema = 1
+api = "0.1"
+id = "night_vision_thermal"
+name = "Night Vision & Thermal"
+version = "1.0.0"
+
+[[options]]
+id = "thermal_mode"
+name = "Thermal Spectrum Mode"
+description = "Off = Tactical Green NVG, On = Thermal Heat Vision."
+type = "bool"
+default = false
+
+[[options]]
+id = "gain"
+name = "Sensor Gain"
+description = "Amplification in dark caves and at night."
+type = "float"
+default = 1.0
+min = 0.5
+max = 1.8
+step = 0.05
+
+[material]
+file = "material.wgsl"
+
+[[post]]
+file = "post.wgsl"

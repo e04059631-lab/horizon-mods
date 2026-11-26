@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "description": "Dark Glass UI — Тёмный полупрозрачный интерфейс инвентаря, сундуков, верстака и печей в стиле Liquid Glass.",
+    "pack_format": 55,
+    "min_format": 15,
+    "max_format": 999
+  }
+}

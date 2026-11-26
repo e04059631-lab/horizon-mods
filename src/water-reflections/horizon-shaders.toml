@@ -1,0 +1,30 @@
+schema = 1
+api = "0.1"
+id = "water_reflections"
+name = "Realistic Water & Reflections"
+version = "1.0.0"
+
+[[options]]
+id = "wave_strength"
+name = "Wave Amplitude"
+description = "Strength of animated water surface ripples."
+type = "float"
+default = 0.45
+min = 0.0
+max = 1.0
+step = 0.05
+
+[[options]]
+id = "reflection_mix"
+name = "Reflection Intensity"
+description = "How strongly water reflects sky and terrain."
+type = "float"
+default = 0.75
+min = 0.15
+max = 1.0
+step = 0.05
+
+[reflection]
+
+[material]
+file = "material.wgsl"

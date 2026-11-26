@@ -1,0 +1,21 @@
+schema = 1
+api = "0.1"
+id = "pastel_dream"
+name = "Pastel Dream"
+version = "1.0.0"
+
+[[options]]
+id = "pastel_mix"
+name = "Pastel Softness"
+description = "Strength of dreamy pastel tone mapping."
+type = "float"
+default = 0.70
+min = 0.20
+max = 1.0
+step = 0.05
+
+[sky]
+file = "sky.wgsl"
+
+[[post]]
+file = "post.wgsl"

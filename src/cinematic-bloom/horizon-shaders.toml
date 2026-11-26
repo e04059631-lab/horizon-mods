@@ -1,0 +1,28 @@
+schema = 1
+api = "0.1"
+id = "cinematic_bloom"
+name = "Cinematic Bloom"
+version = "1.0.0"
+
+[[options]]
+id = "bloom_strength"
+name = "Bloom Intensity"
+description = "How strongly bright objects glow."
+type = "float"
+default = 0.55
+min = 0.10
+max = 1.40
+step = 0.05
+
+[[options]]
+id = "bloom_threshold"
+name = "Brightness Threshold"
+description = "Minimum pixel brightness that triggers bloom."
+type = "float"
+default = 0.68
+min = 0.35
+max = 0.95
+step = 0.05
+
+[[post]]
+file = "post.wgsl"

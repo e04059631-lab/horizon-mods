@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "description": "Bright Crit Particles — Яркие контрастные звёзды критических ударов и ударов с Заговором/Остротой в PvP.",
+    "pack_format": 55,
+    "min_format": 15,
+    "max_format": 999
+  }
+}

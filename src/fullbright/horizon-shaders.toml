@@ -1,0 +1,25 @@
+schema = 1
+api = "0.1"
+id = "fullbright"
+name = "Fullbright"
+version = "1.0.0"
+
+[[options]]
+id = "min_brightness"
+name = "Minimum Brightness"
+description = "Minimum light floor in caves and at night."
+type = "float"
+default = 0.92
+min = 0.35
+max = 1.25
+step = 0.05
+
+[[options]]
+id = "keep_face_shade"
+name = "Keep Block Shading"
+description = "Preserve subtle directional block face contrast."
+type = "bool"
+default = true
+
+[material]
+file = "material.wgsl"

@@ -1,0 +1,66 @@
+schema = 1
+api = "0.1"
+id = "horizon_ultra"
+name = "Horizon Ultra"
+version = "1.0.0"
+
+[[options]]
+id = "shadow_quality"
+name = "Shadow Strength"
+description = "Intensity of sun and moon shadows."
+type = "float"
+default = 0.52
+min = 0.0
+max = 0.85
+step = 0.05
+
+[[options]]
+id = "motion_blur_amount"
+name = "Motion Blur"
+description = "Camera motion blur strength (set 0 to disable)."
+type = "float"
+default = 0.35
+min = 0.0
+max = 1.0
+step = 0.05
+
+[[options]]
+id = "bloom_amount"
+name = "Bloom Glow"
+description = "Soft highlight glow intensity."
+type = "float"
+default = 0.30
+min = 0.0
+max = 0.80
+step = 0.05
+
+[shadow]
+resolution = 1536
+distance = 88.0
+
+[reflection]
+
+[[lights]]
+color = [1.75, 1.02, 0.42]
+blocks = ["minecraft:torch", "minecraft:wall_torch", "minecraft:lantern", "minecraft:campfire", "minecraft:shroomlight"]
+
+[[lights]]
+color = [0.38, 1.45, 1.85]
+blocks = ["minecraft:soul_torch", "minecraft:soul_wall_torch", "minecraft:soul_lantern", "minecraft:soul_campfire"]
+
+[[lights]]
+color = [1.90, 0.62, 0.16]
+blocks = ["minecraft:lava", "minecraft:flowing_lava", "minecraft:fire", "minecraft:magma_block"]
+
+[[lights]]
+color = [0.55, 1.65, 1.50]
+blocks = ["minecraft:sea_lantern", "minecraft:conduit", "minecraft:glowstone"]
+
+[sky]
+file = "sky.wgsl"
+
+[material]
+file = "material.wgsl"
+
+[[post]]
+file = "post.wgsl"

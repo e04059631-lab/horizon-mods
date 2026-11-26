@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "description": "Clear Nether Portal — Мягкая полупрозрачная плёнка портала в Незер — сквозь портал отлично видно другую сторону.",
+    "pack_format": 55,
+    "min_format": 15,
+    "max_format": 999
+  }
+}

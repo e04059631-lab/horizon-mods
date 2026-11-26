@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "description": "Minimal Weather — Тонкие полупрозрачные капли дождя и снежинки — сохраняют атмосферу, но не мешают обзору.",
+    "pack_format": 55,
+    "min_format": 15,
+    "max_format": 999
+  }
+}

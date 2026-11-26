@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "description": "No Pumpkin Blur — Полностью убирает тёмную маску вырезанной тыквы с экрана для комфортных походов в Энд.",
+    "pack_format": 55,
+    "min_format": 15,
+    "max_format": 999
+  }
+}

@@ -1,0 +1,28 @@
+schema = 1
+api = "0.1"
+id = "true_darkness"
+name = "True Darkness"
+version = "1.0.0"
+
+[[options]]
+id = "cave_floor"
+name = "Minimum Cave Light"
+description = "0.0 = pitch black caves, higher leaves faint silhouette visibility."
+type = "float"
+default = 0.01
+min = 0.0
+max = 0.10
+step = 0.01
+
+[[options]]
+id = "dark_nights"
+name = "Dark Moonless Nights"
+description = "Also darken the outdoor world at night."
+type = "bool"
+default = true
+
+[sky]
+file = "sky.wgsl"
+
+[material]
+file = "material.wgsl"

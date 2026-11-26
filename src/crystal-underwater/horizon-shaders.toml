@@ -1,0 +1,26 @@
+schema = 1
+api = "0.1"
+id = "crystal_underwater"
+name = "Crystal Underwater"
+version = "1.0.0"
+
+[[options]]
+id = "underwater_brightness"
+name = "Underwater Brightness"
+description = "Extra visibility boost while submerged."
+type = "float"
+default = 0.75
+min = 0.2
+max = 1.2
+step = 0.05
+
+[[options]]
+id = "caustics"
+name = "Seafloor Caustics"
+description = "Animated water light ripples underwater."
+type = "bool"
+default = true
+
+[material]
+file = "material.wgsl"
+fog = false

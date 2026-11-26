@@ -1,0 +1,21 @@
+schema = 1
+api = "0.1"
+id = "blood_moon"
+name = "Blood Moon"
+version = "1.0.0"
+
+[[options]]
+id = "crimson_strength"
+name = "Crimson Intensity"
+description = "How strongly the blood moon tints night sky and terrain."
+type = "float"
+default = 0.80
+min = 0.20
+max = 1.30
+step = 0.05
+
+[sky]
+file = "sky.wgsl"
+
+[material]
+file = "material.wgsl"
