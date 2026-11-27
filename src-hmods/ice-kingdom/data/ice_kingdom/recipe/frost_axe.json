@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ID",
+    "IS",
+    " S"
+  ],
+  "key": {
+    "I": "minecraft:blue_ice",
+    "D": "minecraft:diamond",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "ice_kingdom:frost_axe",
+    "count": 1
+  }
+}

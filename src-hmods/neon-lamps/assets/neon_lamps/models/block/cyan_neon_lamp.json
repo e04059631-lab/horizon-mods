@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "neon_lamps:block/cyan_neon_lamp"
+  }
+}

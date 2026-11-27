@@ -1,0 +1,7 @@
+{
+  "template": "minecraft:glowstone",
+  "properties": {
+    "hardness": 1.2,
+    "light": 15
+  }
+}

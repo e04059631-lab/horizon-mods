@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OO",
+    "OS",
+    " S"
+  ],
+  "key": {
+    "O": "minecraft:obsidian",
+    "S": "minecraft:blaze_rod"
+  },
+  "result": {
+    "id": "obsidian_tools:obsidian_axe",
+    "count": 1
+  }
+}

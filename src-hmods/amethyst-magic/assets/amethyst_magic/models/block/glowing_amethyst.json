@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "amethyst_magic:block/glowing_amethyst"
+  }
+}

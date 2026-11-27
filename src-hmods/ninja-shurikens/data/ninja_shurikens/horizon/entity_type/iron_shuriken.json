@@ -1,0 +1,5 @@
+{
+  "template": "minecraft:snowball",
+  "item": "ninja_shurikens:iron_shuriken",
+  "damage": 4.0
+}

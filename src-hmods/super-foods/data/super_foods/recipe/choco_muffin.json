@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:wheat",
+    "minecraft:cocoa_beans",
+    "minecraft:sugar"
+  ],
+  "result": {
+    "id": "super_foods:choco_muffin",
+    "count": 4
+  }
+}

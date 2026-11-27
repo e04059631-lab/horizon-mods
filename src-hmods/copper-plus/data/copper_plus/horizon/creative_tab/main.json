@@ -1,0 +1,10 @@
+{
+  "title": "Copper Expansion",
+  "icon": "copper_plus:copper_energy_block",
+  "items": [
+    "copper_plus:copper_pickaxe_plus",
+    "copper_plus:copper_battleaxe",
+    "copper_plus:copper_core",
+    "copper_plus:copper_energy_block"
+  ]
+}

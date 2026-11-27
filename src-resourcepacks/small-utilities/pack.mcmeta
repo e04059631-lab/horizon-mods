@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "description": "Small PvP Utilities — Компактные эндер-жемчуг, золотые яблоки и взрывные зелья в руке — не закрывают обзор во время боя.",
+    "pack_format": 55,
+    "min_format": 15,
+    "max_format": 999
+  }
+}

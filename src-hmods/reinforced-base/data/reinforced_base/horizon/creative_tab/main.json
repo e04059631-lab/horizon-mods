@@ -1,0 +1,10 @@
+{
+  "title": "Reinforced Base",
+  "icon": "reinforced_base:titanium_plate",
+  "items": [
+    "reinforced_base:armored_concrete",
+    "reinforced_base:titanium_plate",
+    "reinforced_base:blast_glass",
+    "reinforced_base:bunker_lamp"
+  ]
+}

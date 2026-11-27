@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/potion_overlay",
+    "layer1": "minecraft:item/splash_potion"
+  },
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        25
+      ],
+      "translation": [
+        1.13,
+        -1.6,
+        1.13
+      ],
+      "scale": [
+        0.46,
+        0.46,
+        0.46
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        -25
+      ],
+      "translation": [
+        1.13,
+        -1.6,
+        1.13
+      ],
+      "scale": [
+        0.46,
+        0.46,
+        0.46
+      ]
+    }
+  }
+}

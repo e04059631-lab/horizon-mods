@@ -1,0 +1,10 @@
+{
+  "title": "Super Foods",
+  "icon": "super_foods:berry_energy",
+  "items": [
+    "super_foods:berry_energy",
+    "super_foods:royal_steak",
+    "super_foods:choco_muffin",
+    "super_foods:miner_elixir"
+  ]
+}

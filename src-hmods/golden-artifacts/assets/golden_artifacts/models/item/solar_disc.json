@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "golden_artifacts:item/solar_disc"
+  }
+}

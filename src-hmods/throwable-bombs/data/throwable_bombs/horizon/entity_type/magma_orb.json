@@ -1,0 +1,5 @@
+{
+  "template": "minecraft:snowball",
+  "item": "throwable_bombs:magma_orb",
+  "damage": 6.5
+}

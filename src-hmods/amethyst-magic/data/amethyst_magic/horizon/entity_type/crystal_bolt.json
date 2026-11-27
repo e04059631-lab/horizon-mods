@@ -1,0 +1,5 @@
+{
+  "template": "minecraft:snowball",
+  "item": "amethyst_magic:crystal_bolt",
+  "damage": 5.5
+}

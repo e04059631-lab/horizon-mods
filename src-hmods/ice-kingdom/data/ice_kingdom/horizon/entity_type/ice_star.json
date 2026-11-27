@@ -1,0 +1,5 @@
+{
+  "template": "minecraft:snowball",
+  "item": "ice_kingdom:ice_star",
+  "damage": 5.5
+}

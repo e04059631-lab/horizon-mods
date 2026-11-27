@@ -1,0 +1,8 @@
+id = "ice_kingdom"
+name = "Frost Arsenal"
+description = "Ледяной арсенал: клинок мороза, ледяной топор, метательная ледяная звезда и светящийся кристальный лёд."
+version = "1.0.0"
+api = "0.2"
+side = "both"
+capabilities = ["registries"]
+experimental = ["registries"]

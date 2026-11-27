@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "neon_lamps:block/ice_neon_lamp"
+    }
+  }
+}

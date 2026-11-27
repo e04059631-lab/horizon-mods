@@ -1,0 +1,10 @@
+{
+  "title": "Golden Artifacts",
+  "icon": "golden_artifacts:gilded_blade",
+  "items": [
+    "golden_artifacts:gilded_blade",
+    "golden_artifacts:solar_disc",
+    "golden_artifacts:sun_apple",
+    "golden_artifacts:solar_block"
+  ]
+}

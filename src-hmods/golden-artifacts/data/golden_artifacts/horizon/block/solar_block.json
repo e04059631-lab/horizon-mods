@@ -1,0 +1,7 @@
+{
+  "template": "minecraft:gold_block",
+  "properties": {
+    "hardness": 4.0,
+    "light": 15
+  }
+}

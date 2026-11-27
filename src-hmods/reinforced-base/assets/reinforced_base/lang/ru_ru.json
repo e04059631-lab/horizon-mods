@@ -1,0 +1,10 @@
+{
+  "block.reinforced_base.armored_concrete": "Бронированный бетон",
+  "item.reinforced_base.armored_concrete": "Бронированный бетон",
+  "block.reinforced_base.titanium_plate": "Титановая плита",
+  "item.reinforced_base.titanium_plate": "Титановая плита",
+  "block.reinforced_base.blast_glass": "Бронированное стекло",
+  "item.reinforced_base.blast_glass": "Бронированное стекло",
+  "block.reinforced_base.bunker_lamp": "Бункерная лампа",
+  "item.reinforced_base.bunker_lamp": "Бункерная лампа"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:cooked_beef",
+    "minecraft:gold_nugget",
+    "minecraft:gold_nugget"
+  ],
+  "result": {
+    "id": "super_foods:royal_steak",
+    "count": 2
+  }
+}

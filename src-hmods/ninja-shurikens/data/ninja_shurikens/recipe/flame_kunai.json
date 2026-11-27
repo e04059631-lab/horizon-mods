@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "BDB",
+    " B "
+  ],
+  "key": {
+    "B": "minecraft:blaze_powder",
+    "D": "minecraft:diamond"
+  },
+  "result": {
+    "id": "ninja_shurikens:flame_kunai",
+    "count": 4
+  }
+}

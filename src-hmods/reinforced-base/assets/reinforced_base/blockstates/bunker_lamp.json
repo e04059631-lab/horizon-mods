@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "reinforced_base:block/bunker_lamp"
+    }
+  }
+}

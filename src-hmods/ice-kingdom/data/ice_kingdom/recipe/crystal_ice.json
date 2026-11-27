@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "IGI",
+    " I "
+  ],
+  "key": {
+    "I": "minecraft:packed_ice",
+    "G": "minecraft:glowstone"
+  },
+  "result": {
+    "id": "ice_kingdom:crystal_ice",
+    "count": 4
+  }
+}

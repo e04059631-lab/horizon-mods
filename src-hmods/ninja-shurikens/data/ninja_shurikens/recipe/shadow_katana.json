@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  O",
+    " D ",
+    "S  "
+  ],
+  "key": {
+    "O": "minecraft:obsidian",
+    "D": "minecraft:diamond",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "ninja_shurikens:shadow_katana",
+    "count": 1
+  }
+}

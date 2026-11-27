@@ -1,0 +1,5 @@
+{
+  "template": "minecraft:snowball",
+  "item": "golden_artifacts:solar_disc",
+  "damage": 7.0
+}

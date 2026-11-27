@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "ninja_shurikens:item/shadow_katana"
+  }
+}

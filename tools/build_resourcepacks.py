@@ -1,4 +1,4 @@
-"""Builds all 24 client-side PvP & QoL resource packs (.zip) from authentic Minecraft 26.3 assets."""
+"""Builds all 29 client-side PvP & QoL resource packs (.zip) from authentic Minecraft 26.3 assets."""
 
 import json
 import os
@@ -836,8 +836,229 @@ register_rp(
 )
 
 
+# 51. Better BedWars Wool
+def build_bedwars_wool(out: Path) -> None:
+    colors = [
+        "white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray",
+        "light_gray", "cyan", "purple", "blue", "brown", "green", "red", "black",
+    ]
+
+    def crisp_wool(w: int, h: int, px: bytearray):
+        # Compute average color for clean smooth base + subtle 1px border grid
+        sr = sg = sb = cnt = 0
+        for i in range(0, len(px), 4):
+            if px[i + 3] > 0:
+                sr += px[i]
+                sg += px[i + 1]
+                sb += px[i + 2]
+                cnt += 1
+        ar, ag, ab = sr / max(1, cnt), sg / max(1, cnt), sb / max(1, cnt)
+        for y in range(h):
+            for x in range(w):
+                i = (y * w + x) * 4
+                on_edge = x == 0 or y == 0 or x == w - 1 or y == h - 1
+                # Smooth texture toward average for clean PvP readability
+                r = px[i] * 0.45 + ar * 0.55
+                g = px[i + 1] * 0.45 + ag * 0.55
+                b = px[i + 2] * 0.45 + ab * 0.55
+                if on_edge:
+                    # Crisp darker outer border so block edges are unmistakable when bridging
+                    r *= 0.72
+                    g *= 0.72
+                    b *= 0.72
+                elif x == 1 or y == 1 or x == w - 2 or y == h - 2:
+                    r = min(255.0, r * 1.08 + 8)
+                    g = min(255.0, g * 1.08 + 8)
+                    b = min(255.0, b * 1.08 + 8)
+                px[i] = max(0, min(255, int(r)))
+                px[i + 1] = max(0, min(255, int(g)))
+                px[i + 2] = max(0, min(255, int(b)))
+                px[i + 3] = 255
+        return w, h, px
+
+    for c in colors:
+        save_edited_png(f"textures/block/{c}_wool.png", out, crisp_wool)
+
+
+register_rp(
+    "better-bedwars-wool",
+    "Better BedWars Wool",
+    "Гладкая сочная шерсть всех 16 цветов с чёткой рамкой граней — идеально для бриджинга и BedWars.",
+    build_bedwars_wool,
+)
+
+
+# 52. Transparent Inventory
+def build_transparent_inventory(out: Path) -> None:
+    containers = [
+        "inventory.png",
+        "crafting_table.png",
+        "furnace.png",
+        "blast_furnace.png",
+        "generic_54.png",
+    ]
+    for extra in ["anvil.png", "enchanting_table.png", "brewing_stand.png", "hopper.png", "shulker_box.png", "smithing.png", "smoker.png"]:
+        if (VANILLA_MC / "textures" / "gui" / "container" / extra).exists():
+            containers.append(extra)
+
+    def make_translucent(w: int, h: int, px: bytearray):
+        for i in range(0, len(px), 4):
+            r, g, b, a = px[i], px[i + 1], px[i + 2], px[i + 3]
+            if a == 0:
+                continue
+            if abs(r - g) <= 14 and abs(g - b) <= 14:
+                luma = (r + g + b) / (3.0 * 255.0)
+                if luma < 0.35:
+                    # Keep slot borders crisp
+                    px[i], px[i + 1], px[i + 2], px[i + 3] = 20, 24, 34, 155
+                elif luma > 0.72:
+                    # Main light gray background -> ultra-clear 36% opacity glass
+                    px[i], px[i + 1], px[i + 2], px[i + 3] = 18, 22, 32, 92
+                else:
+                    # Slot inner backgrounds -> subtle 45% opacity
+                    px[i], px[i + 1], px[i + 2], px[i + 3] = 28, 34, 48, 118
+        return w, h, px
+
+    for c in containers:
+        save_edited_png(f"textures/gui/container/{c}", out, make_translucent)
+
+
+register_rp(
+    "transparent-inventory",
+    "Transparent Inventory",
+    "Прозрачный инвентарь и сундуки — сквозь открытое меню всегда видно врагов и всё вокруг в PvP.",
+    build_transparent_inventory,
+)
+
+
+# 53. Small Utilities (Pearls, Gapples, Splash Potions)
+def build_small_utilities(out: Path) -> None:
+    compact_display = {
+        "firstperson_righthand": {
+            "rotation": [0, -90, 25],
+            "translation": [1.13, -1.6, 1.13],
+            "scale": [0.46, 0.46, 0.46],
+        },
+        "firstperson_lefthand": {
+            "rotation": [0, 90, -25],
+            "translation": [1.13, -1.6, 1.13],
+            "scale": [0.46, 0.46, 0.46],
+        },
+    }
+    for fname in ["ender_pearl.json", "golden_apple.json", "enchanted_golden_apple.json", "splash_potion.json"]:
+        src = VANILLA_MC / "models" / "item" / fname
+        data = json.loads(src.read_text(encoding="utf-8"))
+        data["display"] = compact_display
+        dst = out / "assets" / "minecraft" / "models" / "item" / fname
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        dst.write_text(json.dumps(data, indent=2), encoding="utf-8")
+
+
+register_rp(
+    "small-utilities",
+    "Small PvP Utilities",
+    "Компактные эндер-жемчуг, золотые яблоки и взрывные зелья в руке — не закрывают обзор во время боя.",
+    build_small_utilities,
+)
+
+
+# 54. Clean Sky Celestials (Modern Crisp Sun & Moon)
+def build_clean_celestials(out: Path) -> None:
+    def crisp_sun(w: int, h: int, px: bytearray):
+        out_px = bytearray(w * h * 4)
+        cx, cy = (w - 1) / 2.0, (h - 1) / 2.0
+        r_core = min(w, h) * 0.16
+        r_glow = min(w, h) * 0.42
+        for y in range(h):
+            for x in range(w):
+                dist = ((x - cx) ** 2 + (y - cy) ** 2) ** 0.5
+                i = (y * w + x) * 4
+                if dist <= r_core:
+                    out_px[i : i + 4] = bytes((255, 252, 232, 255))
+                elif dist <= r_glow:
+                    t = 1.0 - (dist - r_core) / max(1.0, r_glow - r_core)
+                    t = t * t
+                    out_px[i] = 255
+                    out_px[i + 1] = int(200 + 48 * t)
+                    out_px[i + 2] = int(108 + 110 * t)
+                    out_px[i + 3] = int(235 * t)
+        return w, h, out_px
+
+    def crisp_moon(w: int, h: int, px: bytearray):
+        # Enhance contrast and cool silver-blue lunar glow on existing moon phase texture
+        for i in range(0, len(px), 4):
+            r, g, b, a = px[i], px[i + 1], px[i + 2], px[i + 3]
+            if a == 0:
+                continue
+            luma = (r + g + b) / 3.0
+            if luma > 24:
+                px[i] = min(255, int(r * 0.92 + 22))
+                px[i + 1] = min(255, int(g * 0.98 + 30))
+                px[i + 2] = min(255, int(b * 1.12 + 46))
+        return w, h, px
+
+    save_edited_png("textures/environment/celestial/sun.png", out, crisp_sun)
+    moon_dir = VANILLA_MC / "textures" / "environment" / "celestial" / "moon"
+    if moon_dir.exists():
+        for png in sorted(moon_dir.glob("*.png")):
+            save_edited_png(f"textures/environment/celestial/moon/{png.name}", out, crisp_moon)
+
+
+register_rp(
+    "clean-sky-celestials",
+    "Clean Sun & Moon",
+    "Современное мягко сияющее круглое солнце и контрастная серебристая луна для чистого неба.",
+    build_clean_celestials,
+)
+
+
+# 55. High-Vis Arrows & Pearls
+def build_high_vis_arrows(out: Path) -> None:
+    def neon_pearl(w: int, h: int, px: bytearray):
+        for i in range(0, len(px), 4):
+            r, g, b, a = px[i], px[i + 1], px[i + 2], px[i + 3]
+            if a == 0:
+                continue
+            luma = (r + g + b) / (3.0 * 255.0)
+            if luma > 0.55:
+                px[i], px[i + 1], px[i + 2] = 180, 255, 255
+            elif luma > 0.25:
+                px[i], px[i + 1], px[i + 2] = 36, 232, 255
+            else:
+                px[i], px[i + 1], px[i + 2] = 16, 86, 138
+        return w, h, px
+
+    def fiery_arrow(tr: int, tg: int, tb: int):
+        def _fn(w: int, h: int, px: bytearray):
+            for i in range(0, len(px), 4):
+                r, g, b, a = px[i], px[i + 1], px[i + 2], px[i + 3]
+                if a == 0:
+                    continue
+                luma = (r + g + b) / (3.0 * 255.0)
+                mix = 0.72 if luma > 0.42 else 0.35
+                px[i] = min(255, int(r * (1.0 - mix) + tr * mix))
+                px[i + 1] = min(255, int(g * (1.0 - mix) + tg * mix))
+                px[i + 2] = min(255, int(b * (1.0 - mix) + tb * mix))
+            return w, h, px
+
+        return _fn
+
+    save_edited_png("textures/item/ender_pearl.png", out, neon_pearl)
+    save_edited_png("textures/item/arrow.png", out, fiery_arrow(255, 92, 36))
+    save_edited_png("textures/item/spectral_arrow.png", out, fiery_arrow(255, 224, 48))
+    save_edited_png("textures/item/tipped_arrow_base.png", out, fiery_arrow(255, 118, 52))
+
+
+register_rp(
+    "high-vis-arrows",
+    "High-Vis Pearls & Arrows",
+    "Неоново-бирюзовый эндер-жемчуг и ярко-огненные стрелы — отлично видны в полёте и в инвентаре.",
+    build_high_vis_arrows,
+)
+
+
 def main() -> None:
-    assert len(RESOURCEPACKS) == 24, f"Expected 24 resourcepacks, got {len(RESOURCEPACKS)}"
+    assert len(RESOURCEPACKS) == 29, f"Expected 29 resourcepacks, got {len(RESOURCEPACKS)}"
     MODS_ROOT.mkdir(parents=True, exist_ok=True)
 
     for rp in RESOURCEPACKS:

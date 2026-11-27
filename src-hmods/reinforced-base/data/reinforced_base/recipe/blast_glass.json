@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "GIG",
+    " G "
+  ],
+  "key": {
+    "G": "minecraft:glass",
+    "I": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "reinforced_base:blast_glass",
+    "count": 4
+  }
+}

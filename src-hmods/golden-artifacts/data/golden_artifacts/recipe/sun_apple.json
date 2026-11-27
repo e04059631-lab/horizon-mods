@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GAG",
+    "GGG"
+  ],
+  "key": {
+    "G": "minecraft:gold_block",
+    "A": "minecraft:apple"
+  },
+  "result": {
+    "id": "golden_artifacts:sun_apple",
+    "count": 1
+  }
+}

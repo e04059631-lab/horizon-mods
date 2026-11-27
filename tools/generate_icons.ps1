@@ -337,7 +337,26 @@ $specs = @(
     @("crossbow-ready-glow", "bow",       @(58, 242, 196),  @(242, 88, 238)),
     @("small-totem",         "shield",    @(255, 218, 72),  @(64, 232, 148)),
     @("clear-nether-portal", "portal",    @(198, 88, 255),  @(112, 52, 235)),
-    @("clean-enchant-glint", "sparkle",   @(192, 132, 255), @(98, 212, 255))
+    @("clean-enchant-glint", "sparkle",   @(192, 132, 255), @(98, 212, 255)),
+    @("better-bedwars-wool", "grid",      @(255, 78, 92),   @(255, 212, 64)),
+    @("transparent-inventory","screen",   @(128, 212, 255), @(72, 92, 158)),
+    @("small-utilities",     "sparkle",   @(56, 232, 255),  @(255, 208, 64)),
+    @("clean-sky-celestials","sun",       @(255, 228, 128), @(138, 188, 255)),
+    @("high-vis-arrows",     "bow",       @(42, 238, 255),  @(255, 96, 42)),
+
+    # 12 Content .hmod Mods
+    @("ruby-arsenal",        "sword",     @(255, 42, 82),   @(168, 18, 52)),
+    @("ninja-shurikens",     "sparkle",   @(198, 214, 235), @(82, 108, 152)),
+    @("emerald-gear",        "sword",     @(42, 245, 118),  @(18, 152, 78)),
+    @("neon-lamps",          "bolt",      @(255, 58, 212),  @(42, 238, 255)),
+    @("super-foods",         "heart",     @(255, 158, 52),  @(255, 68, 112)),
+    @("obsidian-tools",      "cube",      @(158, 72, 255),  @(48, 28, 88)),
+    @("throwable-bombs",     "flame",     @(255, 112, 36),  @(238, 42, 42)),
+    @("amethyst-magic",      "sparkle",   @(192, 98, 255),  @(112, 58, 238)),
+    @("copper-plus",         "cube",      @(242, 132, 68),  @(58, 198, 168)),
+    @("reinforced-base",     "shield",    @(162, 178, 198), @(78, 92, 114)),
+    @("ice-kingdom",         "waves",     @(112, 238, 255), @(64, 148, 255)),
+    @("golden-artifacts",    "sparkle",   @(255, 218, 64),  @(255, 138, 36))
 )
 
 foreach ($s in $specs) {

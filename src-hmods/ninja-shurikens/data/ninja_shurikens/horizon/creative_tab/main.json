@@ -1,0 +1,10 @@
+{
+  "title": "Ninja Shurikens",
+  "icon": "ninja_shurikens:diamond_shuriken",
+  "items": [
+    "ninja_shurikens:iron_shuriken",
+    "ninja_shurikens:diamond_shuriken",
+    "ninja_shurikens:flame_kunai",
+    "ninja_shurikens:shadow_katana"
+  ]
+}

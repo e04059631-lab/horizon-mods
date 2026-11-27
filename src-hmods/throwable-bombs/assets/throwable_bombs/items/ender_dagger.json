@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "throwable_bombs:item/ender_dagger"
+  }
+}

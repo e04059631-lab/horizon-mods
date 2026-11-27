@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "RGR",
+    " R "
+  ],
+  "key": {
+    "R": "ruby_arsenal:ruby",
+    "G": "minecraft:glowstone"
+  },
+  "result": {
+    "id": "ruby_arsenal:ruby_lamp",
+    "count": 2
+  }
+}

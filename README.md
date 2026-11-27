@@ -1,9 +1,25 @@
 # Horizon Mods Catalog (26.3)
 
-Официальный онлайн-каталог клиентских модов, WGSL-шейдеров и PvP/QoL-паков для **Horizon Offline Launcher (Minecraft 26.3)**.
-Все дополнения работают **на 100% на стороне клиента** — и в одиночном мире, и на любом мультиплеерном сервере.
+Официальный онлайн-каталог контентных `.hmod` модов, WGSL-шейдеров и PvP/QoL-паков для **Horizon Offline Launcher (Minecraft 26.3)**.
 
-**Всего в каталоге: 51 дополнений** (27 нативных `.hshader` WGSL-шейдеров + 24 клиентских `.zip` PvP/QoL-пака).
+**Всего в каталоге: 68 дополнений** (12 настоящих `.hmod` модов с новыми предметами и блоками + 27 нативных `.hshader` WGSL-шейдеров + 29 клиентских `.zip` PvP/QoL-паков).
+
+## Контентные моды Horizon (`.hmod` для `horizon-mods/`)
+
+| Иконка | Название | Файл | Описание |
+| :---: | :--- | :--- | :--- |
+| <img src="icons/ruby-arsenal.png" width="36" height="36" /> | **Ruby Arsenal** | `ruby-arsenal.hmod` | Добавляет рубин, рубиновый меч, топор, кирку, рубиновый блок и яркий рубиновый фонарь с крафтами. |
+| <img src="icons/ninja-shurikens.png" width="36" height="36" /> | **Ninja Shurikens** | `ninja-shurikens.hmod` | Оружие ниндзя: метательные железные и алмазные сюрикены, огненный кунай с реальным уроном и катана тени. |
+| <img src="icons/emerald-gear.png" width="36" height="36" /> | **Emerald Gear** | `emerald-gear.hmod` | Полный набор изумрудного снаряжения (меч, кирка, топор) и светящийся изумрудный светильник. |
+| <img src="icons/neon-lamps.png" width="36" height="36" /> | **Neon Lamps** | `neon-lamps.hmod` | 8 ярких неоновых светильников (циан, маджента, лайм, янтарь, алый, фиолетовый, синий, ледяной) для декора баз. |
+| <img src="icons/super-foods.png" width="36" height="36" /> | **Super Foods** | `super-foods.hmod` | Новые питательные блюда и энергетики: Ягодный энергетик, Королевский стейк, Шоколадный маффин и Золотой эликсир. |
+| <img src="icons/obsidian-tools.png" width="36" height="36" /> | **Obsidian Gear** | `obsidian-tools.hmod` | Сверхпрочное обсидиановое оружие, кирка, топор и укреплённый обсидиановый кирпич с огромной взрывоустойчивостью. |
+| <img src="icons/throwable-bombs.png" width="36" height="36" /> | **Battle Throwables** | `throwable-bombs.hmod` | Боевые метательные снаряды с уроном: метательный камень, магмовая сфера, ледяной осколок и эндер-кинжал. |
+| <img src="icons/amethyst-magic.png" width="36" height="36" /> | **Amethyst Magic** | `amethyst-magic.hmod` | Аметистовая магия: кристальный клинок, метательный аметистовый заряд, аметистовое яблоко и светящийся кристалл. |
+| <img src="icons/copper-plus.png" width="36" height="36" /> | **Copper Expansion** | `copper-plus.hmod` | Расширение меди: улучшенная медная кирка, боевой медный топор, энергоядро и светящийся медный блок. |
+| <img src="icons/reinforced-base.png" width="36" height="36" /> | **Reinforced Base** | `reinforced-base.hmod` | Блоки для неприступной базы: бронированный бетон, титановые плиты, защитное стекло и бункерная лампа. |
+| <img src="icons/ice-kingdom.png" width="36" height="36" /> | **Frost Arsenal** | `ice-kingdom.hmod` | Ледяной арсенал: клинок мороза, ледяной топор, метательная ледяная звезда и светящийся кристальный лёд. |
+| <img src="icons/golden-artifacts.png" width="36" height="36" /> | **Golden Artifacts** | `golden-artifacts.hmod` | Золотые артефакты: позолоченный меч, священный метательный диск, солнечное яблоко и сияющий солнечный блок. |
 
 ## Нативные WGSL-шейдеры (`.hshader`)
 
@@ -37,7 +53,7 @@
 | <img src="icons/blood-moon.png" width="36" height="36" /> | **Blood Moon** | `blood-moon.hshader` | Багровое ночное небо, кроваво-красный ореол вокруг луны и зловещее алое освещение по ночам. |
 | <img src="icons/pvp-boost-minimal.png" width="36" height="36" /> | **PvP Boost Minimal** | `pvp-boost-minimal.hshader` | Киберспортивный PvP-шейдер: мягкий Fullbright, чёткость CAS, отключённый туман и сочный контраст с нулевой потерей FPS. |
 
-## Клиентские PvP и QoL моды (`.zip` для `resourcepacks/`)
+## Клиентские PvP и QoL паки (`.zip` для `resourcepacks/`)
 
 | Иконка | Название | Файл | Описание |
 | :---: | :--- | :--- | :--- |
@@ -65,3 +81,8 @@
 | <img src="icons/small-totem.png" width="36" height="36" /> | **Small Totem** | `small-totem.zip` | Компактный тотем бессмертия в руке — занимает минимум места внизу экрана и не мешает в PvP. |
 | <img src="icons/clear-nether-portal.png" width="36" height="36" /> | **Clear Nether Portal** | `clear-nether-portal.zip` | Мягкая полупрозрачная плёнка портала в Незер — сквозь портал отлично видно другую сторону. |
 | <img src="icons/clean-enchant-glint.png" width="36" height="36" /> | **Clean Enchant Glint** | `clean-enchant-glint.zip` | Спокойный деликатный перелив зачарования, не скрывающий цвет брони и отделку кузнечных шаблонов. |
+| <img src="icons/better-bedwars-wool.png" width="36" height="36" /> | **Better BedWars Wool** | `better-bedwars-wool.zip` | Гладкая сочная шерсть всех 16 цветов с чёткой рамкой граней — идеально для бриджинга и BedWars. |
+| <img src="icons/transparent-inventory.png" width="36" height="36" /> | **Transparent Inventory** | `transparent-inventory.zip` | Прозрачный инвентарь и сундуки — сквозь открытое меню всегда видно врагов и всё вокруг в PvP. |
+| <img src="icons/small-utilities.png" width="36" height="36" /> | **Small PvP Utilities** | `small-utilities.zip` | Компактные эндер-жемчуг, золотые яблоки и взрывные зелья в руке — не закрывают обзор во время боя. |
+| <img src="icons/clean-sky-celestials.png" width="36" height="36" /> | **Clean Sun & Moon** | `clean-sky-celestials.zip` | Современное мягко сияющее круглое солнце и контрастная серебристая луна для чистого неба. |
+| <img src="icons/high-vis-arrows.png" width="36" height="36" /> | **High-Vis Pearls & Arrows** | `high-vis-arrows.zip` | Неоново-бирюзовый эндер-жемчуг и ярко-огненные стрелы — отлично видны в полёте и в инвентаре. |

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "GDG",
+    " S "
+  ],
+  "key": {
+    "G": "minecraft:gold_ingot",
+    "D": "minecraft:diamond_sword",
+    "S": "minecraft:blaze_rod"
+  },
+  "result": {
+    "id": "golden_artifacts:gilded_blade",
+    "count": 1
+  }
+}

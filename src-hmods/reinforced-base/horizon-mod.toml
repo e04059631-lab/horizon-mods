@@ -1,0 +1,8 @@
+id = "reinforced_base"
+name = "Reinforced Base"
+description = "Блоки для неприступной базы: бронированный бетон, титановые плиты, защитное стекло и бункерная лампа."
+version = "1.0.0"
+api = "0.2"
+side = "both"
+capabilities = ["registries"]
+experimental = ["registries"]

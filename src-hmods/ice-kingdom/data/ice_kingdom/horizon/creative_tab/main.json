@@ -1,0 +1,10 @@
+{
+  "title": "Frost Arsenal",
+  "icon": "ice_kingdom:frost_blade",
+  "items": [
+    "ice_kingdom:frost_blade",
+    "ice_kingdom:frost_axe",
+    "ice_kingdom:ice_star",
+    "ice_kingdom:crystal_ice"
+  ]
+}

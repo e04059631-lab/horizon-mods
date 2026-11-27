@@ -1,0 +1,10 @@
+{
+  "title": "Amethyst Magic",
+  "icon": "amethyst_magic:amethyst_blade",
+  "items": [
+    "amethyst_magic:amethyst_blade",
+    "amethyst_magic:crystal_bolt",
+    "amethyst_magic:amethyst_apple",
+    "amethyst_magic:glowing_amethyst"
+  ]
+}

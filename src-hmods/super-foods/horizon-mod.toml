@@ -1,0 +1,8 @@
+id = "super_foods"
+name = "Super Foods"
+description = "Новые питательные блюда и энергетики: Ягодный энергетик, Королевский стейк, Шоколадный маффин и Золотой эликсир."
+version = "1.0.0"
+api = "0.2"
+side = "both"
+capabilities = ["registries"]
+experimental = ["registries"]
