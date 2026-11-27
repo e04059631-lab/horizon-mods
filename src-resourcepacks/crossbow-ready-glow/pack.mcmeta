@@ -1,8 +1,0 @@
-{
-  "pack": {
-    "description": "Crossbow Ready Glow — Яркая индикация зарядки арбалета и подсветка заряженного снаряда (стрела / фейерверк).",
-    "pack_format": 55,
-    "min_format": 15,
-    "max_format": 999
-  }
-}

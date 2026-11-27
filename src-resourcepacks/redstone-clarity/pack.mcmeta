@@ -1,8 +1,0 @@
-{
-  "pack": {
-    "description": "Redstone Clarity — Чёткие стрелки направления на Наблюдателях (Observer) и яркая индикация активных повторителей.",
-    "pack_format": 55,
-    "min_format": 15,
-    "max_format": 999
-  }
-}

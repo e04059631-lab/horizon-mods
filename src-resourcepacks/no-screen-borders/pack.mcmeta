@@ -1,8 +1,0 @@
-{
-  "pack": {
-    "description": "No Screen Borders — Убирает тёмную виньетку по углам экрана и ледяную корку от рыхлого снега.",
-    "pack_format": 55,
-    "min_format": 15,
-    "max_format": 999
-  }
-}

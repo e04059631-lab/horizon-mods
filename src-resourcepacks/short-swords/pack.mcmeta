@@ -1,8 +1,0 @@
-{
-  "pack": {
-    "description": "Short Swords — Укороченные мечи всех тиров (включая медный и незеритовый) для чистого обзора в PvP.",
-    "pack_format": 55,
-    "min_format": 15,
-    "max_format": 999
-  }
-}

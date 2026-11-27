@@ -9,7 +9,7 @@
       "kind": "shader",
       "file_name": "motion-blur.hshader",
       "download_url": "mods/motion-blur.hshader",
-      "icon_url": "icons/motion-blur.png?v=2",
+      "icon_url": "icons/motion-blur.png?v=3",
       "size_kb": 2
     },
     {
@@ -20,7 +20,7 @@
       "kind": "shader",
       "file_name": "fullbright.hshader",
       "download_url": "mods/fullbright.hshader",
-      "icon_url": "icons/fullbright.png?v=2",
+      "icon_url": "icons/fullbright.png?v=3",
       "size_kb": 1
     },
     {
@@ -31,7 +31,7 @@
       "kind": "shader",
       "file_name": "vibrant-vanilla.hshader",
       "download_url": "mods/vibrant-vanilla.hshader",
-      "icon_url": "icons/vibrant-vanilla.png?v=2",
+      "icon_url": "icons/vibrant-vanilla.png?v=3",
       "size_kb": 2
     },
     {
@@ -42,7 +42,7 @@
       "kind": "shader",
       "file_name": "colored-lights.hshader",
       "download_url": "mods/colored-lights.hshader",
-      "icon_url": "icons/colored-lights.png?v=2",
+      "icon_url": "icons/colored-lights.png?v=3",
       "size_kb": 2
     },
     {
@@ -53,7 +53,7 @@
       "kind": "shader",
       "file_name": "water-reflections.hshader",
       "download_url": "mods/water-reflections.hshader",
-      "icon_url": "icons/water-reflections.png?v=2",
+      "icon_url": "icons/water-reflections.png?v=3",
       "size_kb": 2
     },
     {
@@ -64,7 +64,7 @@
       "kind": "shader",
       "file_name": "real-shadows-lite.hshader",
       "download_url": "mods/real-shadows-lite.hshader",
-      "icon_url": "icons/real-shadows-lite.png?v=2",
+      "icon_url": "icons/real-shadows-lite.png?v=3",
       "size_kb": 2
     },
     {
@@ -75,7 +75,7 @@
       "kind": "shader",
       "file_name": "horizon-ultra.hshader",
       "download_url": "mods/horizon-ultra.hshader",
-      "icon_url": "icons/horizon-ultra.png?v=2",
+      "icon_url": "icons/horizon-ultra.png?v=3",
       "size_kb": 3
     },
     {
@@ -86,7 +86,7 @@
       "kind": "shader",
       "file_name": "fps-sharpness.hshader",
       "download_url": "mods/fps-sharpness.hshader",
-      "icon_url": "icons/fps-sharpness.png?v=2",
+      "icon_url": "icons/fps-sharpness.png?v=3",
       "size_kb": 1
     },
     {
@@ -97,7 +97,7 @@
       "kind": "shader",
       "file_name": "crystal-underwater.hshader",
       "download_url": "mods/crystal-underwater.hshader",
-      "icon_url": "icons/crystal-underwater.png?v=2",
+      "icon_url": "icons/crystal-underwater.png?v=3",
       "size_kb": 1
     },
     {
@@ -108,7 +108,7 @@
       "kind": "shader",
       "file_name": "clear-nether-end.hshader",
       "download_url": "mods/clear-nether-end.hshader",
-      "icon_url": "icons/clear-nether-end.png?v=2",
+      "icon_url": "icons/clear-nether-end.png?v=3",
       "size_kb": 1
     },
     {
@@ -119,7 +119,7 @@
       "kind": "shader",
       "file_name": "aurora-starry-sky.hshader",
       "download_url": "mods/aurora-starry-sky.hshader",
-      "icon_url": "icons/aurora-starry-sky.png?v=2",
+      "icon_url": "icons/aurora-starry-sky.png?v=3",
       "size_kb": 2
     },
     {
@@ -130,7 +130,7 @@
       "kind": "shader",
       "file_name": "golden-sunset.hshader",
       "download_url": "mods/golden-sunset.hshader",
-      "icon_url": "icons/golden-sunset.png?v=2",
+      "icon_url": "icons/golden-sunset.png?v=3",
       "size_kb": 2
     },
     {
@@ -141,7 +141,7 @@
       "kind": "shader",
       "file_name": "cinematic-bloom.hshader",
       "download_url": "mods/cinematic-bloom.hshader",
-      "icon_url": "icons/cinematic-bloom.png?v=2",
+      "icon_url": "icons/cinematic-bloom.png?v=3",
       "size_kb": 1
     },
     {
@@ -152,7 +152,7 @@
       "kind": "shader",
       "file_name": "anime-cel-shading.hshader",
       "download_url": "mods/anime-cel-shading.hshader",
-      "icon_url": "icons/anime-cel-shading.png?v=2",
+      "icon_url": "icons/anime-cel-shading.png?v=3",
       "size_kb": 2
     },
     {
@@ -163,7 +163,7 @@
       "kind": "shader",
       "file_name": "retro-ps1-crt.hshader",
       "download_url": "mods/retro-ps1-crt.hshader",
-      "icon_url": "icons/retro-ps1-crt.png?v=2",
+      "icon_url": "icons/retro-ps1-crt.png?v=3",
       "size_kb": 1
     },
     {
@@ -174,7 +174,7 @@
       "kind": "shader",
       "file_name": "horror-fog.hshader",
       "download_url": "mods/horror-fog.hshader",
-      "icon_url": "icons/horror-fog.png?v=2",
+      "icon_url": "icons/horror-fog.png?v=3",
       "size_kb": 2
     },
     {
@@ -185,7 +185,7 @@
       "kind": "shader",
       "file_name": "cyberpunk-neon.hshader",
       "download_url": "mods/cyberpunk-neon.hshader",
-      "icon_url": "icons/cyberpunk-neon.png?v=2",
+      "icon_url": "icons/cyberpunk-neon.png?v=3",
       "size_kb": 2
     },
     {
@@ -196,7 +196,7 @@
       "kind": "shader",
       "file_name": "no-fog.hshader",
       "download_url": "mods/no-fog.hshader",
-      "icon_url": "icons/no-fog.png?v=2",
+      "icon_url": "icons/no-fog.png?v=3",
       "size_kb": 1
     },
     {
@@ -207,7 +207,7 @@
       "kind": "shader",
       "file_name": "true-darkness.hshader",
       "download_url": "mods/true-darkness.hshader",
-      "icon_url": "icons/true-darkness.png?v=2",
+      "icon_url": "icons/true-darkness.png?v=3",
       "size_kb": 2
     },
     {
@@ -218,7 +218,7 @@
       "kind": "shader",
       "file_name": "warm-torchlight.hshader",
       "download_url": "mods/warm-torchlight.hshader",
-      "icon_url": "icons/warm-torchlight.png?v=2",
+      "icon_url": "icons/warm-torchlight.png?v=3",
       "size_kb": 1
     },
     {
@@ -229,7 +229,7 @@
       "kind": "shader",
       "file_name": "noir-bw.hshader",
       "download_url": "mods/noir-bw.hshader",
-      "icon_url": "icons/noir-bw.png?v=2",
+      "icon_url": "icons/noir-bw.png?v=3",
       "size_kb": 1
     },
     {
@@ -240,7 +240,7 @@
       "kind": "shader",
       "file_name": "pastel-dream.hshader",
       "download_url": "mods/pastel-dream.hshader",
-      "icon_url": "icons/pastel-dream.png?v=2",
+      "icon_url": "icons/pastel-dream.png?v=3",
       "size_kb": 1
     },
     {
@@ -251,7 +251,7 @@
       "kind": "shader",
       "file_name": "night-vision-thermal.hshader",
       "download_url": "mods/night-vision-thermal.hshader",
-      "icon_url": "icons/night-vision-thermal.png?v=2",
+      "icon_url": "icons/night-vision-thermal.png?v=3",
       "size_kb": 2
     },
     {
@@ -262,7 +262,7 @@
       "kind": "shader",
       "file_name": "depth-of-field.hshader",
       "download_url": "mods/depth-of-field.hshader",
-      "icon_url": "icons/depth-of-field.png?v=2",
+      "icon_url": "icons/depth-of-field.png?v=3",
       "size_kb": 2
     },
     {
@@ -273,7 +273,7 @@
       "kind": "shader",
       "file_name": "heat-haze.hshader",
       "download_url": "mods/heat-haze.hshader",
-      "icon_url": "icons/heat-haze.png?v=2",
+      "icon_url": "icons/heat-haze.png?v=3",
       "size_kb": 2
     },
     {
@@ -284,7 +284,7 @@
       "kind": "shader",
       "file_name": "blood-moon.hshader",
       "download_url": "mods/blood-moon.hshader",
-      "icon_url": "icons/blood-moon.png?v=2",
+      "icon_url": "icons/blood-moon.png?v=3",
       "size_kb": 2
     },
     {
@@ -295,326 +295,7 @@
       "kind": "shader",
       "file_name": "pvp-boost-minimal.hshader",
       "download_url": "mods/pvp-boost-minimal.hshader",
-      "icon_url": "icons/pvp-boost-minimal.png?v=2",
-      "size_kb": 2
-    },
-    {
-      "id": "low-fire",
-      "name": "Low Fire",
-      "description": "Опускает пламя огня вниз экрана при горении, чтобы оно не закрывало обзор в PvP и Незере.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "low-fire.zip",
-      "download_url": "mods/low-fire.zip",
-      "icon_url": "icons/low-fire.png?v=2",
-      "size_kb": 40
-    },
-    {
-      "id": "no-pumpkin-blur",
-      "name": "No Pumpkin Blur",
-      "description": "Полностью убирает тёмную маску вырезанной тыквы с экрана для комфортных походов в Энд.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "no-pumpkin-blur.zip",
-      "download_url": "mods/no-pumpkin-blur.zip",
-      "icon_url": "icons/no-pumpkin-blur.png?v=2",
-      "size_kb": 1
-    },
-    {
-      "id": "clear-spyglass",
-      "name": "Clear Spyglass",
-      "description": "Убирает чёрные поля подзорной трубы, оставляя полный широкоэкранный обзор при приближении.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "clear-spyglass.zip",
-      "download_url": "mods/clear-spyglass.zip",
-      "icon_url": "icons/clear-spyglass.png?v=2",
-      "size_kb": 2
-    },
-    {
-      "id": "outlined-ores",
-      "name": "Outlined Ores",
-      "description": "Яркая цветная окантовка всех руд и древних обломков — мгновенно заметны в шахтах и пещерах.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "outlined-ores.zip",
-      "download_url": "mods/outlined-ores.zip",
-      "icon_url": "icons/outlined-ores.png?v=2",
-      "size_kb": 12
-    },
-    {
-      "id": "clear-glass",
-      "name": "Clear Glass",
-      "description": "Чистое прозрачное стекло и витражи с тонкой аккуратной рамкой без лишних бликов и полос.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "clear-glass.zip",
-      "download_url": "mods/clear-glass.zip",
-      "icon_url": "icons/clear-glass.png?v=2",
-      "size_kb": 6
-    },
-    {
-      "id": "short-swords",
-      "name": "Short Swords",
-      "description": "Укороченные мечи всех тиров (включая медный и незеритовый) для чистого обзора в PvP.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "short-swords.zip",
-      "download_url": "mods/short-swords.zip",
-      "icon_url": "icons/short-swords.png?v=2",
-      "size_kb": 3
-    },
-    {
-      "id": "low-shield",
-      "name": "Low Shield",
-      "description": "Опускает щит ниже в руке (и в покое, и в блоке), чтобы он не перекрывал прицел и противника.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "low-shield.zip",
-      "download_url": "mods/low-shield.zip",
-      "icon_url": "icons/low-shield.png?v=2",
-      "size_kb": 2
-    },
-    {
-      "id": "dark-glass-ui",
-      "name": "Dark Glass UI",
-      "description": "Тёмный полупрозрачный интерфейс инвентаря, сундуков, верстака и печей в стиле Liquid Glass.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "dark-glass-ui.zip",
-      "download_url": "mods/dark-glass-ui.zip",
-      "icon_url": "icons/dark-glass-ui.png?v=2",
-      "size_kb": 13
-    },
-    {
-      "id": "clean-pvp-crosshair",
-      "name": "Clean PvP Crosshair",
-      "description": "Аккуратный киберспортивный прицел с центральной точкой и зазором для точной наводки.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "clean-pvp-crosshair.zip",
-      "download_url": "mods/clean-pvp-crosshair.zip",
-      "icon_url": "icons/clean-pvp-crosshair.png?v=2",
-      "size_kb": 1
-    },
-    {
-      "id": "minimal-weather",
-      "name": "Minimal Weather",
-      "description": "Тонкие полупрозрачные капли дождя и снежинки — сохраняют атмосферу, но не мешают обзору.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "minimal-weather.zip",
-      "download_url": "mods/minimal-weather.zip",
-      "icon_url": "icons/minimal-weather.png?v=2",
-      "size_kb": 3
-    },
-    {
-      "id": "clean-particles",
-      "name": "Clean Particles",
-      "description": "Делает частицы взрывов, дыма и зелий компактными и полупрозрачными для чистого экрана в бою.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "clean-particles.zip",
-      "download_url": "mods/clean-particles.zip",
-      "icon_url": "icons/clean-particles.png?v=2",
-      "size_kb": 11
-    },
-    {
-      "id": "cleaner-hotbar",
-      "name": "Cleaner Hotbar",
-      "description": "Полупрозрачный тёмно-стеклянный хотбар с яркой неоново-оранжевой рамкой выбранного слота.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "cleaner-hotbar.zip",
-      "download_url": "mods/cleaner-hotbar.zip",
-      "icon_url": "icons/cleaner-hotbar.png?v=2",
-      "size_kb": 2
-    },
-    {
-      "id": "bright-water-ice",
-      "name": "Bright Water & Ice",
-      "description": "Кристально прозрачный лёд с аккуратной гранью и более чистая бирюзовая поверхность воды.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "bright-water-ice.zip",
-      "download_url": "mods/bright-water-ice.zip",
-      "icon_url": "icons/bright-water-ice.png?v=2",
-      "size_kb": 4
-    },
-    {
-      "id": "compact-totem-hearts",
-      "name": "Crisp Hearts & Armor",
-      "description": "Контрастные сочные иконки здоровья, золотых сердец и брони в HUD для мгновенного чтения ХП.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "compact-totem-hearts.zip",
-      "download_url": "mods/compact-totem-hearts.zip",
-      "icon_url": "icons/compact-totem-hearts.png?v=2",
-      "size_kb": 3
-    },
-    {
-      "id": "no-screen-borders",
-      "name": "No Screen Borders",
-      "description": "Убирает тёмную виньетку по углам экрана и ледяную корку от рыхлого снега.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "no-screen-borders.zip",
-      "download_url": "mods/no-screen-borders.zip",
-      "icon_url": "icons/no-screen-borders.png?v=2",
-      "size_kb": 6
-    },
-    {
-      "id": "clear-water-overlay",
-      "name": "Clear Water Overlay",
-      "description": "Полностью убирает мутную текстуру воды с экрана при плавании под водой.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "clear-water-overlay.zip",
-      "download_url": "mods/clear-water-overlay.zip",
-      "icon_url": "icons/clear-water-overlay.png?v=2",
-      "size_kb": 1
-    },
-    {
-      "id": "bright-crit-particles",
-      "name": "Bright Crit Particles",
-      "description": "Яркие контрастные звёзды критических ударов и ударов с Заговором/Остротой в PvP.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "bright-crit-particles.zip",
-      "download_url": "mods/bright-crit-particles.zip",
-      "icon_url": "icons/bright-crit-particles.png?v=2",
-      "size_kb": 1
-    },
-    {
-      "id": "sticky-piston-marker",
-      "name": "Sticky Piston Marker",
-      "description": "Зелёная метка слизи по бокам липких поршней, чтобы сразу отличать их от обычных в механизмах.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "sticky-piston-marker.zip",
-      "download_url": "mods/sticky-piston-marker.zip",
-      "icon_url": "icons/sticky-piston-marker.png?v=2",
-      "size_kb": 2
-    },
-    {
-      "id": "redstone-clarity",
-      "name": "Redstone Clarity",
-      "description": "Чёткие стрелки направления на Наблюдателях (Observer) и яркая индикация активных повторителей.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "redstone-clarity.zip",
-      "download_url": "mods/redstone-clarity.zip",
-      "icon_url": "icons/redstone-clarity.png?v=2",
-      "size_kb": 3
-    },
-    {
-      "id": "bow-charge-indicator",
-      "name": "Bow Charge Indicator",
-      "description": "Цветовая подсветка стадий натяжения лука (красный → жёлтый → ярко-зелёный при 100% заряде).",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "bow-charge-indicator.zip",
-      "download_url": "mods/bow-charge-indicator.zip",
-      "icon_url": "icons/bow-charge-indicator.png?v=2",
-      "size_kb": 2
-    },
-    {
-      "id": "crossbow-ready-glow",
-      "name": "Crossbow Ready Glow",
-      "description": "Яркая индикация зарядки арбалета и подсветка заряженного снаряда (стрела / фейерверк).",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "crossbow-ready-glow.zip",
-      "download_url": "mods/crossbow-ready-glow.zip",
-      "icon_url": "icons/crossbow-ready-glow.png?v=2",
-      "size_kb": 3
-    },
-    {
-      "id": "small-totem",
-      "name": "Small Totem",
-      "description": "Компактный тотем бессмертия в руке — занимает минимум места внизу экрана и не мешает в PvP.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "small-totem.zip",
-      "download_url": "mods/small-totem.zip",
-      "icon_url": "icons/small-totem.png?v=2",
-      "size_kb": 1
-    },
-    {
-      "id": "clear-nether-portal",
-      "name": "Clear Nether Portal",
-      "description": "Мягкая полупрозрачная плёнка портала в Незер — сквозь портал отлично видно другую сторону.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "clear-nether-portal.zip",
-      "download_url": "mods/clear-nether-portal.zip",
-      "icon_url": "icons/clear-nether-portal.png?v=2",
-      "size_kb": 15
-    },
-    {
-      "id": "clean-enchant-glint",
-      "name": "Clean Enchant Glint",
-      "description": "Спокойный деликатный перелив зачарования, не скрывающий цвет брони и отделку кузнечных шаблонов.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "clean-enchant-glint.zip",
-      "download_url": "mods/clean-enchant-glint.zip",
-      "icon_url": "icons/clean-enchant-glint.png?v=2",
-      "size_kb": 23
-    },
-    {
-      "id": "better-bedwars-wool",
-      "name": "Better BedWars Wool",
-      "description": "Гладкая сочная шерсть всех 16 цветов с чёткой рамкой граней — идеально для бриджинга и BedWars.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "better-bedwars-wool.zip",
-      "download_url": "mods/better-bedwars-wool.zip",
-      "icon_url": "icons/better-bedwars-wool.png?v=2",
-      "size_kb": 12
-    },
-    {
-      "id": "transparent-inventory",
-      "name": "Transparent Inventory",
-      "description": "Прозрачный инвентарь и сундуки — сквозь открытое меню всегда видно врагов и всё вокруг в PvP.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "transparent-inventory.zip",
-      "download_url": "mods/transparent-inventory.zip",
-      "icon_url": "icons/transparent-inventory.png?v=2",
-      "size_kb": 12
-    },
-    {
-      "id": "small-utilities",
-      "name": "Small PvP Utilities",
-      "description": "Компактные эндер-жемчуг, золотые яблоки и взрывные зелья в руке — не закрывают обзор во время боя.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "small-utilities.zip",
-      "download_url": "mods/small-utilities.zip",
-      "icon_url": "icons/small-utilities.png?v=2",
-      "size_kb": 2
-    },
-    {
-      "id": "clean-sky-celestials",
-      "name": "Clean Sun & Moon",
-      "description": "Современное мягко сияющее круглое солнце и контрастная серебристая луна для чистого неба.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "clean-sky-celestials.zip",
-      "download_url": "mods/clean-sky-celestials.zip",
-      "icon_url": "icons/clean-sky-celestials.png?v=2",
-      "size_kb": 8
-    },
-    {
-      "id": "high-vis-arrows",
-      "name": "High-Vis Pearls & Arrows",
-      "description": "Неоново-бирюзовый эндер-жемчуг и ярко-огненные стрелы — отлично видны в полёте и в инвентаре.",
-      "version": "1.0.0",
-      "kind": "resourcepack",
-      "file_name": "high-vis-arrows.zip",
-      "download_url": "mods/high-vis-arrows.zip",
-      "icon_url": "icons/high-vis-arrows.png?v=2",
+      "icon_url": "icons/pvp-boost-minimal.png?v=3",
       "size_kb": 2
     }
   ]
