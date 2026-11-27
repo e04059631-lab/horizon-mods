@@ -26,7 +26,7 @@ def main() -> None:
             "kind": "shader",
             "file_name": "motion-blur.hshader",
             "download_url": "mods/motion-blur.hshader",
-            "icon_url": "icons/motion-blur.png",
+            "icon_url": "icons/motion-blur.png?v=2",
             "size_kb": max(1, math.ceil(mb_path.stat().st_size / 1024)),
         }
     )
@@ -46,7 +46,7 @@ def main() -> None:
                 "kind": "shader",
                 "file_name": sh["file_name"],
                 "download_url": f"mods/{sh['file_name']}",
-                "icon_url": f"icons/{sh['id']}.png",
+                "icon_url": f"icons/{sh['id']}.png?v=2",
                 "size_kb": max(1, math.ceil(fpath.stat().st_size / 1024)),
             }
         )
@@ -66,7 +66,7 @@ def main() -> None:
                 "kind": "resourcepack",
                 "file_name": rp["file_name"],
                 "download_url": f"mods/{rp['file_name']}",
-                "icon_url": f"icons/{rp['id']}.png",
+                "icon_url": f"icons/{rp['id']}.png?v=2",
                 "size_kb": max(1, math.ceil(fpath.stat().st_size / 1024)),
             }
         )
@@ -95,8 +95,9 @@ def main() -> None:
     ]
     for e in entries:
         if e["kind"] == "shader":
+            clean_icon = e["icon_url"].split("?", 1)[0]
             lines.append(
-                f'| <img src="{e["icon_url"]}" width="36" height="36" /> | **{e["name"]}** | `{e["file_name"]}` | {e["description"]} |'
+                f'| <img src="{clean_icon}" width="36" height="36" /> | **{e["name"]}** | `{e["file_name"]}` | {e["description"]} |'
             )
 
     lines += [
@@ -108,8 +109,9 @@ def main() -> None:
     ]
     for e in entries:
         if e["kind"] == "resourcepack":
+            clean_icon = e["icon_url"].split("?", 1)[0]
             lines.append(
-                f'| <img src="{e["icon_url"]}" width="36" height="36" /> | **{e["name"]}** | `{e["file_name"]}` | {e["description"]} |'
+                f'| <img src="{clean_icon}" width="36" height="36" /> | **{e["name"]}** | `{e["file_name"]}` | {e["description"]} |'
             )
 
     lines.append("")

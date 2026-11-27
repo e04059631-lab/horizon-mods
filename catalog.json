@@ -9,7 +9,7 @@
       "kind": "shader",
       "file_name": "motion-blur.hshader",
       "download_url": "mods/motion-blur.hshader",
-      "icon_url": "icons/motion-blur.png",
+      "icon_url": "icons/motion-blur.png?v=2",
       "size_kb": 2
     },
     {
@@ -20,7 +20,7 @@
       "kind": "shader",
       "file_name": "fullbright.hshader",
       "download_url": "mods/fullbright.hshader",
-      "icon_url": "icons/fullbright.png",
+      "icon_url": "icons/fullbright.png?v=2",
       "size_kb": 1
     },
     {
@@ -31,7 +31,7 @@
       "kind": "shader",
       "file_name": "vibrant-vanilla.hshader",
       "download_url": "mods/vibrant-vanilla.hshader",
-      "icon_url": "icons/vibrant-vanilla.png",
+      "icon_url": "icons/vibrant-vanilla.png?v=2",
       "size_kb": 2
     },
     {
@@ -42,7 +42,7 @@
       "kind": "shader",
       "file_name": "colored-lights.hshader",
       "download_url": "mods/colored-lights.hshader",
-      "icon_url": "icons/colored-lights.png",
+      "icon_url": "icons/colored-lights.png?v=2",
       "size_kb": 2
     },
     {
@@ -53,7 +53,7 @@
       "kind": "shader",
       "file_name": "water-reflections.hshader",
       "download_url": "mods/water-reflections.hshader",
-      "icon_url": "icons/water-reflections.png",
+      "icon_url": "icons/water-reflections.png?v=2",
       "size_kb": 2
     },
     {
@@ -64,7 +64,7 @@
       "kind": "shader",
       "file_name": "real-shadows-lite.hshader",
       "download_url": "mods/real-shadows-lite.hshader",
-      "icon_url": "icons/real-shadows-lite.png",
+      "icon_url": "icons/real-shadows-lite.png?v=2",
       "size_kb": 2
     },
     {
@@ -75,7 +75,7 @@
       "kind": "shader",
       "file_name": "horizon-ultra.hshader",
       "download_url": "mods/horizon-ultra.hshader",
-      "icon_url": "icons/horizon-ultra.png",
+      "icon_url": "icons/horizon-ultra.png?v=2",
       "size_kb": 3
     },
     {
@@ -86,7 +86,7 @@
       "kind": "shader",
       "file_name": "fps-sharpness.hshader",
       "download_url": "mods/fps-sharpness.hshader",
-      "icon_url": "icons/fps-sharpness.png",
+      "icon_url": "icons/fps-sharpness.png?v=2",
       "size_kb": 1
     },
     {
@@ -97,7 +97,7 @@
       "kind": "shader",
       "file_name": "crystal-underwater.hshader",
       "download_url": "mods/crystal-underwater.hshader",
-      "icon_url": "icons/crystal-underwater.png",
+      "icon_url": "icons/crystal-underwater.png?v=2",
       "size_kb": 1
     },
     {
@@ -108,7 +108,7 @@
       "kind": "shader",
       "file_name": "clear-nether-end.hshader",
       "download_url": "mods/clear-nether-end.hshader",
-      "icon_url": "icons/clear-nether-end.png",
+      "icon_url": "icons/clear-nether-end.png?v=2",
       "size_kb": 1
     },
     {
@@ -119,7 +119,7 @@
       "kind": "shader",
       "file_name": "aurora-starry-sky.hshader",
       "download_url": "mods/aurora-starry-sky.hshader",
-      "icon_url": "icons/aurora-starry-sky.png",
+      "icon_url": "icons/aurora-starry-sky.png?v=2",
       "size_kb": 2
     },
     {
@@ -130,7 +130,7 @@
       "kind": "shader",
       "file_name": "golden-sunset.hshader",
       "download_url": "mods/golden-sunset.hshader",
-      "icon_url": "icons/golden-sunset.png",
+      "icon_url": "icons/golden-sunset.png?v=2",
       "size_kb": 2
     },
     {
@@ -141,7 +141,7 @@
       "kind": "shader",
       "file_name": "cinematic-bloom.hshader",
       "download_url": "mods/cinematic-bloom.hshader",
-      "icon_url": "icons/cinematic-bloom.png",
+      "icon_url": "icons/cinematic-bloom.png?v=2",
       "size_kb": 1
     },
     {
@@ -152,7 +152,7 @@
       "kind": "shader",
       "file_name": "anime-cel-shading.hshader",
       "download_url": "mods/anime-cel-shading.hshader",
-      "icon_url": "icons/anime-cel-shading.png",
+      "icon_url": "icons/anime-cel-shading.png?v=2",
       "size_kb": 2
     },
     {
@@ -163,7 +163,7 @@
       "kind": "shader",
       "file_name": "retro-ps1-crt.hshader",
       "download_url": "mods/retro-ps1-crt.hshader",
-      "icon_url": "icons/retro-ps1-crt.png",
+      "icon_url": "icons/retro-ps1-crt.png?v=2",
       "size_kb": 1
     },
     {
@@ -174,7 +174,7 @@
       "kind": "shader",
       "file_name": "horror-fog.hshader",
       "download_url": "mods/horror-fog.hshader",
-      "icon_url": "icons/horror-fog.png",
+      "icon_url": "icons/horror-fog.png?v=2",
       "size_kb": 2
     },
     {
@@ -185,7 +185,7 @@
       "kind": "shader",
       "file_name": "cyberpunk-neon.hshader",
       "download_url": "mods/cyberpunk-neon.hshader",
-      "icon_url": "icons/cyberpunk-neon.png",
+      "icon_url": "icons/cyberpunk-neon.png?v=2",
       "size_kb": 2
     },
     {
@@ -196,7 +196,7 @@
       "kind": "shader",
       "file_name": "no-fog.hshader",
       "download_url": "mods/no-fog.hshader",
-      "icon_url": "icons/no-fog.png",
+      "icon_url": "icons/no-fog.png?v=2",
       "size_kb": 1
     },
     {
@@ -207,7 +207,7 @@
       "kind": "shader",
       "file_name": "true-darkness.hshader",
       "download_url": "mods/true-darkness.hshader",
-      "icon_url": "icons/true-darkness.png",
+      "icon_url": "icons/true-darkness.png?v=2",
       "size_kb": 2
     },
     {
@@ -218,7 +218,7 @@
       "kind": "shader",
       "file_name": "warm-torchlight.hshader",
       "download_url": "mods/warm-torchlight.hshader",
-      "icon_url": "icons/warm-torchlight.png",
+      "icon_url": "icons/warm-torchlight.png?v=2",
       "size_kb": 1
     },
     {
@@ -229,7 +229,7 @@
       "kind": "shader",
       "file_name": "noir-bw.hshader",
       "download_url": "mods/noir-bw.hshader",
-      "icon_url": "icons/noir-bw.png",
+      "icon_url": "icons/noir-bw.png?v=2",
       "size_kb": 1
     },
     {
@@ -240,7 +240,7 @@
       "kind": "shader",
       "file_name": "pastel-dream.hshader",
       "download_url": "mods/pastel-dream.hshader",
-      "icon_url": "icons/pastel-dream.png",
+      "icon_url": "icons/pastel-dream.png?v=2",
       "size_kb": 1
     },
     {
@@ -251,7 +251,7 @@
       "kind": "shader",
       "file_name": "night-vision-thermal.hshader",
       "download_url": "mods/night-vision-thermal.hshader",
-      "icon_url": "icons/night-vision-thermal.png",
+      "icon_url": "icons/night-vision-thermal.png?v=2",
       "size_kb": 2
     },
     {
@@ -262,7 +262,7 @@
       "kind": "shader",
       "file_name": "depth-of-field.hshader",
       "download_url": "mods/depth-of-field.hshader",
-      "icon_url": "icons/depth-of-field.png",
+      "icon_url": "icons/depth-of-field.png?v=2",
       "size_kb": 2
     },
     {
@@ -273,7 +273,7 @@
       "kind": "shader",
       "file_name": "heat-haze.hshader",
       "download_url": "mods/heat-haze.hshader",
-      "icon_url": "icons/heat-haze.png",
+      "icon_url": "icons/heat-haze.png?v=2",
       "size_kb": 2
     },
     {
@@ -284,7 +284,7 @@
       "kind": "shader",
       "file_name": "blood-moon.hshader",
       "download_url": "mods/blood-moon.hshader",
-      "icon_url": "icons/blood-moon.png",
+      "icon_url": "icons/blood-moon.png?v=2",
       "size_kb": 2
     },
     {
@@ -295,7 +295,7 @@
       "kind": "shader",
       "file_name": "pvp-boost-minimal.hshader",
       "download_url": "mods/pvp-boost-minimal.hshader",
-      "icon_url": "icons/pvp-boost-minimal.png",
+      "icon_url": "icons/pvp-boost-minimal.png?v=2",
       "size_kb": 2
     },
     {
@@ -306,7 +306,7 @@
       "kind": "resourcepack",
       "file_name": "low-fire.zip",
       "download_url": "mods/low-fire.zip",
-      "icon_url": "icons/low-fire.png",
+      "icon_url": "icons/low-fire.png?v=2",
       "size_kb": 40
     },
     {
@@ -317,7 +317,7 @@
       "kind": "resourcepack",
       "file_name": "no-pumpkin-blur.zip",
       "download_url": "mods/no-pumpkin-blur.zip",
-      "icon_url": "icons/no-pumpkin-blur.png",
+      "icon_url": "icons/no-pumpkin-blur.png?v=2",
       "size_kb": 1
     },
     {
@@ -328,7 +328,7 @@
       "kind": "resourcepack",
       "file_name": "clear-spyglass.zip",
       "download_url": "mods/clear-spyglass.zip",
-      "icon_url": "icons/clear-spyglass.png",
+      "icon_url": "icons/clear-spyglass.png?v=2",
       "size_kb": 2
     },
     {
@@ -339,7 +339,7 @@
       "kind": "resourcepack",
       "file_name": "outlined-ores.zip",
       "download_url": "mods/outlined-ores.zip",
-      "icon_url": "icons/outlined-ores.png",
+      "icon_url": "icons/outlined-ores.png?v=2",
       "size_kb": 12
     },
     {
@@ -350,7 +350,7 @@
       "kind": "resourcepack",
       "file_name": "clear-glass.zip",
       "download_url": "mods/clear-glass.zip",
-      "icon_url": "icons/clear-glass.png",
+      "icon_url": "icons/clear-glass.png?v=2",
       "size_kb": 6
     },
     {
@@ -361,7 +361,7 @@
       "kind": "resourcepack",
       "file_name": "short-swords.zip",
       "download_url": "mods/short-swords.zip",
-      "icon_url": "icons/short-swords.png",
+      "icon_url": "icons/short-swords.png?v=2",
       "size_kb": 3
     },
     {
@@ -372,7 +372,7 @@
       "kind": "resourcepack",
       "file_name": "low-shield.zip",
       "download_url": "mods/low-shield.zip",
-      "icon_url": "icons/low-shield.png",
+      "icon_url": "icons/low-shield.png?v=2",
       "size_kb": 2
     },
     {
@@ -383,7 +383,7 @@
       "kind": "resourcepack",
       "file_name": "dark-glass-ui.zip",
       "download_url": "mods/dark-glass-ui.zip",
-      "icon_url": "icons/dark-glass-ui.png",
+      "icon_url": "icons/dark-glass-ui.png?v=2",
       "size_kb": 13
     },
     {
@@ -394,7 +394,7 @@
       "kind": "resourcepack",
       "file_name": "clean-pvp-crosshair.zip",
       "download_url": "mods/clean-pvp-crosshair.zip",
-      "icon_url": "icons/clean-pvp-crosshair.png",
+      "icon_url": "icons/clean-pvp-crosshair.png?v=2",
       "size_kb": 1
     },
     {
@@ -405,7 +405,7 @@
       "kind": "resourcepack",
       "file_name": "minimal-weather.zip",
       "download_url": "mods/minimal-weather.zip",
-      "icon_url": "icons/minimal-weather.png",
+      "icon_url": "icons/minimal-weather.png?v=2",
       "size_kb": 3
     },
     {
@@ -416,7 +416,7 @@
       "kind": "resourcepack",
       "file_name": "clean-particles.zip",
       "download_url": "mods/clean-particles.zip",
-      "icon_url": "icons/clean-particles.png",
+      "icon_url": "icons/clean-particles.png?v=2",
       "size_kb": 11
     },
     {
@@ -427,7 +427,7 @@
       "kind": "resourcepack",
       "file_name": "cleaner-hotbar.zip",
       "download_url": "mods/cleaner-hotbar.zip",
-      "icon_url": "icons/cleaner-hotbar.png",
+      "icon_url": "icons/cleaner-hotbar.png?v=2",
       "size_kb": 2
     },
     {
@@ -438,7 +438,7 @@
       "kind": "resourcepack",
       "file_name": "bright-water-ice.zip",
       "download_url": "mods/bright-water-ice.zip",
-      "icon_url": "icons/bright-water-ice.png",
+      "icon_url": "icons/bright-water-ice.png?v=2",
       "size_kb": 4
     },
     {
@@ -449,7 +449,7 @@
       "kind": "resourcepack",
       "file_name": "compact-totem-hearts.zip",
       "download_url": "mods/compact-totem-hearts.zip",
-      "icon_url": "icons/compact-totem-hearts.png",
+      "icon_url": "icons/compact-totem-hearts.png?v=2",
       "size_kb": 3
     },
     {
@@ -460,7 +460,7 @@
       "kind": "resourcepack",
       "file_name": "no-screen-borders.zip",
       "download_url": "mods/no-screen-borders.zip",
-      "icon_url": "icons/no-screen-borders.png",
+      "icon_url": "icons/no-screen-borders.png?v=2",
       "size_kb": 6
     },
     {
@@ -471,7 +471,7 @@
       "kind": "resourcepack",
       "file_name": "clear-water-overlay.zip",
       "download_url": "mods/clear-water-overlay.zip",
-      "icon_url": "icons/clear-water-overlay.png",
+      "icon_url": "icons/clear-water-overlay.png?v=2",
       "size_kb": 1
     },
     {
@@ -482,7 +482,7 @@
       "kind": "resourcepack",
       "file_name": "bright-crit-particles.zip",
       "download_url": "mods/bright-crit-particles.zip",
-      "icon_url": "icons/bright-crit-particles.png",
+      "icon_url": "icons/bright-crit-particles.png?v=2",
       "size_kb": 1
     },
     {
@@ -493,7 +493,7 @@
       "kind": "resourcepack",
       "file_name": "sticky-piston-marker.zip",
       "download_url": "mods/sticky-piston-marker.zip",
-      "icon_url": "icons/sticky-piston-marker.png",
+      "icon_url": "icons/sticky-piston-marker.png?v=2",
       "size_kb": 2
     },
     {
@@ -504,7 +504,7 @@
       "kind": "resourcepack",
       "file_name": "redstone-clarity.zip",
       "download_url": "mods/redstone-clarity.zip",
-      "icon_url": "icons/redstone-clarity.png",
+      "icon_url": "icons/redstone-clarity.png?v=2",
       "size_kb": 3
     },
     {
@@ -515,7 +515,7 @@
       "kind": "resourcepack",
       "file_name": "bow-charge-indicator.zip",
       "download_url": "mods/bow-charge-indicator.zip",
-      "icon_url": "icons/bow-charge-indicator.png",
+      "icon_url": "icons/bow-charge-indicator.png?v=2",
       "size_kb": 2
     },
     {
@@ -526,7 +526,7 @@
       "kind": "resourcepack",
       "file_name": "crossbow-ready-glow.zip",
       "download_url": "mods/crossbow-ready-glow.zip",
-      "icon_url": "icons/crossbow-ready-glow.png",
+      "icon_url": "icons/crossbow-ready-glow.png?v=2",
       "size_kb": 3
     },
     {
@@ -537,7 +537,7 @@
       "kind": "resourcepack",
       "file_name": "small-totem.zip",
       "download_url": "mods/small-totem.zip",
-      "icon_url": "icons/small-totem.png",
+      "icon_url": "icons/small-totem.png?v=2",
       "size_kb": 1
     },
     {
@@ -548,7 +548,7 @@
       "kind": "resourcepack",
       "file_name": "clear-nether-portal.zip",
       "download_url": "mods/clear-nether-portal.zip",
-      "icon_url": "icons/clear-nether-portal.png",
+      "icon_url": "icons/clear-nether-portal.png?v=2",
       "size_kb": 15
     },
     {
@@ -559,7 +559,7 @@
       "kind": "resourcepack",
       "file_name": "clean-enchant-glint.zip",
       "download_url": "mods/clean-enchant-glint.zip",
-      "icon_url": "icons/clean-enchant-glint.png",
+      "icon_url": "icons/clean-enchant-glint.png?v=2",
       "size_kb": 23
     },
     {
@@ -570,7 +570,7 @@
       "kind": "resourcepack",
       "file_name": "better-bedwars-wool.zip",
       "download_url": "mods/better-bedwars-wool.zip",
-      "icon_url": "icons/better-bedwars-wool.png",
+      "icon_url": "icons/better-bedwars-wool.png?v=2",
       "size_kb": 12
     },
     {
@@ -581,7 +581,7 @@
       "kind": "resourcepack",
       "file_name": "transparent-inventory.zip",
       "download_url": "mods/transparent-inventory.zip",
-      "icon_url": "icons/transparent-inventory.png",
+      "icon_url": "icons/transparent-inventory.png?v=2",
       "size_kb": 12
     },
     {
@@ -592,7 +592,7 @@
       "kind": "resourcepack",
       "file_name": "small-utilities.zip",
       "download_url": "mods/small-utilities.zip",
-      "icon_url": "icons/small-utilities.png",
+      "icon_url": "icons/small-utilities.png?v=2",
       "size_kb": 2
     },
     {
@@ -603,7 +603,7 @@
       "kind": "resourcepack",
       "file_name": "clean-sky-celestials.zip",
       "download_url": "mods/clean-sky-celestials.zip",
-      "icon_url": "icons/clean-sky-celestials.png",
+      "icon_url": "icons/clean-sky-celestials.png?v=2",
       "size_kb": 8
     },
     {
@@ -614,7 +614,7 @@
       "kind": "resourcepack",
       "file_name": "high-vis-arrows.zip",
       "download_url": "mods/high-vis-arrows.zip",
-      "icon_url": "icons/high-vis-arrows.png",
+      "icon_url": "icons/high-vis-arrows.png?v=2",
       "size_kb": 2
     }
   ]
