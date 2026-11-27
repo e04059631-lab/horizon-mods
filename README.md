@@ -1,25 +1,9 @@
 # Horizon Mods Catalog (26.3)
 
-Официальный онлайн-каталог контентных `.hmod` модов, WGSL-шейдеров и PvP/QoL-паков для **Horizon Offline Launcher (Minecraft 26.3)**.
+Официальный онлайн-каталог клиентских WGSL-шейдеров и PvP/QoL-паков для **Horizon Offline Launcher (Minecraft 26.3)**.
+Все дополнения работают **на 100% на стороне клиента** — и в одиночном мире, и на любом сервере.
 
-**Всего в каталоге: 68 дополнений** (12 настоящих `.hmod` модов с новыми предметами и блоками + 27 нативных `.hshader` WGSL-шейдеров + 29 клиентских `.zip` PvP/QoL-паков).
-
-## Контентные моды Horizon (`.hmod` для `horizon-mods/`)
-
-| Иконка | Название | Файл | Описание |
-| :---: | :--- | :--- | :--- |
-| <img src="icons/ruby-arsenal.png" width="36" height="36" /> | **Ruby Arsenal** | `ruby-arsenal.hmod` | Добавляет рубин, рубиновый меч, топор, кирку, рубиновый блок и яркий рубиновый фонарь с крафтами. |
-| <img src="icons/ninja-shurikens.png" width="36" height="36" /> | **Ninja Shurikens** | `ninja-shurikens.hmod` | Оружие ниндзя: метательные железные и алмазные сюрикены, огненный кунай с реальным уроном и катана тени. |
-| <img src="icons/emerald-gear.png" width="36" height="36" /> | **Emerald Gear** | `emerald-gear.hmod` | Полный набор изумрудного снаряжения (меч, кирка, топор) и светящийся изумрудный светильник. |
-| <img src="icons/neon-lamps.png" width="36" height="36" /> | **Neon Lamps** | `neon-lamps.hmod` | 8 ярких неоновых светильников (циан, маджента, лайм, янтарь, алый, фиолетовый, синий, ледяной) для декора баз. |
-| <img src="icons/super-foods.png" width="36" height="36" /> | **Super Foods** | `super-foods.hmod` | Новые питательные блюда и энергетики: Ягодный энергетик, Королевский стейк, Шоколадный маффин и Золотой эликсир. |
-| <img src="icons/obsidian-tools.png" width="36" height="36" /> | **Obsidian Gear** | `obsidian-tools.hmod` | Сверхпрочное обсидиановое оружие, кирка, топор и укреплённый обсидиановый кирпич с огромной взрывоустойчивостью. |
-| <img src="icons/throwable-bombs.png" width="36" height="36" /> | **Battle Throwables** | `throwable-bombs.hmod` | Боевые метательные снаряды с уроном: метательный камень, магмовая сфера, ледяной осколок и эндер-кинжал. |
-| <img src="icons/amethyst-magic.png" width="36" height="36" /> | **Amethyst Magic** | `amethyst-magic.hmod` | Аметистовая магия: кристальный клинок, метательный аметистовый заряд, аметистовое яблоко и светящийся кристалл. |
-| <img src="icons/copper-plus.png" width="36" height="36" /> | **Copper Expansion** | `copper-plus.hmod` | Расширение меди: улучшенная медная кирка, боевой медный топор, энергоядро и светящийся медный блок. |
-| <img src="icons/reinforced-base.png" width="36" height="36" /> | **Reinforced Base** | `reinforced-base.hmod` | Блоки для неприступной базы: бронированный бетон, титановые плиты, защитное стекло и бункерная лампа. |
-| <img src="icons/ice-kingdom.png" width="36" height="36" /> | **Frost Arsenal** | `ice-kingdom.hmod` | Ледяной арсенал: клинок мороза, ледяной топор, метательная ледяная звезда и светящийся кристальный лёд. |
-| <img src="icons/golden-artifacts.png" width="36" height="36" /> | **Golden Artifacts** | `golden-artifacts.hmod` | Золотые артефакты: позолоченный меч, священный метательный диск, солнечное яблоко и сияющий солнечный блок. |
+**Всего в каталоге: 56 дополнений** (27 нативных `.hshader` WGSL-шейдеров + 29 клиентских `.zip` PvP/QoL-паков).
 
 ## Нативные WGSL-шейдеры (`.hshader`)
 

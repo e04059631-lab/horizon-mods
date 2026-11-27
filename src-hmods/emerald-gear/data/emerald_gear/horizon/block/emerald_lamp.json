@@ -1,7 +1,0 @@
-{
-  "template": "minecraft:sea_lantern",
-  "properties": {
-    "hardness": 2.0,
-    "light": 15
-  }
-}

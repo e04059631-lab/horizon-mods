@@ -1,8 +1,0 @@
-id = "amethyst_magic"
-name = "Amethyst Magic"
-description = "Аметистовая магия: кристальный клинок, метательный аметистовый заряд, аметистовое яблоко и светящийся кристалл."
-version = "1.0.0"
-api = "0.2"
-side = "both"
-capabilities = ["registries"]
-experimental = ["registries"]

@@ -1,8 +1,0 @@
-id = "golden_artifacts"
-name = "Golden Artifacts"
-description = "Золотые артефакты: позолоченный меч, священный метательный диск, солнечное яблоко и сияющий солнечный блок."
-version = "1.0.0"
-api = "0.2"
-side = "both"
-capabilities = ["registries"]
-experimental = ["registries"]

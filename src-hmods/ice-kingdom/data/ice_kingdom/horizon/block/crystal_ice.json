@@ -1,8 +1,0 @@
-{
-  "template": "minecraft:blue_ice",
-  "properties": {
-    "hardness": 2.2,
-    "friction": 0.98,
-    "light": 13
-  }
-}

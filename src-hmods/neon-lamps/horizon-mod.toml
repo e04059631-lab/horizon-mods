@@ -1,8 +1,0 @@
-id = "neon_lamps"
-name = "Neon Lamps"
-description = "8 ярких неоновых светильников (циан, маджента, лайм, янтарь, алый, фиолетовый, синий, ледяной) для декора баз."
-version = "1.0.0"
-api = "0.2"
-side = "both"
-capabilities = ["registries"]
-experimental = ["registries"]

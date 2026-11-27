@@ -1,7 +1,0 @@
-{
-  "template": "minecraft:obsidian",
-  "properties": {
-    "hardness": 18.0,
-    "explosion_resistance": 800.0
-  }
-}

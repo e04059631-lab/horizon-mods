@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "ice_kingdom:block/crystal_ice"
-  }
-}

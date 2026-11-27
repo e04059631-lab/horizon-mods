@@ -1,10 +1,9 @@
-"""Generates catalog.json and README.md for all 68 mods, WGSL shaders, and PvP/QoL packs."""
+"""Generates catalog.json and README.md for all 56 client-side WGSL shaders and PvP/QoL packs."""
 
 import json
 import math
 from pathlib import Path
 
-from build_hmods import HMODS
 from build_shaders import SHADERS
 from build_resourcepacks import RESOURCEPACKS
 
@@ -16,27 +15,7 @@ ICONS_ROOT = ROOT / "icons"
 def main() -> None:
     entries: list[dict] = []
 
-    # 1..12: Real Horizon 26.3 Content Mods (.hmod)
-    for hm in HMODS:
-        fpath = MODS_ROOT / hm["file_name"]
-        ipath = ICONS_ROOT / f"{hm['slug']}.png"
-        assert fpath.exists(), f"Missing {fpath}"
-        assert ipath.exists(), f"Missing icon {ipath}"
-        entries.append(
-            {
-                "id": hm["slug"],
-                "name": hm["name"],
-                "description": hm["description"],
-                "version": "1.0.0",
-                "kind": "mod",
-                "file_name": hm["file_name"],
-                "download_url": f"mods/{hm['file_name']}",
-                "icon_url": f"icons/{hm['slug']}.png",
-                "size_kb": max(1, math.ceil(fpath.stat().st_size / 1024)),
-            }
-        )
-
-    # 13: Existing Motion Blur (#0 flagship shader)
+    # 1: Existing Motion Blur (#0 flagship shader)
     mb_path = MODS_ROOT / "motion-blur.hshader"
     entries.append(
         {
@@ -52,7 +31,7 @@ def main() -> None:
         }
     )
 
-    # 14..39: WGSL Shaders
+    # 2..27: WGSL Shaders
     for sh in SHADERS:
         fpath = MODS_ROOT / sh["file_name"]
         ipath = ICONS_ROOT / f"{sh['id']}.png"
@@ -72,7 +51,7 @@ def main() -> None:
             }
         )
 
-    # 40..68: PvP & QoL Resourcepacks
+    # 28..56: PvP & QoL Resourcepacks
     for rp in RESOURCEPACKS:
         fpath = MODS_ROOT / rp["file_name"]
         ipath = ICONS_ROOT / f"{rp['id']}.png"
@@ -92,7 +71,7 @@ def main() -> None:
             }
         )
 
-    assert len(entries) == 68, f"Expected 68 catalog entries, got {len(entries)}"
+    assert len(entries) == 56, f"Expected 56 catalog entries, got {len(entries)}"
 
     catalog = {"version": 1, "mods": entries}
     (ROOT / "catalog.json").write_text(
@@ -101,26 +80,13 @@ def main() -> None:
         newline="\n",
     )
 
-    # Generate clean README table
     lines = [
         "# Horizon Mods Catalog (26.3)",
         "",
-        "Официальный онлайн-каталог контентных `.hmod` модов, WGSL-шейдеров и PvP/QoL-паков для **Horizon Offline Launcher (Minecraft 26.3)**.",
+        "Официальный онлайн-каталог клиентских WGSL-шейдеров и PvP/QoL-паков для **Horizon Offline Launcher (Minecraft 26.3)**.",
+        "Все дополнения работают **на 100% на стороне клиента** — и в одиночном мире, и на любом сервере.",
         "",
-        f"**Всего в каталоге: {len(entries)} дополнений** (12 настоящих `.hmod` модов с новыми предметами и блоками + 27 нативных `.hshader` WGSL-шейдеров + 29 клиентских `.zip` PvP/QoL-паков).",
-        "",
-        "## Контентные моды Horizon (`.hmod` для `horizon-mods/`)",
-        "",
-        "| Иконка | Название | Файл | Описание |",
-        "| :---: | :--- | :--- | :--- |",
-    ]
-    for e in entries:
-        if e["kind"] == "mod":
-            lines.append(
-                f'| <img src="{e["icon_url"]}" width="36" height="36" /> | **{e["name"]}** | `{e["file_name"]}` | {e["description"]} |'
-            )
-
-    lines += [
+        f"**Всего в каталоге: {len(entries)} дополнений** (27 нативных `.hshader` WGSL-шейдеров + 29 клиентских `.zip` PvP/QoL-паков).",
         "",
         "## Нативные WGSL-шейдеры (`.hshader`)",
         "",
@@ -148,7 +114,7 @@ def main() -> None:
 
     lines.append("")
     (ROOT / "README.md").write_text("\n".join(lines), encoding="utf-8", newline="\n")
-    print(f"[OK] Wrote catalog.json and README.md with {len(entries)} mods!")
+    print(f"[OK] Wrote catalog.json and README.md with {len(entries)} pure client-side mods!")
 
 
 if __name__ == "__main__":

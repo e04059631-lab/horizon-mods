@@ -1,8 +1,0 @@
-id = "throwable_bombs"
-name = "Battle Throwables"
-description = "Боевые метательные снаряды с уроном: метательный камень, магмовая сфера, ледяной осколок и эндер-кинжал."
-version = "1.0.0"
-api = "0.2"
-side = "both"
-capabilities = ["registries"]
-experimental = ["registries"]

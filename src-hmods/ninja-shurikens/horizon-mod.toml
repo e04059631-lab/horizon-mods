@@ -1,8 +1,0 @@
-id = "ninja_shurikens"
-name = "Ninja Shurikens"
-description = "Оружие ниндзя: метательные железные и алмазные сюрикены, огненный кунай с реальным уроном и катана тени."
-version = "1.0.0"
-api = "0.2"
-side = "both"
-capabilities = ["registries"]
-experimental = ["registries"]
