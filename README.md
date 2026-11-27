@@ -1,7 +1,7 @@
 # Horizon Mods & Shaders Catalog (26.3)
 
 Официальный онлайн-каталог для **Horizon Offline Launcher (Minecraft 26.3)**:
-**27 нативных WGSL-шейдеров** (`.hshader`) и **1300 популярных PvP/Combat ресурс-паков с Modrinth** (`.zip`, прямая загрузка с `cdn.modrinth.com`).
+**27 нативных WGSL-шейдеров** (`.hshader`) и **1298 популярных PvP/Combat ресурс-паков с Modrinth** (`.zip`, прямая загрузка с `cdn.modrinth.com`).
 Все дополнения работают **на 100% на стороне клиента** — и в одиночном мире, и на любом сервере.
 
 ## Нативные WGSL-шейдеры (27)
@@ -36,7 +36,7 @@
 | <img src="icons/blood-moon.png" width="40" height="40" /> | **Blood Moon** | `blood-moon.hshader` | Багровое ночное небо, кроваво-красный ореол вокруг луны и зловещее алое освещение по ночам. |
 | <img src="icons/pvp-boost-minimal.png" width="40" height="40" /> | **PvP Boost Minimal** | `pvp-boost-minimal.hshader` | Киберспортивный PvP-шейдер: мягкий Fullbright, чёткость CAS, отключённый туман и сочный контраст с нулевой потерей FPS. |
 
-## Ресурс-паки с Modrinth (1300 шт. — топ-100 показаны ниже, все 1300 доступны в лаунчере и `catalog.json`)
+## Ресурс-паки с Modrinth (1298 шт. — топ-100 показаны ниже, все 1298 доступны в лаунчере и `catalog.json`)
 
 | Иконка | Название | Modrinth | Описание |
 | :---: | :--- | :--- | :--- |
@@ -126,7 +126,6 @@
 | <img src="icons/mr-short-swords-pack.png" width="40" height="40" /> | **Short Swords** | [short-swords-pack](https://modrinth.com/resourcepack/short-swords-pack) | PvP-пак с укороченными/обновлёнными мечами (199K+ на Modrinth) — Experience a clearer view and smoother swings! |
 | <img src="https://cdn.modrinth.com/data/SoHN1bmW/icon.png" width="40" height="40" /> | **Armors'N'Items - By StefanJ2** | [stefansarmorsnitems](https://modrinth.com/resourcepack/stefansarmorsnitems) | Тёмный/обновлённый интерфейс GUI и HUD (195K+ на Modrinth) — Adds a huge collection of custom items through anvil renaming, without any required mods. |
 | <img src="icons/mr-smp-pvp-essentials.png" width="40" height="40" /> | **SMP PvP Essentials** | [smp-pvp-essentials](https://modrinth.com/resourcepack/smp-pvp-essentials) | Сбалансированный PvP-пак для SMP и дуэлей (191K+ на Modrinth) — This texture pack, SMP PvP Essentials, will help you climb the ranks in SMP! |
-| <img src="icons/mr-eating-animation-resourcepack.png" width="40" height="40" /> | **Eating Animation** | [eating-animation-resourcepack](https://modrinth.com/resourcepack/eating-animation-resourcepack) | Популярный PvP / Combat ресурс-пак с Modrinth (182K+ на Modrinth) — Adds animation for eating food and drinking potions |
 | <img src="icons/mr-cobweb-outline.png" width="40" height="40" /> | **Cobweb Outline** | [cobweb-outline](https://modrinth.com/resourcepack/cobweb-outline) | Улучшенная видимость паутины/блоков в бою (173K+ на Modrinth) — Highlights cobwebs with a clean outline to improve visibility and control during PvP fights |
 | <img src="icons/mr-pvp-texture-pack.png" width="40" height="40" /> | **ArshuSmpOverlay(Spear&Mace)** | [pvp-texture-pack](https://modrinth.com/resourcepack/pvp-texture-pack) | 3D / PvP пак для булавы (Mace) (172K+ на Modrinth) — Best Smp & Pvps Overlay Pack. |
 | <img src="icons/mr-itzrealmes-overlay.png" width="40" height="40" /> | **ItzRealMes Overlay** | [itzrealmes-overlay](https://modrinth.com/resourcepack/itzrealmes-overlay) | Crystal PvP пак (170K+ на Modrinth) — Crystal PvP Overlay to look like ItzRealMes. |
@@ -140,5 +139,6 @@
 | <img src="icons/mr-drdonuts.png" width="40" height="40" /> | **DrDonut's Fan Pack** | [drdonuts](https://modrinth.com/resourcepack/drdonuts) | Популярный PvP / Combat ресурс-пак с Modrinth (161K+ на Modrinth) — An UNOFFICIAL fan-made texturepack for DrDonut |
 | <img src="icons/mr-smaller-side-shield.png" width="40" height="40" /> | **Smaller side shield** | [smaller-side-shield](https://modrinth.com/resourcepack/smaller-side-shield) | Компактный/опущенный щит для PvP (160K+ на Modrinth) — Side shield but smaller when blocking |
 | <img src="icons/mr-gui..png" width="40" height="40" /> | **GUI** | [gui.](https://modrinth.com/resourcepack/gui.) | Тёмный/обновлённый интерфейс GUI и HUD (158K+ на Modrinth) — Fully black GUI for modern versions of Minecraft. |
+| <img src="icons/mr-cattos-overlay.png" width="40" height="40" /> | **PvP Overlay** | [cattos-overlay](https://modrinth.com/resourcepack/cattos-overlay) | PvP-оверлей (совместим поверх других паков) (156K+ на Modrinth) — Overlay mainly focused on QoL features to help with Minecraft Combat |
 
-*…и ещё **1200** проверенных ресурс-паков с Modrinth доступны напрямую во вкладке «Моды» лаунчера (см. [`catalog.json`](catalog.json)).*
+*…и ещё **1198** проверенных ресурс-паков с Modrinth доступны напрямую во вкладке «Моды» лаунчера (см. [`catalog.json`](catalog.json)).*

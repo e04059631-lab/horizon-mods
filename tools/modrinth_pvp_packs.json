@@ -860,16 +860,6 @@
     "size_kb": 623
   },
   {
-    "id": "eating-animation-resourcepack",
-    "name": "Eating Animation",
-    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (182K+ на Modrinth) — Adds animation for eating food and drinking potions",
-    "version": "1.0.1",
-    "file_name": "eating-animation-resourcepack.zip",
-    "download_url": "https://cdn.modrinth.com/data/o962rBDR/versions/mOXIOI4W/Eating%20Animation%5B1.0.1%5D.zip",
-    "icon_url": "icons/mr-eating-animation-resourcepack.png",
-    "size_kb": 166
-  },
-  {
     "id": "cobweb-outline",
     "name": "Cobweb Outline",
     "description": "Улучшенная видимость паутины/блоков в бою (173K+ на Modrinth) — Highlights cobwebs with a clean outline to improve visibility and control during PvP fights",
@@ -1658,16 +1648,6 @@
     "download_url": "https://cdn.modrinth.com/data/uUTTKXJ8/versions/hqzUomSk/%C2%A75%C2%A7lFallen.zip",
     "icon_url": "https://cdn.modrinth.com/data/uUTTKXJ8/6492e179f65bac4724545bd183d68e89397c04cf.png",
     "size_kb": 3575
-  },
-  {
-    "id": "refined-tools",
-    "name": "Refined Tools",
-    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (112K+ на Modrinth) — This resourcepack enhances the tools and weapons by giving them refined 3D models.",
-    "version": "3.0",
-    "file_name": "refined-tools.zip",
-    "download_url": "https://cdn.modrinth.com/data/6l1WUegn/versions/ndAFoNmO/Refined%20Tools%203.0.zip",
-    "icon_url": "icons/mr-refined-tools.png",
-    "size_kb": 931
   },
   {
     "id": "glowing-3d-tools",
