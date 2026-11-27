@@ -1,7 +1,7 @@
 # Horizon Mods & Shaders Catalog (26.3)
 
 Официальный онлайн-каталог для **Horizon Offline Launcher (Minecraft 26.3)**:
-**27 нативных WGSL-шейдеров** (`.hshader`) и **861 популярных PvP/Combat ресурс-паков с Modrinth** (`.zip`, прямая загрузка с `cdn.modrinth.com`).
+**27 нативных WGSL-шейдеров** (`.hshader`) и **1300 популярных PvP/Combat ресурс-паков с Modrinth** (`.zip`, прямая загрузка с `cdn.modrinth.com`).
 Все дополнения работают **на 100% на стороне клиента** — и в одиночном мире, и на любом сервере.
 
 ## Нативные WGSL-шейдеры (27)
@@ -36,7 +36,7 @@
 | <img src="icons/blood-moon.png" width="40" height="40" /> | **Blood Moon** | `blood-moon.hshader` | Багровое ночное небо, кроваво-красный ореол вокруг луны и зловещее алое освещение по ночам. |
 | <img src="icons/pvp-boost-minimal.png" width="40" height="40" /> | **PvP Boost Minimal** | `pvp-boost-minimal.hshader` | Киберспортивный PvP-шейдер: мягкий Fullbright, чёткость CAS, отключённый туман и сочный контраст с нулевой потерей FPS. |
 
-## Ресурс-паки с Modrinth (861 шт. — топ-100 показаны ниже, все 861 доступны в лаунчере и `catalog.json`)
+## Ресурс-паки с Modrinth (1300 шт. — топ-100 показаны ниже, все 1300 доступны в лаунчере и `catalog.json`)
 
 | Иконка | Название | Modrinth | Описание |
 | :---: | :--- | :--- | :--- |
@@ -141,4 +141,4 @@
 | <img src="icons/mr-smaller-side-shield.png" width="40" height="40" /> | **Smaller side shield** | [smaller-side-shield](https://modrinth.com/resourcepack/smaller-side-shield) | Компактный/опущенный щит для PvP (160K+ на Modrinth) — Side shield but smaller when blocking |
 | <img src="icons/mr-gui..png" width="40" height="40" /> | **GUI** | [gui.](https://modrinth.com/resourcepack/gui.) | Тёмный/обновлённый интерфейс GUI и HUD (158K+ на Modrinth) — Fully black GUI for modern versions of Minecraft. |
 
-*…и ещё **761** проверенных ресурс-паков с Modrinth доступны напрямую во вкладке «Моды» лаунчера (см. [`catalog.json`](catalog.json)).*
+*…и ещё **1200** проверенных ресурс-паков с Modrinth доступны напрямую во вкладке «Моды» лаунчера (см. [`catalog.json`](catalog.json)).*
