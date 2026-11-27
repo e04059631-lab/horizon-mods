@@ -103,18 +103,25 @@ def main() -> None:
 
     lines += [
         "",
-        f"## PvP и Combat ресурс-паки с Modrinth ({rp_count})",
+        f"## Ресурс-паки с Modrinth ({rp_count} шт. — топ-100 показаны ниже, все {rp_count} доступны в лаунчере и `catalog.json`)",
         "",
         "| Иконка | Название | Modrinth | Описание |",
         "| :---: | :--- | :--- | :--- |",
     ]
+    rp_shown = 0
     for e in entries:
         if e["kind"] == "resourcepack":
+            if rp_shown >= 100:
+                continue
             clean_icon = e["icon_url"].split("?", 1)[0]
             mr_link = f"https://modrinth.com/resourcepack/{e['id']}"
             lines.append(
                 f'| <img src="{clean_icon}" width="40" height="40" /> | **{e["name"]}** | [{e["id"]}]({mr_link}) | {e["description"]} |'
             )
+            rp_shown += 1
+    if rp_count > rp_shown:
+        lines.append("")
+        lines.append(f"*…и ещё **{rp_count - rp_shown}** проверенных ресурс-паков с Modrinth доступны напрямую во вкладке «Моды» лаунчера (см. [`catalog.json`](catalog.json)).*")
 
     lines.append("")
     (ROOT / "README.md").write_text("\n".join(lines), encoding="utf-8", newline="\n")
