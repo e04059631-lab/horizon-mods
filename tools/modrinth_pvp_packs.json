@@ -1298,5 +1298,1705 @@
     "download_url": "https://cdn.modrinth.com/data/5JgzrAkO/versions/SIT3Spij/Better%20Shield%20Sounds%201.3.zip",
     "icon_url": "icons/mr-better-shield-sounds.png",
     "size_kb": 28
+  },
+  {
+    "id": "unofficial-mandalas-gui-dark-mode-mod-compatibility",
+    "name": "(Unofficial) Mandala's GUI - Dark Mode Mod Compatibility",
+    "description": "Тёмный/обновлённый интерфейс GUI и HUD (1.5M+ на Modrinth) — Unofficial Custom Mandala's GUI - Dark Mode Mod Compatibility",
+    "version": "0.3",
+    "file_name": "unofficial-mandalas-gui-dark-mode-mod-compatibility.zip",
+    "download_url": "https://cdn.modrinth.com/data/8vfIIrYM/versions/eRWE69oA/Mandala%27s%20GUI%20-%20Dark%20Mode%20Compat%200.3.zip",
+    "icon_url": "https://cdn.modrinth.com/data/8vfIIrYM/6d90c5cd64454b3121b9937abd523181d9bcb494.png",
+    "size_kb": 534
+  },
+  {
+    "id": "mandalas-gui-vanilla-crosshair",
+    "name": "Mandala's GUI Vanilla Crosshair",
+    "description": "Контрастный PvP-прицел (1.2M+ на Modrinth) — A patch for Mandala's GUI to use the vanilla crosshair.",
+    "version": "1.0",
+    "file_name": "mandalas-gui-vanilla-crosshair.zip",
+    "download_url": "https://cdn.modrinth.com/data/4zlIFp4J/versions/gEJ9lmGO/Mandela%27s%20GUI%20Vanilla%20Crosshair%201.21.zip",
+    "icon_url": "https://cdn.modrinth.com/data/4zlIFp4J/33e2ba609e43f99cc849abba60d94ffa65a2f678.png",
+    "size_kb": 9
+  },
+  {
+    "id": "shiny-hearts",
+    "name": "Shiny Hearts",
+    "description": "Чистый/обновлённый PvP-хотбар (775K+ на Modrinth) — New great look of hearts and other icons in hotbar!",
+    "version": "1.2",
+    "file_name": "shiny-hearts.zip",
+    "download_url": "https://cdn.modrinth.com/data/fJhp04UU/versions/shswYS7i/Shiny%20Hearts.zip",
+    "icon_url": "icons/mr-shiny-hearts.png",
+    "size_kb": 78
+  },
+  {
+    "id": "health",
+    "name": "Player Health Indicators",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (516K+ на Modrinth) — Shows hearts/health above player heads as healthbars",
+    "version": "2.0.0",
+    "file_name": "health.zip",
+    "download_url": "https://cdn.modrinth.com/data/V4WIozaJ/versions/gnuusVNa/%C2%A7f%C2%A7lHealth%20Indicators%20%C2%A77v2.0.0.zip",
+    "icon_url": "https://cdn.modrinth.com/data/V4WIozaJ/de600040df02545124ab9e43ff2b10629d475ead.png",
+    "size_kb": 21
+  },
+  {
+    "id": "actually-3d-blocks-and-items",
+    "name": "Actually 3D Blocks & Items!",
+    "description": "PvP / 3D пак для булавы (Mace) (291K+ на Modrinth) — 3D resourcepack, which makes a lot of Blocks and Items more detailed, smoother and Actually...",
+    "version": "r1.8",
+    "file_name": "actually-3d-blocks-and-items.zip",
+    "download_url": "https://cdn.modrinth.com/data/5048Qu03/versions/IKDr9x0v/%C2%A7f%C2%A7lActually%20%C2%A76%C2%A7l3D%20%C2%A7fBlocks%20%26%20Items%21%C2%A77.zip",
+    "icon_url": "icons/mr-actually-3d-blocks-and-items.png",
+    "size_kb": 8382
+  },
+  {
+    "id": "essentialui",
+    "name": "Essential UI",
+    "description": "Чистый/обновлённый PvP-хотбар (278K+ на Modrinth) — A small texturepack, that changes all buttons and the hotbar to fit the style of the...",
+    "version": "1.0.0",
+    "file_name": "essentialui.zip",
+    "download_url": "https://cdn.modrinth.com/data/FsSrime2/versions/EeuRSwMk/EssentialUI.zip",
+    "icon_url": "https://cdn.modrinth.com/data/FsSrime2/67ae7ac94cf856b5922b4143a89b353d7697406c.png",
+    "size_kb": 92
+  },
+  {
+    "id": "custom-totem-3d",
+    "name": "Custom Totem 3D",
+    "description": "Компактный/кастомный тотем бессмертия (258K+ на Modrinth) — Customizable 3D Totem resource pack that lets you use your own skin as the Totem of Undying",
+    "version": "26.1",
+    "file_name": "custom-totem-3d.zip",
+    "download_url": "https://cdn.modrinth.com/data/EBnIqaV5/versions/kJAHgs4C/Spunky%20Custom%20Totem%20-%203D%2026.1.zip",
+    "icon_url": "icons/mr-custom-totem-3d.png",
+    "size_kb": 55
+  },
+  {
+    "id": "simple-hotbar",
+    "name": "Simple Hotbar",
+    "description": "Чистый/обновлённый PvP-хотбар (226K+ на Modrinth) — Resource Pack that changes hotbar, hearts and armor icons",
+    "version": "1.11",
+    "file_name": "simple-hotbar.zip",
+    "download_url": "https://cdn.modrinth.com/data/d0w6GHbr/versions/rnRUmzOM/Simple%20Hotbar%201.20.2-1.21.x.zip",
+    "icon_url": "https://cdn.modrinth.com/data/d0w6GHbr/a73ca3bf8461c655cf714d5a649bd142e8e245c9.png",
+    "size_kb": 227
+  },
+  {
+    "id": "lower-utilites",
+    "name": "Low Fire, Shield & More",
+    "description": "Низкий/чистый огонь для PvP (223K+ на Modrinth) — Makes shield, food, totems, rockets, potions and fire lower and also adds eating animation",
+    "version": "3.3",
+    "file_name": "lower-utilites.zip",
+    "download_url": "https://cdn.modrinth.com/data/XpUmrAxt/versions/oaDRKdqn/Low%20Fire%2C%20Shield%20%26%20More%20v3.3%20%2B%20small%20totem%20pop.zip",
+    "icon_url": "icons/mr-lower-utilites.png",
+    "size_kb": 277
+  },
+  {
+    "id": "totem-da-capoeira",
+    "name": "Totem Da Capoeira",
+    "description": "Компактный/кастомный тотем бессмертия (208K+ на Modrinth) — Finally gives Totem of Undying a good texture",
+    "version": "1.31",
+    "file_name": "totem-da-capoeira.zip",
+    "download_url": "https://cdn.modrinth.com/data/pgnuvQ2p/versions/8bWQR7Tw/Totem%20Da%20Capoeira%20v1.31%20%5BDeluxe%20Edition%204k%20Final%20Mix%5D.zip",
+    "icon_url": "https://cdn.modrinth.com/data/pgnuvQ2p/0b1a75b45ea1746a5b184ad304af3097485bbd72.png",
+    "size_kb": 7
+  },
+  {
+    "id": "low-fire-one-pixel",
+    "name": "Low Fire One Pixel",
+    "description": "Низкий/чистый огонь для PvP (192K+ на Modrinth) — The low fire that's only one pixel tall",
+    "version": "1",
+    "file_name": "low-fire-one-pixel.zip",
+    "download_url": "https://cdn.modrinth.com/data/Kmumkgb6/versions/bbs3s9ZR/Low%20Fire%20One%20Pixel.zip",
+    "icon_url": "https://cdn.modrinth.com/data/Kmumkgb6/3483fd50f557eda440027cd42c80d9fb68790d55.png",
+    "size_kb": 14
+  },
+  {
+    "id": "spryzeens-healthbars",
+    "name": "Spryzeen's Healthbars",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (188K+ на Modrinth) — Check the health of any mob...",
+    "version": "v1.8",
+    "file_name": "spryzeens-healthbars.zip",
+    "download_url": "https://cdn.modrinth.com/data/ZMcqgmIV/versions/8bAmvwKC/%21%C2%A7bHealthBars.zip",
+    "icon_url": "https://cdn.modrinth.com/data/ZMcqgmIV/9763abe29f83f3df8eb4c668e0b8d7fb98ab5a8d.png",
+    "size_kb": 269
+  },
+  {
+    "id": "bare-bones-low-on-fire",
+    "name": "Bare Bones - Low On Fire",
+    "description": "Низкий/чистый огонь для PvP (186K+ на Modrinth) — Reduces the fire height when burning!",
+    "version": "1.4.1",
+    "file_name": "bare-bones-low-on-fire.zip",
+    "download_url": "https://cdn.modrinth.com/data/vcDllg0H/versions/jbdwjGu8/Bare%20Bones%20Low%20On%20Fire%201.21.11.zip",
+    "icon_url": "icons/mr-bare-bones-low-on-fire.png",
+    "size_kb": 10
+  },
+  {
+    "id": "light-levels",
+    "name": "Light Levels",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (178K+ на Modrinth) — Visualize significant light levels",
+    "version": "2.0.1+42.0-97.1",
+    "file_name": "light-levels.zip",
+    "download_url": "https://cdn.modrinth.com/data/r76N9R6X/versions/TgLsZEWG/Light%20Levels%20v2.0.1%2B42.0-97.1.zip",
+    "icon_url": "https://cdn.modrinth.com/data/r76N9R6X/4d283ba4564bb41ed43a0bae4d037fd3f907c66f.png",
+    "size_kb": 12
+  },
+  {
+    "id": "low-fire-txf",
+    "name": "Low Fire TXF",
+    "description": "Низкий/чистый огонь для PvP (170K+ на Modrinth) — Less intrusive fire",
+    "version": "26.1",
+    "file_name": "low-fire-txf.zip",
+    "download_url": "https://cdn.modrinth.com/data/wKu40yBb/versions/RXNfid3J/Low_fire_26.1.zip",
+    "icon_url": "https://cdn.modrinth.com/data/wKu40yBb/bf552053b955f3ee255d4cfd8735dcaade5a3fa5.png",
+    "size_kb": 104
+  },
+  {
+    "id": "combat-amenities-2d-tridents",
+    "name": "Combat Amenities 2D Tridents",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (144K+ на Modrinth) — A textures packs that utilizes features from Combat Amenities to make tridents use a 2D model",
+    "version": "26.3",
+    "file_name": "combat-amenities-2d-tridents.zip",
+    "download_url": "https://cdn.modrinth.com/data/6zGFWy1u/versions/YGmHXF1u/2D%20Tridents%2026.3.zip",
+    "icon_url": "https://cdn.modrinth.com/data/6zGFWy1u/8cd900679bd9d524c203ff1c8f4c10ab6038fb0e.png",
+    "size_kb": 6
+  },
+  {
+    "id": "totem",
+    "name": "Customizable Totem",
+    "description": "Компактный/кастомный тотем бессмертия (138K+ на Modrinth) — By adding your own skin to the pack, the totem of undying will update to look like...",
+    "version": "6.1.0",
+    "file_name": "totem.zip",
+    "download_url": "https://cdn.modrinth.com/data/A52SN7tt/versions/ilXaxVoq/%C2%A7d%C2%A7lCustomizable%20Totem%20%C2%A77v6.1.0.zip",
+    "icon_url": "icons/mr-totem.png",
+    "size_kb": 38
+  },
+  {
+    "id": "zickzack-v5",
+    "name": "ZickZack V5",
+    "description": "Компактный/кастомный тотем бессмертия (134K+ на Modrinth) — A texture pack in the style of BastiGHG and ZickZackV5, which contains a custom sky,...",
+    "version": "1.5",
+    "file_name": "zickzack-v5.zip",
+    "download_url": "https://cdn.modrinth.com/data/oReQ3Y40/versions/JUQeMLUe/ZickZackV5%20-%201.5.zip",
+    "icon_url": "icons/mr-zickzack-v5.png",
+    "size_kb": 15359
+  },
+  {
+    "id": "fresh-ai-tweaks",
+    "name": "Fresh AI Tweaks",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (130K+ на Modrinth) — Allows Fresh Animations to work with Mob AI Tweaks",
+    "version": "1.8",
+    "file_name": "fresh-ai-tweaks.zip",
+    "download_url": "https://cdn.modrinth.com/data/SJ639K71/versions/3YKiFfRs/Fresh%20AI%20Tweaks%201.21.5-8.zip",
+    "icon_url": "icons/mr-fresh-ai-tweaks.png",
+    "size_kb": 51
+  },
+  {
+    "id": "mythic-a-pixel-art-journey",
+    "name": "MYTHIC - A Pixel Art Journey",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (126K+ на Modrinth) — A 32x pure pixel art pack with an adventurous feel.",
+    "version": "2",
+    "file_name": "mythic-a-pixel-art-journey.zip",
+    "download_url": "https://cdn.modrinth.com/data/BY2ksJHF/versions/XJ10jCQf/MYTHIC%20-%201.21.3.zip",
+    "icon_url": "https://cdn.modrinth.com/data/BY2ksJHF/fbd854c31ceea49836f0090cb9757b1e81dd9d64.png",
+    "size_kb": 9353
+  },
+  {
+    "id": "altar-smp-texture-pack",
+    "name": "Altar SMP Texture Pack",
+    "description": "PvP-пак для SMP и дуэлей (125K+ на Modrinth) — Adds the Legendary weapons from Altar SMP",
+    "version": "3.2",
+    "file_name": "altar-smp-texture-pack.zip",
+    "download_url": "https://cdn.modrinth.com/data/45YTsxYI/versions/GZMOfYO2/AltarSMP%20NEW.zip",
+    "icon_url": "icons/mr-altar-smp-texture-pack.png",
+    "size_kb": 514
+  },
+  {
+    "id": "crossattack",
+    "name": "CrossAttack",
+    "description": "Контрастный PvP-прицел (124K+ на Modrinth) — You dont find the crosshairs odd? This resource pack fixes this problem by making crosshair...",
+    "version": "0.7",
+    "file_name": "crossattack.zip",
+    "download_url": "https://cdn.modrinth.com/data/zeox1uzK/versions/3DNBuxyJ/%C2%A7fCrossAttack%20%C2%A780.7.zip",
+    "icon_url": "https://cdn.modrinth.com/data/zeox1uzK/09d382f55bfc39954859e1431c525a9d5573fab1.jpeg",
+    "size_kb": 630
+  },
+  {
+    "id": "bare-bones-x-pvp-pack",
+    "name": "Bare Bones X PvP Pack",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (124K+ на Modrinth) — A Simple PvP Pack for BARE BONES User",
+    "version": "3.0",
+    "file_name": "bare-bones-x-pvp-pack.zip",
+    "download_url": "https://cdn.modrinth.com/data/wqDYvUus/versions/H7rvtg7S/Bare%20Bones%20X%20PvP%203.0.zip",
+    "icon_url": "icons/mr-bare-bones-x-pvp-pack.png",
+    "size_kb": 2682
+  },
+  {
+    "id": "totem-stuff",
+    "name": "Totem & Stuff",
+    "description": "Компактный/кастомный тотем бессмертия (122K+ на Modrinth) — Action & Stuff Inspired Transparent Totem Model.",
+    "version": "1.3h2",
+    "file_name": "totem-stuff.zip",
+    "download_url": "https://cdn.modrinth.com/data/b6JOCtb3/versions/y0kim3hJ/Totem%20%26%20Stuff.zip",
+    "icon_url": "icons/mr-totem-stuff.png",
+    "size_kb": 765
+  },
+  {
+    "id": "3d-mace-rp",
+    "name": "3D Mace",
+    "description": "PvP / 3D пак для булавы (Mace) (121K+ на Modrinth) — A resource pack that changes the mace to 3D without losing vanilla.",
+    "version": "3.0",
+    "file_name": "3d-mace-rp.zip",
+    "download_url": "https://cdn.modrinth.com/data/7ep4qCIM/versions/yEIKhssN/3D%20Mace.zip",
+    "icon_url": "icons/mr-3d-mace-rp.png",
+    "size_kb": 64
+  },
+  {
+    "id": "fast-grass-plusfps-boost",
+    "name": "Fast Grass + FPS Boost",
+    "description": "Яркая подсветка руд в шахтах (119K+ на Modrinth) — Smooth, clean grass blocks for calmer and more consistent terrain.",
+    "version": "v.05-(OwnVerse-Edition)",
+    "file_name": "fast-grass-plusfps-boost.zip",
+    "download_url": "https://cdn.modrinth.com/data/I0jRaTnZ/versions/vlmHb2hI/Smooth%20Field%20%28OwnVerse%20Edition%29%201.20-26x%20v.05.zip",
+    "icon_url": "icons/mr-fast-grass-plusfps-boost.png",
+    "size_kb": 6359
+  },
+  {
+    "id": "showy-durability-plus-overlay",
+    "name": "Showy's Durability+ Overlay",
+    "description": "Тёмный/обновлённый интерфейс GUI и HUD (119K+ на Modrinth) — A resourcepack which adds custom durability based textures to be able to see how much...",
+    "version": "1.21.4-1.21.11-2",
+    "file_name": "showy-durability-plus-overlay.zip",
+    "download_url": "https://cdn.modrinth.com/data/dwC8GSX6/versions/HIewobrH/%C2%A7eShowy%27s%20Dura%2B%20%C2%A7e%C2%A7lOverlay.zip",
+    "icon_url": "icons/mr-showy-durability-plus-overlay.png",
+    "size_kb": 546
+  },
+  {
+    "id": "duskfall-ui",
+    "name": "Duskfall-UI",
+    "description": "Тёмный/обновлённый интерфейс GUI и HUD (119K+ на Modrinth) — A dark GUI theme.",
+    "version": "26.1.1",
+    "file_name": "duskfall-ui.zip",
+    "download_url": "https://cdn.modrinth.com/data/hy8Gvwcq/versions/nhrmuYpw/DuskfallUI-26.1.1.zip",
+    "icon_url": "https://cdn.modrinth.com/data/hy8Gvwcq/62a1e24fccba25f4f8b5d9efdedf32c989166731.png",
+    "size_kb": 204
+  },
+  {
+    "id": "no-particles-essential",
+    "name": "No Particles Essential",
+    "description": "Уменьшенные частицы для высокого FPS и обзора (118K+ на Modrinth) — A ResouecePack that prevents any type of particle from being rendered",
+    "version": "V4.0",
+    "file_name": "no-particles-essential.zip",
+    "download_url": "https://cdn.modrinth.com/data/x8jer7t9/versions/pIb93z6T/%C2%A76%C2%A7lNo%20Particles%20E.%20%5B26.x%5D%20V4.0.zip",
+    "icon_url": "icons/mr-no-particles-essential.png",
+    "size_kb": 122
+  },
+  {
+    "id": "davkas-fabulous-3d-swords",
+    "name": "Fabulous 3D",
+    "description": "PvP-пак с укороченными/обновлёнными мечами (118K+ на Modrinth) — Clean redesigns of the vanilla Tools and Weapons.",
+    "version": "v6",
+    "file_name": "davkas-fabulous-3d-swords.zip",
+    "download_url": "https://cdn.modrinth.com/data/Yr3ZcqyB/versions/7AWjQDPi/Fabulous%20Enchanetd%203D%20%28compat%29.zip",
+    "icon_url": "icons/mr-davkas-fabulous-3d-swords.png",
+    "size_kb": 769
+  },
+  {
+    "id": "rainbow-xp-bar",
+    "name": "Rainbow XP Bar",
+    "description": "Яркая подсветка руд в шахтах (117K+ на Modrinth) — Rainbow XP Progress Bar is a vibrant texture pack designed to make your Minecraft XP bar...",
+    "version": "2.0",
+    "file_name": "rainbow-xp-bar.zip",
+    "download_url": "https://cdn.modrinth.com/data/ZrlI13mt/versions/F4u1uso0/Rainbow%20XP%20Bar.zip",
+    "icon_url": "icons/mr-rainbow-xp-bar.png",
+    "size_kb": 61
+  },
+  {
+    "id": "no-fire-overlay",
+    "name": "No Fire Overlay",
+    "description": "Низкий/чистый огонь для PvP (116K+ на Modrinth) — Removes the annoying fire overlay that takes up your screen",
+    "version": "0.1",
+    "file_name": "no-fire-overlay.zip",
+    "download_url": "https://cdn.modrinth.com/data/1Ph3e8k3/versions/LpVAcAPr/no-fire-overlay-0.1.zip",
+    "icon_url": "icons/mr-no-fire-overlay.png",
+    "size_kb": 221
+  },
+  {
+    "id": "crosshair-enahnced",
+    "name": "Crosshair Enahnced",
+    "description": "Контрастный PvP-прицел (116K+ на Modrinth) — A Minecraft crosshair enhancement texturepack!",
+    "version": "26.3",
+    "file_name": "crosshair-enahnced.zip",
+    "download_url": "https://cdn.modrinth.com/data/20dd29M5/versions/9F6dg0f3/Crosshair%20Enhanced%2026.3.zip",
+    "icon_url": "icons/mr-crosshair-enahnced.png",
+    "size_kb": 15
+  },
+  {
+    "id": "small-items",
+    "name": "Truly Small Items",
+    "description": "Яркая подсветка руд в шахтах (116K+ на Modrinth) — A real resource pack for small items. Textures are painstakingly modified to fit the...",
+    "version": "1.2.1T",
+    "file_name": "small-items.zip",
+    "download_url": "https://cdn.modrinth.com/data/zO2NmZiO/versions/9rXZHfdw/Small%20Items.zip",
+    "icon_url": "icons/mr-small-items.png",
+    "size_kb": 130
+  },
+  {
+    "id": "3d-totem",
+    "name": "3D totem",
+    "description": "Компактный/кастомный тотем бессмертия (116K+ на Modrinth) — This resourcepack will replace the standard 2d totem of undying an improved 3d version.",
+    "version": "2.0",
+    "file_name": "3d-totem.zip",
+    "download_url": "https://cdn.modrinth.com/data/YUKud9uE/versions/ZNOgJeDq/3D%20totem%20pack.zip",
+    "icon_url": "icons/mr-3d-totem.png",
+    "size_kb": 10
+  },
+  {
+    "id": "bluxycrystal",
+    "name": "Bluxy-Crystal (Crystal PvP)",
+    "description": "Crystal PvP пак (115K+ на Modrinth) — Crystal PvP pack with a modern, smooth, sleek style for immersive gameplay.",
+    "version": "1.4",
+    "file_name": "bluxycrystal.zip",
+    "download_url": "https://cdn.modrinth.com/data/gL7bDgo2/versions/PkoigzHs/BluxyCrystal%20v1.4.zip",
+    "icon_url": "icons/mr-bluxycrystal.png",
+    "size_kb": 16076
+  },
+  {
+    "id": "animated-hotbar-rgb",
+    "name": "Animated Hotbar RGB",
+    "description": "Чистый/обновлённый PvP-хотбар (114K+ на Modrinth) — Enhance your Minecraft experience with sleek, color-cycling neon borders for your hotbar slots.",
+    "version": "26.1-1.1",
+    "file_name": "animated-hotbar-rgb.zip",
+    "download_url": "https://cdn.modrinth.com/data/XPv9oB3W/versions/dmWbQjHW/Animated%20Hotbar%20RGB.zip",
+    "icon_url": "icons/mr-animated-hotbar-rgb.png",
+    "size_kb": 58
+  },
+  {
+    "id": "fallen-pvp",
+    "name": "Fallen || PvP Texturepack",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (113K+ на Modrinth) — A Purple Themed PvP Texturepack",
+    "version": "v5",
+    "file_name": "fallen-pvp.zip",
+    "download_url": "https://cdn.modrinth.com/data/uUTTKXJ8/versions/hqzUomSk/%C2%A75%C2%A7lFallen.zip",
+    "icon_url": "https://cdn.modrinth.com/data/uUTTKXJ8/6492e179f65bac4724545bd183d68e89397c04cf.png",
+    "size_kb": 3575
+  },
+  {
+    "id": "refined-tools",
+    "name": "Refined Tools",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (112K+ на Modrinth) — This resourcepack enhances the tools and weapons by giving them refined 3D models.",
+    "version": "3.0",
+    "file_name": "refined-tools.zip",
+    "download_url": "https://cdn.modrinth.com/data/6l1WUegn/versions/ndAFoNmO/Refined%20Tools%203.0.zip",
+    "icon_url": "icons/mr-refined-tools.png",
+    "size_kb": 931
+  },
+  {
+    "id": "glowing-3d-tools",
+    "name": "Glowing 3D Tools",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (112K+ на Modrinth) — Overhauled 3D tools! 3D Models for all tools items, including misc items like the brush,...",
+    "version": "1.1.3",
+    "file_name": "glowing-3d-tools.zip",
+    "download_url": "https://cdn.modrinth.com/data/E630cNNK/versions/WYE2FH3C/Glowing%203D%20Tools.zip",
+    "icon_url": "icons/mr-glowing-3d-tools.png",
+    "size_kb": 518
+  },
+  {
+    "id": "reduced-particles",
+    "name": "Reduced Particles",
+    "description": "Уменьшенные частицы для высокого FPS и обзора (110K+ на Modrinth) — A pvp themed particle texturepack that reduces the particles",
+    "version": "26.3",
+    "file_name": "reduced-particles.zip",
+    "download_url": "https://cdn.modrinth.com/data/jgv5LTWT/versions/CQbE6mkO/Reduced%20Particles%2026.3.zip",
+    "icon_url": "icons/mr-reduced-particles.png",
+    "size_kb": 92
+  },
+  {
+    "id": "better-low-fire",
+    "name": "Better Low Fire",
+    "description": "Низкий/чистый огонь для PvP (109K+ на Modrinth) — Low fire perfect for pvp.",
+    "version": "0.1.17",
+    "file_name": "better-low-fire.zip",
+    "download_url": "https://cdn.modrinth.com/data/eg6QAL6s/versions/Je1f5efb/better-low-fire-0.1.17%2Bmc1.20-26.3.zip",
+    "icon_url": "icons/mr-better-low-fire.png",
+    "size_kb": 208
+  },
+  {
+    "id": "fresh-hearts",
+    "name": "Fresh Hearts - Health Bar",
+    "description": "Чистый/обновлённый PvP-хотбар (109K+ на Modrinth) — Improves the health bar heart textures: Hardcore, Absorption, Poison, Wither, Freezing,...",
+    "version": "1.21.9+_FIX",
+    "file_name": "fresh-hearts.zip",
+    "download_url": "https://cdn.modrinth.com/data/sdu8xEBa/versions/M82zofgh/Fresh%20Hearts%20-%20Health%20Bar.zip",
+    "icon_url": "icons/mr-fresh-hearts.png",
+    "size_kb": 23
+  },
+  {
+    "id": "swightv3",
+    "name": "Swightv3",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (109K+ на Modrinth) — PvP pack and a set of redesigned tools",
+    "version": "3",
+    "file_name": "swightv3.zip",
+    "download_url": "https://cdn.modrinth.com/data/N35XCwpT/versions/bsYLcmCI/Swight_V3HEMax.zip",
+    "icon_url": "icons/mr-swightv3.png",
+    "size_kb": 8290
+  },
+  {
+    "id": "low-mace",
+    "name": "Low Mace",
+    "description": "PvP / 3D пак для булавы (Mace) (108K+ на Modrinth) — Makes your mace very small by better PVP experience.",
+    "version": "2.2.0",
+    "file_name": "low-mace.zip",
+    "download_url": "https://cdn.modrinth.com/data/pEFVyTpN/versions/LRY5GKSl/.%C2%A7aLow%20Mace%20v26.3%C2%A78.zip",
+    "icon_url": "icons/mr-low-mace.png",
+    "size_kb": 13
+  },
+  {
+    "id": "lavander-crystal-pvp-resourcepack",
+    "name": "Lavander Crystal PvP Resourcepack",
+    "description": "Crystal PvP пак (108K+ на Modrinth) — Lavander styled Crystal PvP resource pack",
+    "version": "1.21.11",
+    "file_name": "lavander-crystal-pvp-resourcepack.zip",
+    "download_url": "https://cdn.modrinth.com/data/KraPDiLv/versions/DXUTThqA/Lavander%201.21.11.zip",
+    "icon_url": "icons/mr-lavander-crystal-pvp-resourcepack.png",
+    "size_kb": 3375
+  },
+  {
+    "id": "false-hardcore-heart",
+    "name": "False Hardcore Heart",
+    "description": "Яркая подсветка руд в шахтах (107K+ на Modrinth) — its a fake hardcore texture pack which change the survival heart into Hardcore heart and...",
+    "version": "26.3",
+    "file_name": "false-hardcore-heart.zip",
+    "download_url": "https://cdn.modrinth.com/data/mMXsgVet/versions/4yNoGAd0/False%20Hardcore%20Heart%5B26.3%5D.zip",
+    "icon_url": "https://cdn.modrinth.com/data/mMXsgVet/7c2df7ef651c628e42eca81a2722eabaeb96a961.png",
+    "size_kb": 44
+  },
+  {
+    "id": "technofault",
+    "name": "Technofault",
+    "description": "PvP-пак с укороченными/обновлёнными мечами (107K+ на Modrinth) — A Technoblade-themed PvP Remake of Tightfault",
+    "version": "3.2.2",
+    "file_name": "technofault.zip",
+    "download_url": "https://cdn.modrinth.com/data/iZudl37D/versions/fSeJ1Rdf/Technofault_1.21_v3.2.2.zip",
+    "icon_url": "icons/mr-technofault.png",
+    "size_kb": 45372
+  },
+  {
+    "id": "dripped-pvp",
+    "name": "Dripped PvP",
+    "description": "Crystal PvP пак (106K+ на Modrinth) — A Crystal PvP pack. Get dripped out for your next fight!",
+    "version": "26.3",
+    "file_name": "dripped-pvp.zip",
+    "download_url": "https://cdn.modrinth.com/data/r1IbSpu7/versions/ItSxlPK0/Dripped%2026.3.zip",
+    "icon_url": "icons/mr-dripped-pvp.png",
+    "size_kb": 372
+  },
+  {
+    "id": "dark-coffe-gui",
+    "name": "Dark Coffee GUI",
+    "description": "Тёмный/обновлённый интерфейс GUI и HUD (106K+ на Modrinth) — A warm and dark reimagination of the GUI in a fancy, coffee inspired palette",
+    "version": "2.2.3",
+    "file_name": "dark-coffe-gui.zip",
+    "download_url": "https://cdn.modrinth.com/data/KhALBWoN/versions/HpbIP3hm/CoffeeGUI_1.20.2-26.3_release_v2.2.3.zip",
+    "icon_url": "https://cdn.modrinth.com/data/KhALBWoN/c65d83405b824ac6b4b4497b0fb53f6f83121f97.png",
+    "size_kb": 396
+  },
+  {
+    "id": "indianbattles-durability-overlay",
+    "name": "Durability Overlay Netherite",
+    "description": "Обновлённая PvP-броня и снаряжение (105K+ на Modrinth) — Shows Armor durability by changing its color. Has 11 different durability colors",
+    "version": "v1.0",
+    "file_name": "indianbattles-durability-overlay.zip",
+    "download_url": "https://cdn.modrinth.com/data/VnqcvHyG/versions/rYj36XD6/IndianBattles%20Durability%20Overlay.zip",
+    "icon_url": "https://cdn.modrinth.com/data/VnqcvHyG/bc89437fa9f5673903d192f2a53c4c0258d74be5.png",
+    "size_kb": 35
+  },
+  {
+    "id": "small-totem-pop-animation",
+    "name": "Small Totem Pop Animation",
+    "description": "Компактный/кастомный тотем бессмертия (105K+ на Modrinth) — Makes the Totem Pop Animation not take up your whole screen!",
+    "version": "26.3",
+    "file_name": "small-totem-pop-animation.zip",
+    "download_url": "https://cdn.modrinth.com/data/WTdl7DCH/versions/aQlh9dIv/%C2%A7dSmall%20Totem%20Pop%20Animation.zip",
+    "icon_url": "icons/mr-small-totem-pop-animation.png",
+    "size_kb": 59
+  },
+  {
+    "id": "totem-of-marlowww",
+    "name": "Marlowww Texture pack PVP & More",
+    "description": "Компактный/кастомный тотем бессмертия (104K+ на Modrinth) — Totem of Marlowww and more PVP Features",
+    "version": "1.0.1",
+    "file_name": "totem-of-marlowww.zip",
+    "download_url": "https://cdn.modrinth.com/data/K6D4KNSc/versions/ll4P4fzv/marlowww.zip",
+    "icon_url": "icons/mr-totem-of-marlowww.png",
+    "size_kb": 3296
+  },
+  {
+    "id": "mini-tools",
+    "name": "Mini Tools Vanilla",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (104K+ на Modrinth) — In this set, the tools have been reduced in size.",
+    "version": "1.21.x",
+    "file_name": "mini-tools.zip",
+    "download_url": "https://cdn.modrinth.com/data/4GK3rmon/versions/V8CAetOm/Mini%20Tools%201.21.x.zip",
+    "icon_url": "icons/mr-mini-tools.png",
+    "size_kb": 31
+  },
+  {
+    "id": "chicknturtles-better-shield",
+    "name": "ChicknTurtle's Better Shield",
+    "description": "Компактный/опущенный щит для PvP (103K+ на Modrinth) — No more shield covering half of your screen!",
+    "version": "1.2",
+    "file_name": "chicknturtles-better-shield.zip",
+    "download_url": "https://cdn.modrinth.com/data/vlbXWQ2k/versions/vPSrlP2R/%C2%A7dChicknTurtleBetterShield-v1.2.zip",
+    "icon_url": "icons/mr-chicknturtles-better-shield.png",
+    "size_kb": 81
+  },
+  {
+    "id": "red-enchantment-glint",
+    "name": "Red Enchantment Glint",
+    "description": "Чистые эффекты зачарований (103K+ на Modrinth) — Changes the color of the enchantment glint to red.",
+    "version": "26.1",
+    "file_name": "red-enchantment-glint.zip",
+    "download_url": "https://cdn.modrinth.com/data/q7BjWhzu/versions/CUbOrBGK/RedEnchantmentGlint.zip",
+    "icon_url": "https://cdn.modrinth.com/data/q7BjWhzu/0cda8e27cfe4daa5ef9e166df00d793ff7862d97.png",
+    "size_kb": 69
+  },
+  {
+    "id": "bibliophilia",
+    "name": "Bibliophilia | Enchanted Books",
+    "description": "Чистые эффекты зачарований (101K+ на Modrinth) — Unique textures for every enchanted book with tons of supported mods!",
+    "version": "1.17-21",
+    "file_name": "bibliophilia.zip",
+    "download_url": "https://cdn.modrinth.com/data/50Rh3CqF/versions/hb41AbA3/Bibliophilia%201.17%20%281.21.1%29.zip",
+    "icon_url": "icons/mr-bibliophilia.png",
+    "size_kb": 370
+  },
+  {
+    "id": "zickzack-v4-black-edition",
+    "name": "ZickZack V4 Black Edition",
+    "description": "Компактный/кастомный тотем бессмертия (100K+ на Modrinth) — A texture pack in the style of BastiGHG and the 1,5 million Black Edition of ZickZackV4,...",
+    "version": "1.4",
+    "file_name": "zickzack-v4-black-edition.zip",
+    "download_url": "https://cdn.modrinth.com/data/lNxb0JQx/versions/NGIr0434/ZickZackV4BlackEdition%20-%201.4.zip",
+    "icon_url": "icons/mr-zickzack-v4-black-edition.png",
+    "size_kb": 14949
+  },
+  {
+    "id": "spiderfault",
+    "name": "SpiderFault 16x",
+    "description": "Лёгкий 16x PvP-текстурпак с высоким FPS (99K+ на Modrinth) — The (un)official resource pack for the youtuber SenpaiSpider!",
+    "version": "0.9",
+    "file_name": "spiderfault.zip",
+    "download_url": "https://cdn.modrinth.com/data/MqhvNZpT/versions/7RbEcD2a/SenpaiSpider_50k_Pack%20%281%29.zip",
+    "icon_url": "icons/mr-spiderfault.png",
+    "size_kb": 2683
+  },
+  {
+    "id": "no-more-bobber",
+    "name": "No More Bobber!",
+    "description": "Яркая подсветка руд в шахтах (99K+ на Modrinth) — Removes The Fishing Bobber From Your Screen!",
+    "version": "1",
+    "file_name": "no-more-bobber.zip",
+    "download_url": "https://cdn.modrinth.com/data/QVdh6kHD/versions/1ZXON9Jt/No_More_Bobber.zip",
+    "icon_url": "https://cdn.modrinth.com/data/QVdh6kHD/06bf772bb253c17009a638a7f844b01911107b14.png",
+    "size_kb": 2
+  },
+  {
+    "id": "red-cpvp-16x",
+    "name": "red cpvp 16x",
+    "description": "Crystal PvP пак (98K+ на Modrinth) — A red CPVP pack 16x for better looks",
+    "version": "0.0.1",
+    "file_name": "red-cpvp-16x.zip",
+    "download_url": "https://cdn.modrinth.com/data/3Rs94nNj/versions/cusIadbZ/%C2%A7c%C2%A7lred%20cpvp%2016x.zip",
+    "icon_url": "icons/mr-red-cpvp-16x.png",
+    "size_kb": 106
+  },
+  {
+    "id": "stone-buttons",
+    "name": "Stone Buttons",
+    "description": "Чистый/обновлённый PvP-хотбар (98K+ на Modrinth) — small texture pack which changes old styled buttons and hotbar textures to 1.14 stone texture",
+    "version": "2",
+    "file_name": "stone-buttons.zip",
+    "download_url": "https://cdn.modrinth.com/data/Z2tjz2Rl/versions/zCXu9cM5/stone_buttons_v.0.1.zip",
+    "icon_url": "https://cdn.modrinth.com/data/Z2tjz2Rl/a5087fc724a62f27fce4f0ecb329773449dd887f.png",
+    "size_kb": 29
+  },
+  {
+    "id": "blue-cobwebs",
+    "name": "Blue Cobwebs",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (98K+ на Modrinth) — Makes cobwebs cyan instead of white!",
+    "version": "1",
+    "file_name": "blue-cobwebs.zip",
+    "download_url": "https://cdn.modrinth.com/data/oyng60kp/versions/Jh6O3PwV/Cyan%20Cobwebs.zip",
+    "icon_url": "https://cdn.modrinth.com/data/oyng60kp/f609b04925b00a13017b8a93c44192ca2ac0c73a.png",
+    "size_kb": 4
+  },
+  {
+    "id": "excal-bossesrise",
+    "name": "Excalibur | Bosses'Rise Support",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (97K+ на Modrinth) — Five monstrous rulers, forged anew through medieval fantasy",
+    "version": "1.6",
+    "file_name": "excal-bossesrise.zip",
+    "download_url": "https://cdn.modrinth.com/data/gSZX37pA/versions/pdWisqHN/Excalibur%20Bosses%27Rise%201.6%20%28Neoforge%29.zip",
+    "icon_url": "icons/mr-excal-bossesrise.png",
+    "size_kb": 2049
+  },
+  {
+    "id": "aimz-pvp-crosshair",
+    "name": "Aimz PVP Crosshair",
+    "description": "Контрастный PvP-прицел (97K+ на Modrinth) — A PVP focused crosshair that changes the vanilla crosshair into a pvp one",
+    "version": "1.0.1",
+    "file_name": "aimz-pvp-crosshair.zip",
+    "download_url": "https://cdn.modrinth.com/data/aTAs6Zq8/versions/NchnmBAP/Aimz%20-%20PVP%20Crosshair.zip",
+    "icon_url": "icons/mr-aimz-pvp-crosshair.png",
+    "size_kb": 6
+  },
+  {
+    "id": "prism-original",
+    "name": "prism - original",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (97K+ на Modrinth) — a clean and vibrant pack to enhance your minecraft experience - now in 1.21!",
+    "version": "v1.1",
+    "file_name": "prism-original.zip",
+    "download_url": "https://cdn.modrinth.com/data/o5FS3VdX/versions/7aricTCA/%21%20%20%20%20%20%20%C2%A7fp%C2%A79rism%20%C2%A78%5B%C2%A7f16%C2%A79x%C2%A78%5D%20%5B1.21%5D.zip",
+    "icon_url": "icons/mr-prism-original.png",
+    "size_kb": 16237
+  },
+  {
+    "id": "zickzack-v4",
+    "name": "ZickZack V4",
+    "description": "Компактный/кастомный тотем бессмертия (96K+ на Modrinth) — A texture pack in the style of BastiGHG and ZickZack V4, which contains a custom sky,...",
+    "version": "1.6",
+    "file_name": "zickzack-v4.zip",
+    "download_url": "https://cdn.modrinth.com/data/RXi11d74/versions/L7P2EwEn/ZickZackV4%20-%201.6.zip",
+    "icon_url": "icons/mr-zickzack-v4.png",
+    "size_kb": 35175
+  },
+  {
+    "id": "mini-stuff",
+    "name": "Mini Stuff",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (96K+ на Modrinth) — Shrink items and blocks in your hand",
+    "version": "0.2.4",
+    "file_name": "mini-stuff.zip",
+    "download_url": "https://cdn.modrinth.com/data/Y8ugwhqd/versions/2PUR02R5/Mini-Stuff-0.2.4%2Bmc1.13-26.3.zip",
+    "icon_url": "icons/mr-mini-stuff.png",
+    "size_kb": 44
+  },
+  {
+    "id": "excal-friends-and-foes-support",
+    "name": "Excalibur | Friends and Foes Support",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (95K+ на Modrinth) — Friendly faces and fierce rivals, reimagined",
+    "version": "2.7",
+    "file_name": "excal-friends-and-foes-support.zip",
+    "download_url": "https://cdn.modrinth.com/data/pvAAHAMo/versions/QF0AhFAN/Excalibur%20FriendsFoes%202.7.zip",
+    "icon_url": "icons/mr-excal-friends-and-foes-support.png",
+    "size_kb": 182
+  },
+  {
+    "id": "dark-transparent-gui",
+    "name": "Dark Transparent GUI",
+    "description": "Тёмный/обновлённый интерфейс GUI и HUD (95K+ на Modrinth) — See more through transparent gui",
+    "version": "4.3",
+    "file_name": "dark-transparent-gui.zip",
+    "download_url": "https://cdn.modrinth.com/data/sLwtjH0c/versions/Yuag6yYv/Dark%20Transparent%20GUI%20v4.3.zip",
+    "icon_url": "icons/mr-dark-transparent-gui.png",
+    "size_kb": 351
+  },
+  {
+    "id": "fancy-gear",
+    "name": "Fancy Gear | Reshaded Equipment",
+    "description": "Тёмный/обновлённый интерфейс GUI и HUD (92K+ на Modrinth) — Tools, weapons and armor overhaul, while mantaining the vanilla aesthetic! (Now with copper...",
+    "version": "3.1",
+    "file_name": "fancy-gear.zip",
+    "download_url": "https://cdn.modrinth.com/data/227OXIM4/versions/h8CoOjq2/Fancy%20Gear%20v3.1%201.21.11%2B.zip",
+    "icon_url": "icons/mr-fancy-gear.png",
+    "size_kb": 81
+  },
+  {
+    "id": "glowing-enchanted-tools-blue-extension",
+    "name": "Glowing Enchanted Tools - Blue Extension",
+    "description": "Чистые эффекты зачарований (91K+ на Modrinth) — An unofficial extension that changes the enchantment glint to a smooth blue glow for a...",
+    "version": "1.2",
+    "file_name": "glowing-enchanted-tools-blue-extension.zip",
+    "download_url": "https://cdn.modrinth.com/data/5U38AuNE/versions/Zdk8peqf/Glowing%20Enchanted%20Tools%20Blue%20Extension%20V1.2%20%5B1.21.6%5D.zip",
+    "icon_url": "icons/mr-glowing-enchanted-tools-blue-extension.png",
+    "size_kb": 542
+  },
+  {
+    "id": "uno-reverse-card-totem",
+    "name": "UNO Reverse Card Totem",
+    "description": "Компактный/кастомный тотем бессмертия (91K+ на Modrinth) — Uno Reverse Card Texture in Totem Of Undying.",
+    "version": "2",
+    "file_name": "uno-reverse-card-totem.zip",
+    "download_url": "https://cdn.modrinth.com/data/mYntZK09/versions/XKg5tLpJ/UnoTotem.zip",
+    "icon_url": "icons/mr-uno-reverse-card-totem.png",
+    "size_kb": 291
+  },
+  {
+    "id": "redone-endermans",
+    "name": "Redone Endermans",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (91K+ на Modrinth) — a new look for the angry endermans :D",
+    "version": "v1.1",
+    "file_name": "redone-endermans.zip",
+    "download_url": "https://cdn.modrinth.com/data/9Zb6H9nr/versions/nAZaMdUd/Hellay%27s%20Redone%20Enderman%20-%20v1.1.zip",
+    "icon_url": "icons/mr-redone-endermans.png",
+    "size_kb": 28
+  },
+  {
+    "id": "reimagined-fresh-animations-patch",
+    "name": "Reimagined | Fresh Animations Patch",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (91K+ на Modrinth) — Makes Reimagined compatible with Fresh Animations!",
+    "version": "v1.10a",
+    "file_name": "reimagined-fresh-animations-patch.zip",
+    "download_url": "https://cdn.modrinth.com/data/Lf5l2Z41/versions/AQeeSHj5/%C2%A7aReimagined%C2%A78-%C2%A7aFA-PATCH%C2%A70.zip",
+    "icon_url": "icons/mr-reimagined-fresh-animations-patch.png",
+    "size_kb": 440
+  },
+  {
+    "id": "glowing-trim-totem",
+    "name": "Glowing Trim Totem",
+    "description": "Компактный/кастомный тотем бессмертия (91K+ на Modrinth) — glowing trim totem just rename the totem , 16 colors with 18 trims, trims on totem version...",
+    "version": "MG-5.0",
+    "file_name": "glowing-trim-totem.zip",
+    "download_url": "https://cdn.modrinth.com/data/LbnI28Gx/versions/EsQpY6di/Glowing%20Trim%20Totem%5BMG-5.0%5D%5B26.3%5D.zip",
+    "icon_url": "icons/mr-glowing-trim-totem.png",
+    "size_kb": 1366
+  },
+  {
+    "id": "pack-bedwars",
+    "name": "EZ Bedwars",
+    "description": "PvP / BedWars пак (91K+ на Modrinth) — Helps you become a sweat !",
+    "version": "2.0",
+    "file_name": "pack-bedwars.zip",
+    "download_url": "https://cdn.modrinth.com/data/6DvvPRlC/versions/vsTExtB9/%C2%A7bBed%C2%A78%C2%A7cWars%20%C2%A78%5Bv2.0%201.21.2-1.21.4%5D%C2%A70.zip",
+    "icon_url": "icons/mr-pack-bedwars.png",
+    "size_kb": 323
+  },
+  {
+    "id": "dark-gui-exp",
+    "name": "Dark GUI Experience+",
+    "description": "Тёмный/обновлённый интерфейс GUI и HUD (90K+ на Modrinth) — Enhances Dark Mode",
+    "version": "1.20.2-26.2",
+    "file_name": "dark-gui-exp.zip",
+    "download_url": "https://cdn.modrinth.com/data/WFPPRLjW/versions/eUoK2t98/%C2%A78%C2%A7lDark%20GUI%20Experience%2B%C2%A70.zip",
+    "icon_url": "icons/mr-dark-gui-exp.png",
+    "size_kb": 1233
+  },
+  {
+    "id": "white-enchantment-glint",
+    "name": "White Enchantment Glint",
+    "description": "Чистые эффекты зачарований (89K+ на Modrinth) — Changes the color of the enchantment glint to white.",
+    "version": "26.1",
+    "file_name": "white-enchantment-glint.zip",
+    "download_url": "https://cdn.modrinth.com/data/92xXrUMv/versions/BG2ExsMV/WhiteEnchantmentGlint.zip",
+    "icon_url": "https://cdn.modrinth.com/data/92xXrUMv/a2a99a6896074ead60e766fae5814c6f9ef02345.png",
+    "size_kb": 148
+  },
+  {
+    "id": "slim-fire",
+    "name": "Slim Fire",
+    "description": "Низкий/чистый огонь для PvP (89K+ на Modrinth) — Reduce the visual space taken up by the fire overlay!",
+    "version": "1.4.0",
+    "file_name": "slim-fire.zip",
+    "download_url": "https://cdn.modrinth.com/data/e0CPaGWh/versions/LIEnGsfF/%C2%A7eSlim%C2%A70%20%C2%A7eFire%C2%A70.zip",
+    "icon_url": "icons/mr-slim-fire.png",
+    "size_kb": 248
+  },
+  {
+    "id": "no-shade-plus-fps-boost",
+    "name": "No Shade + FPS Boost",
+    "description": "Тёмный/обновлённый интерфейс GUI и HUD (89K+ на Modrinth) — A clean, bright no-shading resource pack with no mods required.",
+    "version": "v.05-(OwnVerse-Edition)",
+    "file_name": "no-shade-plus-fps-boost.zip",
+    "download_url": "https://cdn.modrinth.com/data/I5NiwIaz/versions/L5Hs25FH/NoShade%2B%20%28OwnVerse%20Edition%29%201.20-26x%20v.05.zip",
+    "icon_url": "icons/mr-no-shade-plus-fps-boost.png",
+    "size_kb": 6594
+  },
+  {
+    "id": "beautiful-totem-of-unduying",
+    "name": "Beautiful Totem Of Undying",
+    "description": "Компактный/кастомный тотем бессмертия (89K+ на Modrinth) — This is a resource pack on adding a 3D model for the totem of unduying. But in the...",
+    "version": "1.0",
+    "file_name": "beautiful-totem-of-unduying.zip",
+    "download_url": "https://cdn.modrinth.com/data/FDWBlWwp/versions/X0BKmZhS/Beautiful%20Totem%20Of%20Unduying.zip",
+    "icon_url": "icons/mr-beautiful-totem-of-unduying.png",
+    "size_kb": 184
+  },
+  {
+    "id": "hide-armor",
+    "name": "🛡️ Hide Armor - See Player Skins",
+    "description": "Обновлённая PvP-броня и снаряжение (88K+ на Modrinth) — Hides the armor model so they don't render on the player",
+    "version": "v1.4.0",
+    "file_name": "hide-armor.zip",
+    "download_url": "https://cdn.modrinth.com/data/HzbPDpv8/versions/TwE4mRUx/%C2%A7d%C2%A7lHide%20Armor%C2%A78%C2%A7o%20%C2%A78v1.4.0.zip",
+    "icon_url": "icons/mr-hide-armor.png",
+    "size_kb": 8
+  },
+  {
+    "id": "invis",
+    "name": "Visible Invisibility",
+    "description": "Уменьшенные частицы для высокого FPS и обзора (87K+ на Modrinth) — TrueSight for invisibility particles",
+    "version": "2.0.3",
+    "file_name": "invis.zip",
+    "download_url": "https://cdn.modrinth.com/data/kCPOL2sD/versions/M04xAExn/%C2%A7e%C2%A7lVisible%20Invisibility%20%C2%A77v2.0.3.zip",
+    "icon_url": "https://cdn.modrinth.com/data/kCPOL2sD/2b5161b38b993770ee8b6f624697be1f8666747c.png",
+    "size_kb": 10
+  },
+  {
+    "id": "fractures-3d",
+    "name": "Fractures 3D",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (85K+ на Modrinth) — 3D Items Resource Pack for Minecraft",
+    "version": "26.9",
+    "file_name": "fractures-3d.zip",
+    "download_url": "https://cdn.modrinth.com/data/fo3PFCF5/versions/eMS8H6RD/Fractures%203D.zip",
+    "icon_url": "icons/mr-fractures-3d.png",
+    "size_kb": 3802
+  },
+  {
+    "id": "watch-of-undying",
+    "name": "Watch of Undying",
+    "description": "Компактный/кастомный тотем бессмертия (85K+ на Modrinth) — Replaces the Totem of Undying with a watch.",
+    "version": "1.3",
+    "file_name": "watch-of-undying.zip",
+    "download_url": "https://cdn.modrinth.com/data/yhG3oUCc/versions/WCbI6JQN/Watch%20of%20Undying.zip",
+    "icon_url": "https://cdn.modrinth.com/data/yhG3oUCc/0ba6c586e3108f650628a48d794e2d6c34f4ffd6.png",
+    "size_kb": 9
+  },
+  {
+    "id": "better-pvp-fire",
+    "name": "low fire but better",
+    "description": "Низкий/чистый огонь для PvP (84K+ на Modrinth) — this resource pack makes fire look better for pvp",
+    "version": "1.0.1",
+    "file_name": "better-pvp-fire.zip",
+    "download_url": "https://cdn.modrinth.com/data/go8DU22r/versions/BOh7ikUw/better%20pvp%20fire.zip",
+    "icon_url": "icons/mr-better-pvp-fire.png",
+    "size_kb": 27
+  },
+  {
+    "id": "zero-particles",
+    "name": "Zero Particles",
+    "description": "PvP / BedWars пак (84K+ на Modrinth) — Less Particles , No block particles , New Font , Readable Enchanting Spells best for...",
+    "version": "2.12",
+    "file_name": "zero-particles.zip",
+    "download_url": "https://cdn.modrinth.com/data/rStToYvq/versions/c9g19xBW/Zero%20Particles%20%5B2.12%5D%5B26.3%5D.zip",
+    "icon_url": "icons/mr-zero-particles.png",
+    "size_kb": 1050
+  },
+  {
+    "id": "clean-pvp-texturepack",
+    "name": "Clean PvP texturepack",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (84K+ на Modrinth) — Overall, this texture pack offers a minimalist and aesthetic look, while still retaining...",
+    "version": "26.2+",
+    "file_name": "clean-pvp-texturepack.zip",
+    "download_url": "https://cdn.modrinth.com/data/FrY0cutY/versions/1KOAaYEh/Clean%20PvP.zip",
+    "icon_url": "icons/mr-clean-pvp-texturepack.png",
+    "size_kb": 1659
+  },
+  {
+    "id": "pixelby",
+    "name": "PixelBy: Tools",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (83K+ на Modrinth) — PixelBy: Tools is a resource pack that makes tools 3D mixing voxel and pixel art, initially...",
+    "version": "1.2.1",
+    "file_name": "pixelby.zip",
+    "download_url": "https://cdn.modrinth.com/data/QCowPfP6/versions/hb8iXQBl/PixelBy-Tools-RP_v1.2.1.zip",
+    "icon_url": "icons/mr-pixelby.png",
+    "size_kb": 727
+  },
+  {
+    "id": "armor-reimagined",
+    "name": "Armor Reimagined",
+    "description": "Тёмный/обновлённый интерфейс GUI и HUD (83K+ на Modrinth) — Armor Re-equipped!",
+    "version": "v1.1",
+    "file_name": "armor-reimagined.zip",
+    "download_url": "https://cdn.modrinth.com/data/gqNV9XUc/versions/pDidjKQc/%C2%A7bArmor%C2%A78-%C2%A7bReimagined%C2%A70_%C2%A78%5Bv1.1%5D%C2%A70.zip",
+    "icon_url": "icons/mr-armor-reimagined.png",
+    "size_kb": 201
+  },
+  {
+    "id": "no-explosion-sounds",
+    "name": "No Explosion Sounds",
+    "description": "Crystal PvP пак (82K+ на Modrinth) — No explosion sounds for crystal pvp or just anything in general.",
+    "version": "1",
+    "file_name": "no-explosion-sounds.zip",
+    "download_url": "https://cdn.modrinth.com/data/Y7ve2Sdj/versions/ITwz2Kfb/No%20Explosion%20Sounds.zip",
+    "icon_url": "icons/mr-no-explosion-sounds.png",
+    "size_kb": 91
+  },
+  {
+    "id": "thfa",
+    "name": "Torturable Healthbars x Fresh Animations",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (82K+ на Modrinth) — TH but with Fresh's Animations, now you can have injured mobs walking around in a cool way",
+    "version": "2.4.3",
+    "file_name": "thfa.zip",
+    "download_url": "https://cdn.modrinth.com/data/mQpUi57Q/versions/Pk5iG27E/%C2%A7bTH%20%2B%20Fresh%27s%20Animations%202.4.3.zip",
+    "icon_url": "icons/mr-thfa.png",
+    "size_kb": 1332
+  },
+  {
+    "id": "smputils",
+    "name": "SMP Utils",
+    "description": "PvP-пак для SMP и дуэлей (82K+ на Modrinth) — A Texture Pack That Adds Tons Of Quality Of Life Features For SMP's And PvP",
+    "version": "2.7",
+    "file_name": "smputils.zip",
+    "download_url": "https://cdn.modrinth.com/data/L27GQWCL/versions/ddWsTipP/SMPUtils%202.7.zip",
+    "icon_url": "icons/mr-smputils.png",
+    "size_kb": 343
+  },
+  {
+    "id": "white-pvp-texturpack",
+    "name": "White PVP Texturpack",
+    "description": "Crystal PvP пак (82K+ на Modrinth) — Minecraft Texturepack for Crystal PvP and other gamemode. -white crystals and ancors -white...",
+    "version": "1.4",
+    "file_name": "white-pvp-texturpack.zip",
+    "download_url": "https://cdn.modrinth.com/data/eEFgAnQ5/versions/ETIT9k18/White%20Crystal%20PVP%20V3.zip",
+    "icon_url": "icons/mr-white-pvp-texturpack.png",
+    "size_kb": 372
+  },
+  {
+    "id": "low-fire-nela470",
+    "name": "Low Fire!",
+    "description": "Низкий/чистый огонь для PvP (81K+ на Modrinth) — makes the Fire overlay look small on your screen in order to clean your Obstructed view!",
+    "version": "1.0",
+    "file_name": "low-fire-nela470.zip",
+    "download_url": "https://cdn.modrinth.com/data/bP1TOb1Q/versions/WdPJRlgm/Low%20Fire%21.zip",
+    "icon_url": "icons/mr-low-fire-nela470.png",
+    "size_kb": 137
+  },
+  {
+    "id": "shield-by-side",
+    "name": "Shield By Side",
+    "description": "Компактный/опущенный щит для PvP (80K+ на Modrinth) — Hold your shield the same way as in 3rd person, and take up less screen space!",
+    "version": "1.3",
+    "file_name": "shield-by-side.zip",
+    "download_url": "https://cdn.modrinth.com/data/V7f4DNGJ/versions/FjDbmLhN/Shield%20By%20Side%201.3.zip",
+    "icon_url": "icons/mr-shield-by-side.png",
+    "size_kb": 9
+  },
+  {
+    "id": "aimz-tiny-crosshair",
+    "name": "Aimz Tiny Crosshair",
+    "description": "Контрастный PvP-прицел (79K+ на Modrinth) — A tiny crosshair that changes the vanilla crosshair into a smaller one",
+    "version": "1.0.2",
+    "file_name": "aimz-tiny-crosshair.zip",
+    "download_url": "https://cdn.modrinth.com/data/S2Zdxlhc/versions/aDJwnKL2/Aimz%20-%20Tiny%20Crosshair.zip",
+    "icon_url": "icons/mr-aimz-tiny-crosshair.png",
+    "size_kb": 5
+  },
+  {
+    "id": "swench-pack",
+    "name": "Swench Pack",
+    "description": "Crystal PvP пак (79K+ на Modrinth) — Crystal pvp pack",
+    "version": "1.21.6-26.1.2",
+    "file_name": "swench-pack.zip",
+    "download_url": "https://cdn.modrinth.com/data/l3pCxVgp/versions/RLqyExJo/%21%20%C2%A73%C2%A7lSwenchPack.zip",
+    "icon_url": "icons/mr-swench-pack.png",
+    "size_kb": 4880
+  },
+  {
+    "id": "cat-crosshair",
+    "name": "Cat Crosshair",
+    "description": "Контрастный PvP-прицел (79K+ на Modrinth) — Crosshair that looks like a cute little cat",
+    "version": "v2.1",
+    "file_name": "cat-crosshair.zip",
+    "download_url": "https://cdn.modrinth.com/data/w7qrBleX/versions/Js6SvIi4/CatCrosshair_v2.1.zip",
+    "icon_url": "icons/mr-cat-crosshair.png",
+    "size_kb": 4
+  },
+  {
+    "id": "glowing-trim-shield",
+    "name": "Glowing Trim Shield",
+    "description": "Компактный/опущенный щит для PvP (79K+ на Modrinth) — Glowing Trim Shield Pack changes Shield into glowing trim shields 16 colors with 18 trims....",
+    "version": "MG-5.0",
+    "file_name": "glowing-trim-shield.zip",
+    "download_url": "https://cdn.modrinth.com/data/VWMioOvK/versions/qYSfkSME/Glowing%20Trim%20Shield%5BMG-5.0%5D%5B26.3%5D.zip",
+    "icon_url": "icons/mr-glowing-trim-shield.png",
+    "size_kb": 3132
+  },
+  {
+    "id": "starry-gui-and-hotbar",
+    "name": "Starry GUI and Hotbar ✨",
+    "description": "Чистый/обновлённый PvP-хотбар (78K+ на Modrinth) — easy-on-the-eyes GUI pack that changes menus to be purple and starry!",
+    "version": "12",
+    "file_name": "starry-gui-and-hotbar.zip",
+    "download_url": "https://cdn.modrinth.com/data/SGYjthaQ/versions/5FzmmInw/starrygui_3.0_v1.21.1.zip",
+    "icon_url": "https://cdn.modrinth.com/data/SGYjthaQ/fc9410bab3909bd3f0f58faa5552c72c75090521.png",
+    "size_kb": 2528
+  },
+  {
+    "id": "bare-bones-3d-mace",
+    "name": "Bare Bones - 3D Mace",
+    "description": "PvP / 3D пак для булавы (Mace) (78K+ на Modrinth) — Three dimensional mace model!",
+    "version": "1.4.1",
+    "file_name": "bare-bones-3d-mace.zip",
+    "download_url": "https://cdn.modrinth.com/data/gGsfBpXX/versions/2vwcaVTD/Bare%20Bones%203D%20Mace%201.21.11.zip",
+    "icon_url": "icons/mr-bare-bones-3d-mace.png",
+    "size_kb": 56
+  },
+  {
+    "id": "sfi",
+    "name": "SmallFoods&Items",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (77K+ на Modrinth) — All things get small with this pack.",
+    "version": "0.2",
+    "file_name": "sfi.zip",
+    "download_url": "https://cdn.modrinth.com/data/YhVOWmqY/versions/iDszfVKO/SmallFood%26Items.zip",
+    "icon_url": "https://cdn.modrinth.com/data/YhVOWmqY/c9bcc1bfa87f16a61673af80dea391024fcd287e.jpeg",
+    "size_kb": 8
+  },
+  {
+    "id": "shureees-potions",
+    "name": "shureee's Potions",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (77K+ на Modrinth) — Vanilla-like animated potion textures, with unique shapes for each effect!",
+    "version": "2.1",
+    "file_name": "shureees-potions.zip",
+    "download_url": "https://cdn.modrinth.com/data/eqiooCPB/versions/SvZDB7EE/shureee%27s%20Potions.zip",
+    "icon_url": "https://cdn.modrinth.com/data/eqiooCPB/be56131e76b20bd9e278ebe4b272f2a335f52e21.png",
+    "size_kb": 605
+  },
+  {
+    "id": "glint",
+    "name": "White Enchantment Glint",
+    "description": "Чистые эффекты зачарований (77K+ на Modrinth) — Enchanted items will now have a new White / Silver Enchant Glint",
+    "version": "1.5",
+    "file_name": "glint.zip",
+    "download_url": "https://cdn.modrinth.com/data/pfG7UDUg/versions/U3kYW2Z9/White%20Enchantment%20Glint.zip",
+    "icon_url": "icons/mr-glint.png",
+    "size_kb": 1123
+  },
+  {
+    "id": "mace-3d",
+    "name": "Mace 3D",
+    "description": "PvP / 3D пак для булавы (Mace) (77K+ на Modrinth) — Makes a mace 3D",
+    "version": "1.0.0",
+    "file_name": "mace-3d.zip",
+    "download_url": "https://cdn.modrinth.com/data/nrI1MI2o/versions/ZnMkgG2L/Mace3D.zip",
+    "icon_url": "icons/mr-mace-3d.png",
+    "size_kb": 20
+  },
+  {
+    "id": "totem-highlight",
+    "name": "Totem Highlight",
+    "description": "Компактный/кастомный тотем бессмертия (77K+ на Modrinth) — Shows a red box around your totems in your inventory.",
+    "version": "Release",
+    "file_name": "totem-highlight.zip",
+    "download_url": "https://cdn.modrinth.com/data/IDgeyDU0/versions/tqYLBLD8/Totem%20Highlight.zip",
+    "icon_url": "https://cdn.modrinth.com/data/IDgeyDU0/bc5a7c41f42e962de3cd189cfed7e6e259583bd3.png",
+    "size_kb": 4
+  },
+  {
+    "id": "pink-enchantment-glint",
+    "name": "Pink Enchantment Glint",
+    "description": "Чистые эффекты зачарований (77K+ на Modrinth) — Changes the color of the enchantment glint to pink.",
+    "version": "26.1",
+    "file_name": "pink-enchantment-glint.zip",
+    "download_url": "https://cdn.modrinth.com/data/4TxmndNj/versions/ponlKC2f/PinkEnchantmentGlint.zip",
+    "icon_url": "https://cdn.modrinth.com/data/4TxmndNj/fc932a6ca05ec6b90c08b7dfe4dfd3d4dfe8090f.png",
+    "size_kb": 326
+  },
+  {
+    "id": "small-swords",
+    "name": "Small Swords",
+    "description": "PvP-пак с укороченными/обновлёнными мечами (76K+ на Modrinth) — Retextures all the swords textures in Minecraft and makes it smaller for better visibility",
+    "version": "2.7.1-26.3",
+    "file_name": "small-swords.zip",
+    "download_url": "https://cdn.modrinth.com/data/7PDwj6Gz/versions/1XsvM7gM/small_swords-2.7.1.zip",
+    "icon_url": "icons/mr-small-swords.png",
+    "size_kb": 13
+  },
+  {
+    "id": "confluenceotherworld-pbr",
+    "name": "Confluence PBR",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (75K+ на Modrinth) — An expansion package added PBR effects to Confluence:Otherworld mod",
+    "version": "r5",
+    "file_name": "confluenceotherworld-pbr.zip",
+    "download_url": "https://cdn.modrinth.com/data/DM2EuUiY/versions/bIwpZ8Dn/Confluence-PBR-Remake-r5.zip",
+    "icon_url": "icons/mr-confluenceotherworld-pbr.png",
+    "size_kb": 2606
+  },
+  {
+    "id": "overgrown-flowery-hotbar",
+    "name": "Overgrown Flowery Hotbar",
+    "description": "Чистый/обновлённый PvP-хотбар (75K+ на Modrinth) — The sleek and adorably cottagecore Hotbar offshoot of Overgrown Flowery GUI!",
+    "version": "1.2.3",
+    "file_name": "overgrown-flowery-hotbar.zip",
+    "download_url": "https://cdn.modrinth.com/data/coUTm32c/versions/tYw8Wax2/Overgrown%20Flowery%20Hotbar.zip",
+    "icon_url": "icons/mr-overgrown-flowery-hotbar.png",
+    "size_kb": 76
+  },
+  {
+    "id": "artisans-armory",
+    "name": "Artisan's Armory | Equipment Overhaul",
+    "description": "Тёмный/обновлённый интерфейс GUI и HUD (74K+ на Modrinth) — This pack changes Minecraft's boring equipment with a fresh spin on the classic textures.",
+    "version": "3.0",
+    "file_name": "artisans-armory.zip",
+    "download_url": "https://cdn.modrinth.com/data/HAeb3B1W/versions/NZ5VLcH4/%C2%A76Artisan%27s%20%C2%A7fArmory.zip",
+    "icon_url": "icons/mr-artisans-armory.png",
+    "size_kb": 829
+  },
+  {
+    "id": "smooth-smp-pack",
+    "name": "Smooth SMP pack",
+    "description": "Уменьшенные частицы для высокого FPS и обзора (74K+ на Modrinth) — Lightweight resource pack that removes or simplifies certain particle effects for a...",
+    "version": "26.3",
+    "file_name": "smooth-smp-pack.zip",
+    "download_url": "https://cdn.modrinth.com/data/5DkfFqi0/versions/ktqrfT36/%21%20%20%20%20%20%20%20%20%C2%A7f%C2%A7lSMOOTH%20SMP%20PACK%20%21%21.zip",
+    "icon_url": "icons/mr-smooth-smp-pack.png",
+    "size_kb": 591
+  },
+  {
+    "id": "gap",
+    "name": "Golden Apple Count (Gapple Counter)",
+    "description": "PvP-пак с укороченными/обновлёнными мечами (73K+ на Modrinth) — Shows the amount of golden apples someone has, as well as a colored border around it....",
+    "version": "1.1.4",
+    "file_name": "gap.zip",
+    "download_url": "https://cdn.modrinth.com/data/6wpEPGSq/versions/euLVTRCA/%C2%A76%C2%A7lGap%20Count%20%C2%A77v1.1.4.zip",
+    "icon_url": "https://cdn.modrinth.com/data/6wpEPGSq/38c16f1428796625034f7f09cb06f71c252aaf41.png",
+    "size_kb": 120
+  },
+  {
+    "id": "small-crosshair",
+    "name": "Small Crosshair",
+    "description": "Контрастный PvP-прицел (73K+ на Modrinth) — A smaller crosshair!",
+    "version": "26.1",
+    "file_name": "small-crosshair.zip",
+    "download_url": "https://cdn.modrinth.com/data/Vuv4wHqU/versions/U4CtIHek/SmallCrosshair.zip",
+    "icon_url": "https://cdn.modrinth.com/data/Vuv4wHqU/7b125680dd9336bbd33cc2e7c20cf94b746af459.png",
+    "size_kb": 3
+  },
+  {
+    "id": "colusite-durability",
+    "name": "Durability Overlay",
+    "description": "Обновлённая PvP-броня и снаряжение (73K+ на Modrinth) — Durability overlay for armour",
+    "version": "0.2.0",
+    "file_name": "colusite-durability.zip",
+    "download_url": "https://cdn.modrinth.com/data/69nnWrBW/versions/b0I5jYfo/Durability.zip",
+    "icon_url": "icons/mr-colusite-durability.png",
+    "size_kb": 157
+  },
+  {
+    "id": "farcrs-re-crafted",
+    "name": "Farcr's Re-Crafted",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (73K+ на Modrinth) — A small, personal minecraft reinterpretation",
+    "version": "2.28.1",
+    "file_name": "farcrs-re-crafted.zip",
+    "download_url": "https://cdn.modrinth.com/data/FGpR5ayB/versions/9OTAu2w9/Farcr%27s%20Re-Crafted%20V2.28.1.zip",
+    "icon_url": "icons/mr-farcrs-re-crafted.png",
+    "size_kb": 594
+  },
+  {
+    "id": "smaller-totem-pop",
+    "name": "Smaller Totem Pop",
+    "description": "Компактный/кастомный тотем бессмертия (72K+ на Modrinth) — This texture pack makes your totem pop smaller.",
+    "version": "1",
+    "file_name": "smaller-totem-pop.zip",
+    "download_url": "https://cdn.modrinth.com/data/5Zm8uUAI/versions/kFTpH37Q/Smaller%20Totem%20Pops.zip",
+    "icon_url": "https://cdn.modrinth.com/data/5Zm8uUAI/0fe0aab2003ed6f6dd73bf4083479fc37cfdb2a1.png",
+    "size_kb": 25
+  },
+  {
+    "id": "armors-stuff",
+    "name": "Armors & Stuff",
+    "description": "Обновлённая PvP-броня и снаряжение (72K+ на Modrinth) — A resouce pack that remakes the armor textures of Actions & Stuff and brings them to...",
+    "version": "3.1",
+    "file_name": "armors-stuff.zip",
+    "download_url": "https://cdn.modrinth.com/data/ME5tOZf0/versions/becTYaSx/Armors%20%26%20Stuff%20V3-26.2.zip",
+    "icon_url": "icons/mr-armors-stuff.png",
+    "size_kb": 281
+  },
+  {
+    "id": "enhanced-shield",
+    "name": "Enhanced Side Shield!",
+    "description": "Компактный/опущенный щит для PvP (72K+ на Modrinth) — Makes the shield appear on the side of your character to make it easier to see.",
+    "version": "3.0",
+    "file_name": "enhanced-shield.zip",
+    "download_url": "https://cdn.modrinth.com/data/9C9smEXn/versions/EZd3Bulw/Enhanced%20Shield%21%20%283.0v%29.zip",
+    "icon_url": "icons/mr-enhanced-shield.png",
+    "size_kb": 175
+  },
+  {
+    "id": "lifestealzpack",
+    "name": "LifeStealZ Resourcepack",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (70K+ на Modrinth) — The First and Only Official Resourcepack for LifeStealZ",
+    "version": "1.01",
+    "file_name": "lifestealzpack.zip",
+    "download_url": "https://cdn.modrinth.com/data/qeg4W299/versions/fSziPnME/LifeStealZ-Pack.zip",
+    "icon_url": "icons/mr-lifestealzpack.png",
+    "size_kb": 14
+  },
+  {
+    "id": "3dendcrystal",
+    "name": "3D End Crystal",
+    "description": "Crystal PvP пак (70K+ на Modrinth) — Makes the end crystal 3D when in your hand, but keeps it 2D everywhere else 1.21.4+. No...",
+    "version": "1.0.10",
+    "file_name": "3dendcrystal.zip",
+    "download_url": "https://cdn.modrinth.com/data/603Xdxiy/versions/Yr0Xkjaq/3D%20End%20Crystal%201.0.10.zip",
+    "icon_url": "icons/mr-3dendcrystal.png",
+    "size_kb": 226
+  },
+  {
+    "id": "small-tools",
+    "name": "Small Tools",
+    "description": "PvP-пак с укороченными/обновлёнными мечами (69K+ на Modrinth) — This resource pack makes the Sword , Axe , Pickaxe and Shovel smaller.",
+    "version": "1.8.2-26.3",
+    "file_name": "small-tools.zip",
+    "download_url": "https://cdn.modrinth.com/data/7Arrtz9z/versions/cPrAv8Sl/Small-Tools-1.8.2.zip",
+    "icon_url": "icons/mr-small-tools.png",
+    "size_kb": 50
+  },
+  {
+    "id": "chicknturtles-3d-tools",
+    "name": "ChicknTurtle's 3D Tools",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (69K+ на Modrinth) — Gives tools some depth, while keeping the vanilla style!",
+    "version": "1.3",
+    "file_name": "chicknturtles-3d-tools.zip",
+    "download_url": "https://cdn.modrinth.com/data/8ZVNGHGD/versions/NPUUPwG3/chicknturtles-3d-tools-v1.3.zip",
+    "icon_url": "icons/mr-chicknturtles-3d-tools.png",
+    "size_kb": 135
+  },
+  {
+    "id": "dotcrosshair",
+    "name": "DOT Crosshair",
+    "description": "Контрастный PvP-прицел (69K+ на Modrinth) — This resourcepack will remake your crosshair small and minimalistic by making it a dot!",
+    "version": "1.1",
+    "file_name": "dotcrosshair.zip",
+    "download_url": "https://cdn.modrinth.com/data/l4v8B9ZP/versions/eAKq2Uun/DOT.zip",
+    "icon_url": "icons/mr-dotcrosshair.png",
+    "size_kb": 16
+  },
+  {
+    "id": "vanilla-8x",
+    "name": "Vanilla 8x",
+    "description": "Яркая подсветка руд в шахтах (68K+ на Modrinth) — this is a 8 pixel vanilla texture pack this pack versions are from 1.16 to latest more then...",
+    "version": "1.0",
+    "file_name": "vanilla-8x.zip",
+    "download_url": "https://cdn.modrinth.com/data/Gj8nh5d5/versions/hIMlUDis/Vanilla%208x%5B26.3%5D.zip",
+    "icon_url": "icons/mr-vanilla-8x.png",
+    "size_kb": 1312
+  },
+  {
+    "id": "shortshield",
+    "name": "Short Shield",
+    "description": "Компактный/опущенный щит для PvP (66K+ на Modrinth) — Get Better Visibility While Blocking.",
+    "version": "1.0.5",
+    "file_name": "shortshield.zip",
+    "download_url": "https://cdn.modrinth.com/data/yiR8imzk/versions/upjYsScz/Short%20Shield.zip",
+    "icon_url": "https://cdn.modrinth.com/data/yiR8imzk/af6b61e521e66e595ed26c3379f8e02f0c40a5f5.png",
+    "size_kb": 5
+  },
+  {
+    "id": "prism-black-and-white",
+    "name": "prism - black and white",
+    "description": "Яркая подсветка руд в шахтах (66K+ на Modrinth) — a clean and vibrant pack to enhance your minecraft experience - now in 1.21! and recolored...",
+    "version": "v1.1",
+    "file_name": "prism-black-and-white.zip",
+    "download_url": "https://cdn.modrinth.com/data/bsKJEgom/versions/5QMKLC9I/%21%20%20%20%20%20%20%C2%A7fp%C2%A77rism%20%C2%A78%5B%C2%A7f16%C2%A77x%C2%A78%5D%20%5B1.21%5D.zip",
+    "icon_url": "icons/mr-prism-black-and-white.png",
+    "size_kb": 13393
+  },
+  {
+    "id": "reimagined-tools",
+    "name": "Reimagined Tools",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (66K+ на Modrinth) — Minecraft tools get a fresh new look!",
+    "version": "1.1.6",
+    "file_name": "reimagined-tools.zip",
+    "download_url": "https://cdn.modrinth.com/data/lPN4JSsD/versions/vfO9WDDx/Reimagined%20Tools%201.1.6.zip",
+    "icon_url": "icons/mr-reimagined-tools.png",
+    "size_kb": 236
+  },
+  {
+    "id": "mandalorian-armor",
+    "name": "Mandalorian Armor",
+    "description": "Обновлённая PvP-броня и снаряжение (65K+ на Modrinth) — Replaces all common Armour and Armor Trim with Mandalor armour.",
+    "version": "1.6",
+    "file_name": "mandalorian-armor.zip",
+    "download_url": "https://cdn.modrinth.com/data/bWAqSJpx/versions/astiqEkz/Mandalorian%20Armor.zip",
+    "icon_url": "https://cdn.modrinth.com/data/bWAqSJpx/2f9fdc7abbb7badf490d1ddee938d6f97170d34c.png",
+    "size_kb": 227
+  },
+  {
+    "id": "real-mace",
+    "name": "Realistic Mace 3D",
+    "description": "PvP / 3D пак для булавы (Mace) (65K+ на Modrinth) — This resource pack for minecraft 1.21.X-26.X will make your mace model more simular to hammer",
+    "version": "2.7_1.21.X-26.X",
+    "file_name": "real-mace.zip",
+    "download_url": "https://cdn.modrinth.com/data/oaRy46Qa/versions/o4pXvJnS/Realistic%20mace%203D%201.21.X-26.X.zip",
+    "icon_url": "icons/mr-real-mace.png",
+    "size_kb": 81
+  },
+  {
+    "id": "terrarian-spirit",
+    "name": "Terrarian Spirit",
+    "description": "Тёмный/обновлённый интерфейс GUI и HUD (65K+ на Modrinth) — Terraria-themed Minecraft HUD and GUI (& more!)",
+    "version": "2.1.1",
+    "file_name": "terrarian-spirit.zip",
+    "download_url": "https://cdn.modrinth.com/data/ouY4E1Dd/versions/ZDrfeez1/Terrarian%20Spirit%20%28Shrunken%29%201.21.6.zip",
+    "icon_url": "https://cdn.modrinth.com/data/ouY4E1Dd/a9519e57bb485187312b155293ff5311949a1df4.png",
+    "size_kb": 110
+  },
+  {
+    "id": "ziy-low-fire",
+    "name": "Low Fire, Shield & More",
+    "description": "Низкий/чистый огонь для PvP (64K+ на Modrinth) — Low Fire, Shield, Grass & More, Less obstruction for your game screens",
+    "version": "1.0",
+    "file_name": "ziy-low-fire.zip",
+    "download_url": "https://cdn.modrinth.com/data/WijopzGe/versions/Z6pwLX8T/Unobstructed-26.x.x.zip",
+    "icon_url": "icons/mr-ziy-low-fire.png",
+    "size_kb": 55
+  },
+  {
+    "id": "unique-dark-hotbar-add-on",
+    "name": "Unique Dark Hotbar Add-On",
+    "description": "Чистый/обновлённый PvP-хотбар (63K+ на Modrinth) — Hotbar Add-On for Unique Dark | Changes the style of the hotbar",
+    "version": "v2.0",
+    "file_name": "unique-dark-hotbar-add-on.zip",
+    "download_url": "https://cdn.modrinth.com/data/q7RxqAgg/versions/E1iucp4w/UD%20-%20Hotbar%20add-on%201.20.2-26.x.zip",
+    "icon_url": "icons/mr-unique-dark-hotbar-add-on.png",
+    "size_kb": 15
+  },
+  {
+    "id": "fixed-ukus-armor-hud-warn",
+    "name": "Fixed uku's Armor HUD Warn",
+    "description": "Тёмный/обновлённый интерфейс GUI и HUD (63K+ на Modrinth) — This Recource pack fixes uku's Armor HUD its warn Icon.",
+    "version": "3.1",
+    "file_name": "fixed-ukus-armor-hud-warn.zip",
+    "download_url": "https://cdn.modrinth.com/data/Tn5ibTnA/versions/zJIBb9Gw/fixed_ukus_armor_hud-3.2-resourcepack-26.1.x.zip",
+    "icon_url": "https://cdn.modrinth.com/data/Tn5ibTnA/95061e29f565a6453b57919738d7f7dd72171332.png",
+    "size_kb": 3
+  },
+  {
+    "id": "vanilla-hunger",
+    "name": "Vanilla Food Hunger Bar",
+    "description": "Чистый/обновлённый PvP-хотбар (63K+ на Modrinth) — Reverts the Food/Hunger Icons to the default, vanilla ones when put above other...",
+    "version": "MOD_COMPAT_1.21.9+",
+    "file_name": "vanilla-hunger.zip",
+    "download_url": "https://cdn.modrinth.com/data/QbcvLWda/versions/ndX8MUbS/Vanilla%20Food%20Hunger%20Bar%20%28MOD%20COMPAT%29.zip",
+    "icon_url": "https://cdn.modrinth.com/data/QbcvLWda/1336a6f717600e59b291fbbe5d48c67715e6a61f.png",
+    "size_kb": 6
+  },
+  {
+    "id": "prism-cotton-candy",
+    "name": "prism - cotton candy",
+    "description": "Яркая подсветка руд в шахтах (62K+ на Modrinth) — a clean and vibrant pack to enhance your minecraft experience - now in 1.21! and recolored...",
+    "version": "v1.1",
+    "file_name": "prism-cotton-candy.zip",
+    "download_url": "https://cdn.modrinth.com/data/8uQL8L7B/versions/mQco3QZN/%21%20%20%20%20%20%20%C2%A7fp%C2%A7dri%C2%A7bsm%20%C2%A78%5B%C2%A7f16%C2%A73x%C2%A78%5D%20%5B1.21%5D.zip",
+    "icon_url": "icons/mr-prism-cotton-candy.png",
+    "size_kb": 15034
+  },
+  {
+    "id": "vexlyre",
+    "name": "Vexlyre",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (61K+ на Modrinth) — A Purple Edit PvP Texturepack",
+    "version": "v1.1",
+    "file_name": "vexlyre.zip",
+    "download_url": "https://cdn.modrinth.com/data/nmtXz5lQ/versions/Hcs0I0VY/%C2%A75%C2%A7lVexlyre.zip",
+    "icon_url": "https://cdn.modrinth.com/data/nmtXz5lQ/ce9575bf566959d02038ac774264841a4eac5032.png",
+    "size_kb": 131
+  },
+  {
+    "id": "zerotekzs-blades-of-war-2",
+    "name": "Zerotekz's Blades of War 2",
+    "description": "PvP-пак с укороченными/обновлёнными мечами (61K+ на Modrinth) — Adds 3D weapon/shield models to MC! (Custom Item Textures)",
+    "version": "2.1-Main",
+    "file_name": "zerotekzs-blades-of-war-2.zip",
+    "download_url": "https://cdn.modrinth.com/data/ZBlqsg00/versions/Pjxr4WW5/Blades_of_War_2_v2.1.zip",
+    "icon_url": "icons/mr-zerotekzs-blades-of-war-2.png",
+    "size_kb": 1950
+  },
+  {
+    "id": "alya-sometimes-hides-her-feelings-in-russian-custom-gui-pack",
+    "name": "Alya Sometimes Hides Her Feelings in Russian Custom GUI Pack",
+    "description": "Тёмный/обновлённый интерфейс GUI и HUD (61K+ на Modrinth) — Alya Sometimes Hides Her Feelings in Russian Custom GUI Pack",
+    "version": "1",
+    "file_name": "alya-sometimes-hides-her-feelings-in-russian-custom-gui-pack.zip",
+    "download_url": "https://cdn.modrinth.com/data/r7uoJbXM/versions/YpUDuQnd/Alya%20Sometimes%20Hides%20Her%20Feelings%20in%20Russian%20Custom%20GUI%20Pack.zip",
+    "icon_url": "icons/mr-alya-sometimes-hides-her-feelings-in-russian-custom-gui-pack.png",
+    "size_kb": 2026
+  },
+  {
+    "id": "life-series-armor",
+    "name": "Life Series Armor",
+    "description": "Обновлённая PvP-броня и снаряжение (61K+ на Modrinth) — Armor textures from the Life Series by grian",
+    "version": "1.4.0",
+    "file_name": "life-series-armor.zip",
+    "download_url": "https://cdn.modrinth.com/data/ZL71UjPM/versions/f1ub887L/%C2%A7aLife%C2%A7eSeries%C2%A7cArmor%20%C2%A77v1.4.0%20%C2%A78%5B1.21.3-1.21.10%5D.zip",
+    "icon_url": "https://cdn.modrinth.com/data/ZL71UjPM/b5ea28301a5affe3cf5c9aaa20cd3ddf4a91bb6f.png",
+    "size_kb": 31
+  },
+  {
+    "id": "tiny-pvp-swords-and-tools",
+    "name": "Tiny PVP Swords and Tools",
+    "description": "PvP-пак с укороченными/обновлёнными мечами (60K+ на Modrinth) — Tiny Swords and Tools for PVP (includes PVP Crosshair too!)",
+    "version": "1.0.2",
+    "file_name": "tiny-pvp-swords-and-tools.zip",
+    "download_url": "https://cdn.modrinth.com/data/OyWCbj0l/versions/K4rIdVpl/Tiny%20PVP%20Swords%20and%20Tools.zip",
+    "icon_url": "icons/mr-tiny-pvp-swords-and-tools.png",
+    "size_kb": 52
+  },
+  {
+    "id": "zickzack-v5-golden-ruby",
+    "name": "ZickZack V5 Golden Ruby",
+    "description": "Компактный/кастомный тотем бессмертия (60K+ на Modrinth) — A texture pack in the style of BastiGHG and the 2 million Golden Ruby Edition of...",
+    "version": "1.5",
+    "file_name": "zickzack-v5-golden-ruby.zip",
+    "download_url": "https://cdn.modrinth.com/data/VZyrKf1C/versions/Rp3XZ1vt/ZickZackGoldenRuby%20-%201.5.zip",
+    "icon_url": "icons/mr-zickzack-v5-golden-ruby.png",
+    "size_kb": 31438
+  },
+  {
+    "id": "guiplus",
+    "name": "GUI",
+    "description": "Тёмный/обновлённый интерфейс GUI и HUD (60K+ на Modrinth) — Transparent and Clear GUI for versions 1.20 - 26.2 that is minimalist and does not obstruct...",
+    "version": "5.2",
+    "file_name": "guiplus.zip",
+    "download_url": "https://cdn.modrinth.com/data/dp0LEXmz/versions/nYrx3ZYq/GUI.zip",
+    "icon_url": "https://cdn.modrinth.com/data/dp0LEXmz/b39e85eaebd407af743a80cf7d6d736f8df9be09.png",
+    "size_kb": 320
+  },
+  {
+    "id": "hamster-of-undying",
+    "name": "Hamster of Undying",
+    "description": "Компактный/кастомный тотем бессмертия (60K+ на Modrinth) — Adds an animated Hamster Totem that replaces the Totem of Undying",
+    "version": "0.0.1",
+    "file_name": "hamster-of-undying.zip",
+    "download_url": "https://cdn.modrinth.com/data/gd03tjwg/versions/WUcP0J3H/HamsterOfUndying.zip",
+    "icon_url": "icons/mr-hamster-of-undying.png",
+    "size_kb": 272
+  },
+  {
+    "id": "animated-cat-totem",
+    "name": "Animated Cat Biting Wire Totem Reskin",
+    "description": "Компактный/кастомный тотем бессмертия (59K+ на Modrinth) — The cat-biting electrical wire meme as a totem reskin with an activation sound when the...",
+    "version": "1.21.11+",
+    "file_name": "animated-cat-totem.zip",
+    "download_url": "https://cdn.modrinth.com/data/QtgIMP1I/versions/EYMksss6/Cat%20Biting%20Wire%20-%20Animated%20Totem.zip",
+    "icon_url": "https://cdn.modrinth.com/data/QtgIMP1I/80164d6b7d3b009948e0badff9bea226461f903b.jpeg",
+    "size_kb": 1062
+  },
+  {
+    "id": "zerofog",
+    "name": "ZeroFog + Fps Boost",
+    "description": "Crystal PvP пак (58K+ на Modrinth) — Removes fog from all dimensions for crystal-clear visibility — no mods required.",
+    "version": "v.05-(OwnVerse-Edition)",
+    "file_name": "zerofog.zip",
+    "download_url": "https://cdn.modrinth.com/data/5DXd88fn/versions/t3MMRS9s/ZeroFog%20%28OwnVerse%20Edition%29%201.20-26x%20v.05.zip",
+    "icon_url": "https://cdn.modrinth.com/data/5DXd88fn/a53bf189a0c7d22fe116a54e40bbf4ad840292de.png",
+    "size_kb": 6296
+  },
+  {
+    "id": "hyxerion-16x-minecraft-pvp-texturepack",
+    "name": "Hyxerion 16x || Minecraft PvP Texturepack",
+    "description": "Лёгкий 16x PvP-текстурпак с высоким FPS (58K+ на Modrinth) — A very good 1.20 PvP texturepack",
+    "version": "v2.3",
+    "file_name": "hyxerion-16x-minecraft-pvp-texturepack.zip",
+    "download_url": "https://cdn.modrinth.com/data/5YoJd0KH/versions/Z5bWVsJe/%C2%A71%C2%A7lHyxerion16x.zip",
+    "icon_url": "https://cdn.modrinth.com/data/5YoJd0KH/bc4ed3173b76765c44997f2120db94b6beb01f23.png",
+    "size_kb": 6560
+  },
+  {
+    "id": "better-low-shield",
+    "name": "Better Low Shield",
+    "description": "Компактный/опущенный щит для PvP (58K+ на Modrinth) — Lower your shield to improve visibility -- ideal for PvP.",
+    "version": "1.0",
+    "file_name": "better-low-shield.zip",
+    "download_url": "https://cdn.modrinth.com/data/ZrAkn01X/versions/uAcReLwA/Better%20Low%20Shield.zip",
+    "icon_url": "icons/mr-better-low-shield.png",
+    "size_kb": 34
+  },
+  {
+    "id": "mjs-better-3d-tools-weapons",
+    "name": "MJ's Better 3D Tools & Weapons",
+    "description": "Чистые эффекты зачарований (57K+ на Modrinth) — a 3D look for Minecraft items. Includes enchantment and durability dependant textures. By...",
+    "version": "4",
+    "file_name": "mjs-better-3d-tools-weapons.zip",
+    "download_url": "https://cdn.modrinth.com/data/r7U4XY9H/versions/GNSpl4rx/3D%20Tools%20by%20Mickey%20Joe.zip",
+    "icon_url": "icons/mr-mjs-better-3d-tools-weapons.png",
+    "size_kb": 1199
+  },
+  {
+    "id": "smallercrosshair",
+    "name": "Smaller Crosshair",
+    "description": "Контрастный PvP-прицел (56K+ на Modrinth) — Makes the Minecraft Crosshair 1 pixel smaller. aka: Small Crosshair",
+    "version": "1.3",
+    "file_name": "smallercrosshair.zip",
+    "download_url": "https://cdn.modrinth.com/data/ZztOAazk/versions/sbn1lrsw/Smaller%20Crosshair.zip",
+    "icon_url": "icons/mr-smallercrosshair.png",
+    "size_kb": 121
+  },
+  {
+    "id": "3d-mace-wind-burst-effect",
+    "name": "3D Mace Wind Burst Effect",
+    "description": "PvP / 3D пак для булавы (Mace) (56K+ на Modrinth) — Accurate Mace 3D model in First & Third person while staying in 2D in the GUI + Wind Burst...",
+    "version": "1.1",
+    "file_name": "3d-mace-wind-burst-effect.zip",
+    "download_url": "https://cdn.modrinth.com/data/7H2akMot/versions/6NQri8F6/3D%20Mace%20Wind%20Burst%20Effect.zip",
+    "icon_url": "icons/mr-3d-mace-wind-burst-effect.png",
+    "size_kb": 79
+  },
+  {
+    "id": "flaming-swords",
+    "name": "Flaming Swords",
+    "description": "PvP-пак с укороченными/обновлёнными мечами (55K+ на Modrinth) — Makes the Fire Aspect Enchantment show flames",
+    "version": "2.5.3",
+    "file_name": "flaming-swords.zip",
+    "download_url": "https://cdn.modrinth.com/data/EcjQY7O3/versions/N0pxIHBr/Flaming%20Swords.zip",
+    "icon_url": "https://cdn.modrinth.com/data/EcjQY7O3/f13a0190e4213eb5aed1ea020ac3244f42587b07.png",
+    "size_kb": 251
+  },
+  {
+    "id": "faithless-pvp-edit",
+    "name": "Faithless PvP Edit",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (55K+ на Modrinth) — A Faithless PvP Edit",
+    "version": "26.3",
+    "file_name": "faithless-pvp-edit.zip",
+    "download_url": "https://cdn.modrinth.com/data/NHs2y9Rk/versions/hhBLIOlx/Faithless%20PvP%20Edit%2026.3.zip",
+    "icon_url": "https://cdn.modrinth.com/data/NHs2y9Rk/bdc7b8d7cfec505cb194024850ff18028eb92026.png",
+    "size_kb": 225
+  },
+  {
+    "id": "totem-pets",
+    "name": "Totem Pets",
+    "description": "Компактный/кастомный тотем бессмертия (55K+ на Modrinth) — A Texture Pack that Make its so When you name a totem to the name of a mob in the game it...",
+    "version": "2.0.1",
+    "file_name": "totem-pets.zip",
+    "download_url": "https://cdn.modrinth.com/data/V7kRaVNC/versions/31bjXj5y/Totem%20pets%21%202%2C0%2C1.zip",
+    "icon_url": "icons/mr-totem-pets.png",
+    "size_kb": 859
+  },
+  {
+    "id": "hellokitty-texture-pack",
+    "name": "HelloKitty Texture Pack",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (55K+ на Modrinth) — One of my most popular resource packs.",
+    "version": "1",
+    "file_name": "hellokitty-texture-pack.zip",
+    "download_url": "https://cdn.modrinth.com/data/X6D1MOJo/versions/r5aXfbkw/%21%20%20%20%20%20%20%20%C2%A7d%C2%A7l%20Hello%20%C2%A7f%C2%A7lKitty%20%C2%A7d%C2%A7lFIXED.zip",
+    "icon_url": "icons/mr-hellokitty-texture-pack.png",
+    "size_kb": 37765
+  },
+  {
+    "id": "lower-shield-pvp",
+    "name": "Lower Shield PVP",
+    "description": "Компактный/опущенный щит для PvP (55K+ на Modrinth) — Fixes The Minecraft Shield Covering The Entire Screen.",
+    "version": "1",
+    "file_name": "lower-shield-pvp.zip",
+    "download_url": "https://cdn.modrinth.com/data/Hq5R2Qa8/versions/mPVBd2gN/%C2%A76Lower%20Shield%20%C2%A7cPVP.zip",
+    "icon_url": "https://cdn.modrinth.com/data/Hq5R2Qa8/203680f6de4e0c87dc992ca88220d3b9363e0782.png",
+    "size_kb": 9
+  },
+  {
+    "id": "vanilla-plus-font",
+    "name": "Vanilla+ Font",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (54K+ на Modrinth) — Makes the font so much better using marloww's pvp pack",
+    "version": "1.0",
+    "file_name": "vanilla-plus-font.zip",
+    "download_url": "https://cdn.modrinth.com/data/HJYJnw4T/versions/Rxqyv70s/Vanilla%2B%20Font.zip",
+    "icon_url": "icons/mr-vanilla-plus-font.png",
+    "size_kb": 1230
+  },
+  {
+    "id": "black-pvp-x-gold",
+    "name": "Black PvP-x Gold",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (54K+ на Modrinth) — All new black themed texture pack to help with pvp experience",
+    "version": "1.5",
+    "file_name": "black-pvp-x-gold.zip",
+    "download_url": "https://cdn.modrinth.com/data/zjoJXcA7/versions/oyCsIkME/Black%20PvP-x%20Gold.zip",
+    "icon_url": "https://cdn.modrinth.com/data/zjoJXcA7/a39a9f6ad6425fd098be7db5750011bffce1f4a4.png",
+    "size_kb": 885
+  },
+  {
+    "id": "ksepsp-cit",
+    "name": "KSEPSP [Vanilla CIT]",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (54K+ на Modrinth) — Over 1700 custom items to vanilla game!",
+    "version": "9.5.1",
+    "file_name": "ksepsp-cit.zip",
+    "download_url": "https://cdn.modrinth.com/data/DhQ8Dck4/versions/ysDnFpHc/KSEPSP-9-5-1.zip",
+    "icon_url": "icons/mr-ksepsp-cit.png",
+    "size_kb": 7829
+  },
+  {
+    "id": "sharpless-pvp",
+    "name": "sharpless pvp",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (53K+ на Modrinth) — Smooth, clean, boosted vanilla vibes. Better visibility, better gameplay, zero clutter and...",
+    "version": "1.1.3",
+    "file_name": "sharpless-pvp.zip",
+    "download_url": "https://cdn.modrinth.com/data/6lP6Bk1L/versions/dcMe0vrh/sharpless%20pvp%20%5B26.3%5D%20v1.1.3.zip",
+    "icon_url": "icons/mr-sharpless-pvp.png",
+    "size_kb": 4921
+  },
+  {
+    "id": "hud-reimagined",
+    "name": "HUD Reimagined",
+    "description": "Тёмный/обновлённый интерфейс GUI и HUD (53K+ на Modrinth) — HUD Re-Displayed!",
+    "version": "v1",
+    "file_name": "hud-reimagined.zip",
+    "download_url": "https://cdn.modrinth.com/data/zpa9h4dN/versions/LfToEZ6t/%C2%A7bHUD%C2%A78-%C2%A7bReimagined%C2%A70_%C2%A78%5Bv1%5D%C2%A70.zip",
+    "icon_url": "icons/mr-hud-reimagined.png",
+    "size_kb": 121
+  },
+  {
+    "id": "evernight-totem-animation",
+    "name": "Evernight Totem Animation",
+    "description": "Компактный/кастомный тотем бессмертия (53K+ на Modrinth) — Evernight Totem Animation without any mods",
+    "version": "1.3",
+    "file_name": "evernight-totem-animation.zip",
+    "download_url": "https://cdn.modrinth.com/data/qptUv0HJ/versions/AMJAlJiD/Evernight%20Totem%20Animation%201.3.zip",
+    "icon_url": "icons/mr-evernight-totem-animation.png",
+    "size_kb": 1429
+  },
+  {
+    "id": "purple-cpvp-pack-16x",
+    "name": "purple CPVP Pack 16x",
+    "description": "Crystal PvP пак (53K+ на Modrinth) — A purple CPVP pack 16x for better looks",
+    "version": "0.0.1",
+    "file_name": "purple-cpvp-pack-16x.zip",
+    "download_url": "https://cdn.modrinth.com/data/6kIJ9bvB/versions/OU1jZsTS/%C2%A75%C2%A7L%21%20O3kar%20Purple.zip",
+    "icon_url": "icons/mr-purple-cpvp-pack-16x.png",
+    "size_kb": 750
+  },
+  {
+    "id": "vanilla-cpvp-plus-fps",
+    "name": "Vanilla CPVP + FPS",
+    "description": "Crystal PvP пак (53K+ на Modrinth) — x16 Pack design to have most vanilla textures but with a couple fps tweaks and make it more...",
+    "version": "v1.1",
+    "file_name": "vanilla-cpvp-plus-fps.zip",
+    "download_url": "https://cdn.modrinth.com/data/mgI4lZLx/versions/M6g108sF/%C2%A7fVanilla%20%C2%A76%2B%20%C2%A7aFPS.zip",
+    "icon_url": "icons/mr-vanilla-cpvp-plus-fps.png",
+    "size_kb": 1613
+  },
+  {
+    "id": "bow-charger",
+    "name": "Bow Charger",
+    "description": "Улучшенные лук, арбалет и стрелы (53K+ на Modrinth) — Adds colors to bows and crossbows when charging them!",
+    "version": "V2.0",
+    "file_name": "bow-charger.zip",
+    "download_url": "https://cdn.modrinth.com/data/DRYXCvr8/versions/9jGMlxMQ/Bow%20Charger.zip",
+    "icon_url": "icons/mr-bow-charger.png",
+    "size_kb": 27
+  },
+  {
+    "id": "vanilla-pvp-textures",
+    "name": "vanilla pvp",
+    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (52K+ на Modrinth) — vanilla minecraft textures but optimized for pvp & survival gameplay!",
+    "version": "036",
+    "file_name": "vanilla-pvp-textures.zip",
+    "download_url": "https://cdn.modrinth.com/data/VbA1jifC/versions/qlPEdg0W/vanilla%20pvp%201.34.zip",
+    "icon_url": "icons/mr-vanilla-pvp-textures.png",
+    "size_kb": 29515
+  },
+  {
+    "id": "totem-of-autism",
+    "name": "Totem of Autism",
+    "description": "Компактный/кастомный тотем бессмертия (52K+ на Modrinth) — Replaces the Totem of Undying with the Autism/TBH Creature",
+    "version": "1.20-26.x",
+    "file_name": "totem-of-autism.zip",
+    "download_url": "https://cdn.modrinth.com/data/dRd1SUqs/versions/Xf9JO9QV/Totem_of_Autism.zip",
+    "icon_url": "https://cdn.modrinth.com/data/dRd1SUqs/eaa9a8a3a83c76d1642408e53fa7b9c840a8a865.png",
+    "size_kb": 175
+  },
+  {
+    "id": "no-crystal-particles",
+    "name": "No Crystal Particles",
+    "description": "Crystal PvP пак (52K+ на Modrinth) — Removes Crystal Particles",
+    "version": "release",
+    "file_name": "no-crystal-particles.zip",
+    "download_url": "https://cdn.modrinth.com/data/dkj0kNxr/versions/Fpdemgcv/No%20Crystal%20Particles.zip",
+    "icon_url": "icons/mr-no-crystal-particles.png",
+    "size_kb": 6
   }
 ]
