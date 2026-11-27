@@ -636,7 +636,7 @@
       "kind": "resourcepack",
       "file_name": "low-fire-pack.zip",
       "download_url": "https://cdn.modrinth.com/data/1jZGHJ05/versions/RP4ozzMC/Low%20Fire.zip",
-      "icon_url": "https://cdn.modrinth.com/data/1jZGHJ05/f5121ce9e464ff6dc20b5de0127c52bfea6eb9f3_96.webp",
+      "icon_url": "icons/mr-low-fire-pack.png",
       "size_kb": 42
     },
     {
@@ -647,7 +647,7 @@
       "kind": "resourcepack",
       "file_name": "unique-dark.zip",
       "download_url": "https://cdn.modrinth.com/data/BaY1UdGV/versions/ZsuVOeOB/Unique%20Dark%20-%20Lite%20-%201.20.2-26.x.zip",
-      "icon_url": "https://cdn.modrinth.com/data/BaY1UdGV/6aefda710242382f1b27395fbe2f6a45b092873d_96.webp",
+      "icon_url": "icons/mr-unique-dark.png",
       "size_kb": 9382
     },
     {
@@ -691,7 +691,7 @@
       "kind": "resourcepack",
       "file_name": "enchantment-glows.zip",
       "download_url": "https://cdn.modrinth.com/data/m3tqASqD/versions/uaBnfTpO/Enchantment%20Glows%20v1.12.1.zip",
-      "icon_url": "https://cdn.modrinth.com/data/m3tqASqD/f749b3e11932cd4a8da710c7140513d2804d37e2_96.webp",
+      "icon_url": "icons/mr-enchantment-glows.png",
       "size_kb": 2077
     },
     {
@@ -702,7 +702,7 @@
       "kind": "resourcepack",
       "file_name": "excal.zip",
       "download_url": "https://cdn.modrinth.com/data/hJAzl1Bs/versions/lk2oxwrP/Excalibur_V26.3_01.zip",
-      "icon_url": "https://cdn.modrinth.com/data/hJAzl1Bs/3a7829b21522be382f6a6507b93214b45e40cdd5_96.webp",
+      "icon_url": "icons/mr-excal.png",
       "size_kb": 20305
     },
     {
@@ -757,7 +757,7 @@
       "kind": "resourcepack",
       "file_name": "lower-fire.zip",
       "download_url": "https://cdn.modrinth.com/data/dMP1Fvla/versions/2vI9P78N/Low%20Fire%2026.3.zip",
-      "icon_url": "https://cdn.modrinth.com/data/dMP1Fvla/e2273045c7ceb57af4abfcf62883c5979020137a_96.webp",
+      "icon_url": "icons/mr-lower-fire.png",
       "size_kb": 72
     },
     {
@@ -768,7 +768,7 @@
       "kind": "resourcepack",
       "file_name": "faithless.zip",
       "download_url": "https://cdn.modrinth.com/data/CwaddKq6/versions/qziCDcnv/Faithless.zip",
-      "icon_url": "https://cdn.modrinth.com/data/CwaddKq6/1c73dfdd7fab5a1f61bce86207340d5231320ed8_96.webp",
+      "icon_url": "icons/mr-faithless.png",
       "size_kb": 27591
     },
     {
@@ -790,7 +790,7 @@
       "kind": "resourcepack",
       "file_name": "pvp.zip",
       "download_url": "https://cdn.modrinth.com/data/Dah9yFTO/versions/MltL3kKU/Scroutopia%20v2.3.zip",
-      "icon_url": "https://cdn.modrinth.com/data/Dah9yFTO/b19f4dc3e68ee826bdaaa5dd667fecc9ba3b6e73_96.webp",
+      "icon_url": "icons/mr-pvp.png",
       "size_kb": 375
     },
     {
@@ -823,7 +823,7 @@
       "kind": "resourcepack",
       "file_name": "potato-graphics.zip",
       "download_url": "https://cdn.modrinth.com/data/QUvmr7uI/versions/O8rn81iJ/Potato%20v6.2.zip",
-      "icon_url": "https://cdn.modrinth.com/data/QUvmr7uI/48649ed1ec2ce68a11443372f3e96bc207a3ec07.gif",
+      "icon_url": "icons/mr-potato-graphics.png",
       "size_kb": 235
     },
     {
@@ -845,7 +845,7 @@
       "kind": "resourcepack",
       "file_name": "no-explosion-particles.zip",
       "download_url": "https://cdn.modrinth.com/data/VYrNveoF/versions/QXgFTvtm/No%20Explosion%20Particles.zip",
-      "icon_url": "https://cdn.modrinth.com/data/VYrNveoF/c90fcbfb72ffc1619552ffcf7a2a707de1c033a8_96.webp",
+      "icon_url": "icons/mr-no-explosion-particles.png",
       "size_kb": 1465
     },
     {
@@ -856,7 +856,7 @@
       "kind": "resourcepack",
       "file_name": "quadral.zip",
       "download_url": "https://cdn.modrinth.com/data/Ldeyci7L/versions/gGYKYXpG/1.26.3-Quadral%20v.6.6.1.zip",
-      "icon_url": "https://cdn.modrinth.com/data/Ldeyci7L/cb6b6a4e1e77bf6519ad7425cb6ee20c04bad697_96.webp",
+      "icon_url": "icons/mr-quadral.png",
       "size_kb": 10952
     },
     {
@@ -867,7 +867,7 @@
       "kind": "resourcepack",
       "file_name": "low-shield-pvp.zip",
       "download_url": "https://cdn.modrinth.com/data/ymGTGCFA/versions/pMIDpdQx/Low%20Shield%20PvP.zip",
-      "icon_url": "https://cdn.modrinth.com/data/ymGTGCFA/62837484dcf4aa58907f1cb992277f1bcc4ef3a3_96.webp",
+      "icon_url": "icons/mr-low-shield-pvp.png",
       "size_kb": 79
     },
     {
@@ -878,7 +878,7 @@
       "kind": "resourcepack",
       "file_name": "pvp-essentials.zip",
       "download_url": "https://cdn.modrinth.com/data/Vysdm6cd/versions/viCr9gqG/PvP%20Essentials.zip",
-      "icon_url": "https://cdn.modrinth.com/data/Vysdm6cd/16bb7f8cbdbcdc5cc5477914548fe07aeb7281e5_96.webp",
+      "icon_url": "icons/mr-pvp-essentials.png",
       "size_kb": 441
     },
     {
@@ -911,7 +911,7 @@
       "kind": "resourcepack",
       "file_name": "fine-armoury.zip",
       "download_url": "https://cdn.modrinth.com/data/H0Q0y5Fn/versions/rGNW4u8E/Fine%20Armoury%20v1.8.zip",
-      "icon_url": "https://cdn.modrinth.com/data/H0Q0y5Fn/b11a9bd36a5bfee9e17e19da085c73b42a61363c_96.webp",
+      "icon_url": "icons/mr-fine-armoury.png",
       "size_kb": 84
     },
     {
@@ -922,7 +922,7 @@
       "kind": "resourcepack",
       "file_name": "mase-3d-by-nestter.zip",
       "download_url": "https://cdn.modrinth.com/data/1K3EfTy7/versions/pjeYkThK/3dMase.zip",
-      "icon_url": "https://cdn.modrinth.com/data/1K3EfTy7/ffe1b0675aa07bf3fd77df421aabf19531498a12_96.webp",
+      "icon_url": "icons/mr-mase-3d-by-nestter.png",
       "size_kb": 13
     },
     {
@@ -933,7 +933,7 @@
       "kind": "resourcepack",
       "file_name": "simple-wool.zip",
       "download_url": "https://cdn.modrinth.com/data/sFqysorr/versions/BfNSkdJU/Simple%20Wool%20v1.4.zip",
-      "icon_url": "https://cdn.modrinth.com/data/sFqysorr/c4b3509b1cc0181ec05a3d0aadbfc07f67808dba_96.webp",
+      "icon_url": "icons/mr-simple-wool.png",
       "size_kb": 15
     },
     {
@@ -944,7 +944,7 @@
       "kind": "resourcepack",
       "file_name": "smp-basics.zip",
       "download_url": "https://cdn.modrinth.com/data/xF16hku7/versions/XBoSCUMg/SMP%20Basics%2026.3%201.2.zip",
-      "icon_url": "https://cdn.modrinth.com/data/xF16hku7/e470d88daa570cb3eec5e65235ee669d88e87905_96.webp",
+      "icon_url": "icons/mr-smp-basics.png",
       "size_kb": 518
     },
     {
@@ -966,7 +966,7 @@
       "kind": "resourcepack",
       "file_name": "small-totem.zip",
       "download_url": "https://cdn.modrinth.com/data/IR9SLmt3/versions/8FTyj4KN/Smaller%20Totem.zip",
-      "icon_url": "https://cdn.modrinth.com/data/IR9SLmt3/ea2e61b480e8a2ec779509797c48d325de2b94fa_96.webp",
+      "icon_url": "icons/mr-small-totem.png",
       "size_kb": 1215
     },
     {
@@ -977,7 +977,7 @@
       "kind": "resourcepack",
       "file_name": "ferremcdurabilityoverlay.zip",
       "download_url": "https://cdn.modrinth.com/data/aIBaYhd2/versions/ax1xTvB4/FMDO.zip",
-      "icon_url": "https://cdn.modrinth.com/data/aIBaYhd2/ade4d18eadd93338a8dcca83f8853c9eabbe95c0_96.webp",
+      "icon_url": "icons/mr-ferremcdurabilityoverlay.png",
       "size_kb": 82
     },
     {
@@ -988,7 +988,7 @@
       "kind": "resourcepack",
       "file_name": "different-textures-for-enchanted-books.zip",
       "download_url": "https://cdn.modrinth.com/data/pVMDJdGo/versions/AqjaWekE/EnchantedBooks26.3.zip",
-      "icon_url": "https://cdn.modrinth.com/data/pVMDJdGo/977f4948b3578f409748ca786322fcb26755f4f1.gif",
+      "icon_url": "icons/mr-different-textures-for-enchanted-books.png",
       "size_kb": 56
     },
     {
@@ -999,7 +999,7 @@
       "kind": "resourcepack",
       "file_name": "visible-shield-cooldown-rp.zip",
       "download_url": "https://cdn.modrinth.com/data/oRTeQDkt/versions/9yXqkwLh/Visible%20Shield%20Cooldown%20v2.0.zip",
-      "icon_url": "https://cdn.modrinth.com/data/oRTeQDkt/81329181582010f2c31d200cab13e97b75e7d9e9_96.webp",
+      "icon_url": "icons/mr-visible-shield-cooldown-rp.png",
       "size_kb": 22
     },
     {
@@ -1010,7 +1010,7 @@
       "kind": "resourcepack",
       "file_name": "no-fire.zip",
       "download_url": "https://cdn.modrinth.com/data/wfbhLxFl/versions/uQKi3HfR/Fire%20Remover.zip",
-      "icon_url": "https://cdn.modrinth.com/data/wfbhLxFl/2f839df4976831bf8127d280467eb40dd1b31c9f_96.webp",
+      "icon_url": "icons/mr-no-fire.png",
       "size_kb": 53
     },
     {
@@ -1032,7 +1032,7 @@
       "kind": "resourcepack",
       "file_name": "torturable-healthbars.zip",
       "download_url": "https://cdn.modrinth.com/data/WPuyL1eO/versions/3Q8J0Ld9/%C2%A7bTorturable%20Healthbars%202.4.3.zip",
-      "icon_url": "https://cdn.modrinth.com/data/WPuyL1eO/a86df18094942f7a6889de6cf82663691a28c7af.gif",
+      "icon_url": "icons/mr-torturable-healthbars.png",
       "size_kb": 1047
     },
     {
@@ -1054,7 +1054,7 @@
       "kind": "resourcepack",
       "file_name": "fantasy-3d-weapons-cit.zip",
       "download_url": "https://cdn.modrinth.com/data/4XVKh1GK/versions/Uxk8yPAn/nongko%27s_Fantasy_Weapons_v1.20A.zip",
-      "icon_url": "https://cdn.modrinth.com/data/4XVKh1GK/f832a225d8f9f0c99f9c39d1e279daeed552bbd5_96.webp",
+      "icon_url": "icons/mr-fantasy-3d-weapons-cit.png",
       "size_kb": 1656
     },
     {
@@ -1076,7 +1076,7 @@
       "kind": "resourcepack",
       "file_name": "kingd3faults.zip",
       "download_url": "https://cdn.modrinth.com/data/Fo79jqAa/versions/oLEmcM0q/KingD3fault%27s%2026.2.zip",
-      "icon_url": "https://cdn.modrinth.com/data/Fo79jqAa/7ced3fcef587ba53afa25e5d60fd970894ad2745_96.webp",
+      "icon_url": "icons/mr-kingd3faults.png",
       "size_kb": 35465
     },
     {
@@ -1098,7 +1098,7 @@
       "kind": "resourcepack",
       "file_name": "nightmare-obsessed.zip",
       "download_url": "https://cdn.modrinth.com/data/O7JiHzWM/versions/vcNw6Mwj/Nightmare%20Obsessed%201.3.zip",
-      "icon_url": "https://cdn.modrinth.com/data/O7JiHzWM/90adeb770c825a048f1ca5ee55e8c15a1e0e7290_96.webp",
+      "icon_url": "icons/mr-nightmare-obsessed.png",
       "size_kb": 961
     },
     {
@@ -1109,7 +1109,7 @@
       "kind": "resourcepack",
       "file_name": "pvp-basics.zip",
       "download_url": "https://cdn.modrinth.com/data/ehZrmfH1/versions/2tR7gDAe/PvP%20Basics%202.3.1.zip",
-      "icon_url": "https://cdn.modrinth.com/data/ehZrmfH1/55bd9da55c6c10667b7af90eb16e5de00f813132_96.webp",
+      "icon_url": "icons/mr-pvp-basics.png",
       "size_kb": 401
     },
     {
@@ -1120,7 +1120,7 @@
       "kind": "resourcepack",
       "file_name": "pvp-utils.zip",
       "download_url": "https://cdn.modrinth.com/data/U95n28SF/versions/AjntKsW7/PvP%20Utils%201.2.2.zip",
-      "icon_url": "https://cdn.modrinth.com/data/U95n28SF/a9fd5c4805ee08eea2034e587f4f02ac933d3a5e_96.webp",
+      "icon_url": "icons/mr-pvp-utils.png",
       "size_kb": 406
     },
     {
@@ -1164,7 +1164,7 @@
       "kind": "resourcepack",
       "file_name": "stellarity-rp.zip",
       "download_url": "https://cdn.modrinth.com/data/NfszI0rL/versions/MoI9vgc3/Stellarity-6.0.1-RP.zip",
-      "icon_url": "https://cdn.modrinth.com/data/NfszI0rL/affad04e2e4992cee86dbc6da07042f40a9b508a_96.webp",
+      "icon_url": "icons/mr-stellarity-rp.png",
       "size_kb": 5519
     },
     {
@@ -1175,7 +1175,7 @@
       "kind": "resourcepack",
       "file_name": "donut-smp-essentials.zip",
       "download_url": "https://cdn.modrinth.com/data/qVsH0KMY/versions/yFdpFCXa/Donut%20Smp%20Essentials%201.0.zip",
-      "icon_url": "https://cdn.modrinth.com/data/qVsH0KMY/9aeefe02c8c4a7d82b770ed3eb9c01927e331be7_96.webp",
+      "icon_url": "icons/mr-donut-smp-essentials.png",
       "size_kb": 576
     },
     {
@@ -1197,7 +1197,7 @@
       "kind": "resourcepack",
       "file_name": "itzrealme-edit.zip",
       "download_url": "https://cdn.modrinth.com/data/kpqbEsgs/versions/asHyBOt0/ItzRealMe%20Edit%2026.3.zip",
-      "icon_url": "https://cdn.modrinth.com/data/kpqbEsgs/1606b72ed31fa28f803b0f4ff774a39c9f02fcbd_96.webp",
+      "icon_url": "icons/mr-itzrealme-edit.png",
       "size_kb": 119
     },
     {
@@ -1208,7 +1208,7 @@
       "kind": "resourcepack",
       "file_name": "pvp-haimiya-anime-pack.zip",
       "download_url": "https://cdn.modrinth.com/data/krOlTFB3/versions/32reINk6/Haimiya_Pack_1.0.5.zip",
-      "icon_url": "https://cdn.modrinth.com/data/krOlTFB3/856eec3034fcbca241b516cd8fd0e38cd1c6be95_96.webp",
+      "icon_url": "icons/mr-pvp-haimiya-anime-pack.png",
       "size_kb": 19276
     },
     {
@@ -1219,7 +1219,7 @@
       "kind": "resourcepack",
       "file_name": "ore..zip",
       "download_url": "https://cdn.modrinth.com/data/eSO6Pti8/versions/Hz8Z1LKL/Visible%20Ore%20v1.4.zip",
-      "icon_url": "https://cdn.modrinth.com/data/eSO6Pti8/08b6ac01d8e669fb8c1785bfff3b65937f1c3752_96.webp",
+      "icon_url": "icons/mr-ore..png",
       "size_kb": 34
     },
     {
@@ -1230,7 +1230,7 @@
       "kind": "resourcepack",
       "file_name": "short-swords-pack.zip",
       "download_url": "https://cdn.modrinth.com/data/GExZOLXP/versions/gmCGV0CM/Short%20Swords.zip",
-      "icon_url": "https://cdn.modrinth.com/data/GExZOLXP/fe97fdfe85bb61087300652ea1479c173d2419e7_96.webp",
+      "icon_url": "icons/mr-short-swords-pack.png",
       "size_kb": 9
     },
     {
@@ -1252,7 +1252,7 @@
       "kind": "resourcepack",
       "file_name": "smp-pvp-essentials.zip",
       "download_url": "https://cdn.modrinth.com/data/fmp1TQop/versions/rLysjIRr/%21%20%20%C2%A78SMP%20Essentials.zip",
-      "icon_url": "https://cdn.modrinth.com/data/fmp1TQop/68be7248574b50a07acdc19493e33ccd23572b92_96.webp",
+      "icon_url": "icons/mr-smp-pvp-essentials.png",
       "size_kb": 623
     },
     {
@@ -1263,7 +1263,7 @@
       "kind": "resourcepack",
       "file_name": "eating-animation-resourcepack.zip",
       "download_url": "https://cdn.modrinth.com/data/o962rBDR/versions/mOXIOI4W/Eating%20Animation%5B1.0.1%5D.zip",
-      "icon_url": "https://cdn.modrinth.com/data/o962rBDR/a7de4415ac526076016a248ee1e81ddc9b3018fc.gif",
+      "icon_url": "icons/mr-eating-animation-resourcepack.png",
       "size_kb": 166
     },
     {
@@ -1285,7 +1285,7 @@
       "kind": "resourcepack",
       "file_name": "pvp-texture-pack.zip",
       "download_url": "https://cdn.modrinth.com/data/gXXWYaSI/versions/B9pj9x1d/%C2%A7d%C2%A7lArshuSmpOverlay.zip",
-      "icon_url": "https://cdn.modrinth.com/data/gXXWYaSI/8e56ffcf522648cc97bf52c350d01b916bf68328_96.webp",
+      "icon_url": "icons/mr-pvp-texture-pack.png",
       "size_kb": 877
     },
     {
@@ -1296,7 +1296,7 @@
       "kind": "resourcepack",
       "file_name": "itzrealmes-overlay.zip",
       "download_url": "https://cdn.modrinth.com/data/MYaOYUgZ/versions/uZf4mcGP/%C2%A7eItzRealMes%20Overlay.zip",
-      "icon_url": "https://cdn.modrinth.com/data/MYaOYUgZ/66a2e3a3e3bbfe481fb84024cfe4796659c2bf2b_96.webp",
+      "icon_url": "icons/mr-itzrealmes-overlay.png",
       "size_kb": 599
     },
     {
@@ -1318,7 +1318,7 @@
       "kind": "resourcepack",
       "file_name": "small-low-totem.zip",
       "download_url": "https://cdn.modrinth.com/data/bAO2sCFV/versions/nvv1kYtl/Small%20Low%20Totem%2026.3.zip",
-      "icon_url": "https://cdn.modrinth.com/data/bAO2sCFV/8caf6af8bbb13a886380adff972587e0129225b0_96.webp",
+      "icon_url": "icons/mr-small-low-totem.png",
       "size_kb": 192
     },
     {
@@ -1329,7 +1329,7 @@
       "kind": "resourcepack",
       "file_name": "kreklinokpackpvp.zip",
       "download_url": "https://cdn.modrinth.com/data/SSNkyjvA/versions/9CUW2aQM/Kreklinok%20Vanila%201.21-1.21.1.zip",
-      "icon_url": "https://cdn.modrinth.com/data/SSNkyjvA/f8aa9f6e7dba17e7e9db51d122135c08723a96f2_96.webp",
+      "icon_url": "icons/mr-kreklinokpackpvp.png",
       "size_kb": 2712
     },
     {
@@ -1340,7 +1340,7 @@
       "kind": "resourcepack",
       "file_name": "tightfault-revamp-edit.zip",
       "download_url": "https://cdn.modrinth.com/data/nfw2Qplb/versions/we6XjxYw/%21Tightfault-26.3-v1.2.6.zip",
-      "icon_url": "https://cdn.modrinth.com/data/nfw2Qplb/47bf02ba01c729c13a83c8acabc300c812abb0a1_96.webp",
+      "icon_url": "icons/mr-tightfault-revamp-edit.png",
       "size_kb": 5202
     },
     {
@@ -1351,7 +1351,7 @@
       "kind": "resourcepack",
       "file_name": "small..zip",
       "download_url": "https://cdn.modrinth.com/data/7Wj7wFvU/versions/qcDzd93E/Small%20Items%2B%20v1.1.zip",
-      "icon_url": "https://cdn.modrinth.com/data/7Wj7wFvU/30ab5ca58039155166c06a4e4f166812b0e89e22_96.webp",
+      "icon_url": "icons/mr-small..png",
       "size_kb": 83
     },
     {
@@ -1384,7 +1384,7 @@
       "kind": "resourcepack",
       "file_name": "drdonuts.zip",
       "download_url": "https://cdn.modrinth.com/data/imXaGAqI/versions/KFOe1Hco/DrDonut%20Fan%20Pack%2026.3.zip",
-      "icon_url": "https://cdn.modrinth.com/data/imXaGAqI/0a6cc94c933dae1cb935f7a78f21f7c3d7b29cf6_96.webp",
+      "icon_url": "icons/mr-drdonuts.png",
       "size_kb": 1518
     },
     {
@@ -1395,7 +1395,7 @@
       "kind": "resourcepack",
       "file_name": "smaller-side-shield.zip",
       "download_url": "https://cdn.modrinth.com/data/KMUu4kEg/versions/gIZ2h86Z/Side%20Shield.zip",
-      "icon_url": "https://cdn.modrinth.com/data/KMUu4kEg/3a20b78031b36239f9163fbd6c1245e055fbdbca_96.webp",
+      "icon_url": "icons/mr-smaller-side-shield.png",
       "size_kb": 3
     },
     {
@@ -1406,7 +1406,7 @@
       "kind": "resourcepack",
       "file_name": "gui..zip",
       "download_url": "https://cdn.modrinth.com/data/D4RAyKHR/versions/An6gNSCu/Black%20GUI%20v1.3.zip",
-      "icon_url": "https://cdn.modrinth.com/data/D4RAyKHR/3f0a374a25e63d5b27f3c4f402f74449807644f9_96.webp",
+      "icon_url": "icons/mr-gui..png",
       "size_kb": 819
     },
     {
@@ -1428,7 +1428,7 @@
       "kind": "resourcepack",
       "file_name": "macepvp-essentials.zip",
       "download_url": "https://cdn.modrinth.com/data/LYm2HDqp/versions/dd0AyORq/%21%20%20%C2%A78MacePvP%20Essentials%20%C2%A73%5BCM%5D%C2%A78.zip",
-      "icon_url": "https://cdn.modrinth.com/data/LYm2HDqp/7f27052b3bd3f58cb905dc4247357c5ac74e7a6c_96.webp",
+      "icon_url": "icons/mr-macepvp-essentials.png",
       "size_kb": 433
     },
     {
@@ -1439,7 +1439,7 @@
       "kind": "resourcepack",
       "file_name": "small-shield.zip",
       "download_url": "https://cdn.modrinth.com/data/yKFW2m9w/versions/n3HYGRbn/small%20shield%20overlay.zip",
-      "icon_url": "https://cdn.modrinth.com/data/yKFW2m9w/aa469f84a49311a0b0ca41a5fa8ff72bd3cec954_96.webp",
+      "icon_url": "icons/mr-small-shield.png",
       "size_kb": 80
     },
     {
@@ -1483,7 +1483,7 @@
       "kind": "resourcepack",
       "file_name": "glowing-glints-3d.zip",
       "download_url": "https://cdn.modrinth.com/data/dYHco6cp/versions/UaeKegeo/Glowing%203D%20Items.zip",
-      "icon_url": "https://cdn.modrinth.com/data/dYHco6cp/503e7ec96f6c3f2d0b982b24f194a8d2a9bca727_96.webp",
+      "icon_url": "icons/mr-glowing-glints-3d.png",
       "size_kb": 1287
     },
     {
@@ -1505,7 +1505,7 @@
       "kind": "resourcepack",
       "file_name": "nototemanimaton.zip",
       "download_url": "https://cdn.modrinth.com/data/imiBHvrq/versions/OlMRIpzO/No%20Totem%20Pop.zip",
-      "icon_url": "https://cdn.modrinth.com/data/imiBHvrq/454142df02b1021b53ee16b9b4335a0def7528cc_96.webp",
+      "icon_url": "icons/mr-nototemanimaton.png",
       "size_kb": 7
     },
     {
@@ -1516,7 +1516,7 @@
       "kind": "resourcepack",
       "file_name": "vipers-enchantment-enhancements.zip",
       "download_url": "https://cdn.modrinth.com/data/UvPRRT07/versions/XGRf9bYg/Enchantment%20Enhancements%20v3.0.zip",
-      "icon_url": "https://cdn.modrinth.com/data/UvPRRT07/6b7b1ee1f1e1a786d223a1ad14780db0e0ab6bb6_96.webp",
+      "icon_url": "icons/mr-vipers-enchantment-enhancements.png",
       "size_kb": 413
     },
     {
@@ -1538,7 +1538,7 @@
       "kind": "resourcepack",
       "file_name": "marin-kitagawa-pack-plus-anime-sky.zip",
       "download_url": "https://cdn.modrinth.com/data/Faw35XBO/versions/SsUkLvGC/Marin_Kitagawa_1.0.2.zip",
-      "icon_url": "https://cdn.modrinth.com/data/Faw35XBO/00d445a4a2e78332063b427d190d3d4b0e778aad_96.webp",
+      "icon_url": "icons/mr-marin-kitagawa-pack-plus-anime-sky.png",
       "size_kb": 23098
     },
     {
@@ -1560,7 +1560,7 @@
       "kind": "resourcepack",
       "file_name": "stylus-bow-retexture.zip",
       "download_url": "https://cdn.modrinth.com/data/DcPGZASP/versions/nT6MWQv8/Stylus%27s%20Bow%20Retexture.zip",
-      "icon_url": "https://cdn.modrinth.com/data/DcPGZASP/26aad64fdb29469ae19859cce183b7d7ae04fac2_96.webp",
+      "icon_url": "icons/mr-stylus-bow-retexture.png",
       "size_kb": 43
     },
     {
@@ -1593,7 +1593,7 @@
       "kind": "resourcepack",
       "file_name": "mini-totem.zip",
       "download_url": "https://cdn.modrinth.com/data/RynDEpHy/versions/j3BKxOjq/Mini%20Totem%2026.3.zip",
-      "icon_url": "https://cdn.modrinth.com/data/RynDEpHy/36eb5112c6fcfe47131391b79aa6f9d61eaecac6_96.webp",
+      "icon_url": "icons/mr-mini-totem.png",
       "size_kb": 15
     },
     {
@@ -1604,7 +1604,7 @@
       "kind": "resourcepack",
       "file_name": "living-legend-80k-rewamped.zip",
       "download_url": "https://cdn.modrinth.com/data/BJKZVS7i/versions/6CaziGa4/%21%20%20%20%20%20%20%C2%A75%C2%A7lLiving%20Legend%20Rewamp.zip",
-      "icon_url": "https://cdn.modrinth.com/data/BJKZVS7i/92fc69a8cdf1ef6d78852d99caeb524ad42cd84d_96.webp",
+      "icon_url": "icons/mr-living-legend-80k-rewamped.png",
       "size_kb": 3752
     },
     {
@@ -1648,7 +1648,7 @@
       "kind": "resourcepack",
       "file_name": "pvp-sora.zip",
       "download_url": "https://cdn.modrinth.com/data/w0Ei87tL/versions/nivoXJxV/%C2%A75%C2%A7lKasaiPVP%20%C2%A7dA26.2.zip",
-      "icon_url": "https://cdn.modrinth.com/data/w0Ei87tL/a54cdef6553f340a9507707cc9384882af8fa322_96.webp",
+      "icon_url": "icons/mr-pvp-sora.png",
       "size_kb": 630
     },
     {
@@ -1659,7 +1659,7 @@
       "kind": "resourcepack",
       "file_name": "uhc-basics.zip",
       "download_url": "https://cdn.modrinth.com/data/ZGb6KS4O/versions/6PJy9Evg/UHC%20Basics%2026.3%201.2.zip",
-      "icon_url": "https://cdn.modrinth.com/data/ZGb6KS4O/a60f68c5fb3ab6475470b5edb0d72fb7a4e01473_96.webp",
+      "icon_url": "icons/mr-uhc-basics.png",
       "size_kb": 173
     },
     {
@@ -1692,7 +1692,7 @@
       "kind": "resourcepack",
       "file_name": "no-explosions-particles.zip",
       "download_url": "https://cdn.modrinth.com/data/wy7rhVp1/versions/kL5sjeKf/No%20Explosion%20Particles.zip",
-      "icon_url": "https://cdn.modrinth.com/data/wy7rhVp1/285ffb5fc1597e1317981e242b74c699a8ec4617_96.webp",
+      "icon_url": "icons/mr-no-explosions-particles.png",
       "size_kb": 586
     },
     {
@@ -1714,7 +1714,7 @@
       "kind": "resourcepack",
       "file_name": "pvp-crosshair..zip",
       "download_url": "https://cdn.modrinth.com/data/qCkkZMIo/versions/Bgg3WhQX/PVP%20CROSSHAIR%201.21%20-%2026.1.2%2B.zip",
-      "icon_url": "https://cdn.modrinth.com/data/qCkkZMIo/b258afeb3ef82705ea3757844d7e262043a9e768_96.webp",
+      "icon_url": "icons/mr-pvp-crosshair..png",
       "size_kb": 12
     },
     {
