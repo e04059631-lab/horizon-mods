@@ -1,0 +1,302 @@
+[
+  {
+    "id": "low-on-fire",
+    "name": "Low On Fire",
+    "description": "Опускает пламя огня вниз экрана при горении в ванильном стиле — не закрывает обзор в PvP (18M+ скачиваний на Modrinth).",
+    "version": "26.3",
+    "file_name": "low-on-fire.zip",
+    "download_url": "https://cdn.modrinth.com/data/RRxvWKNC/versions/yQdcUfnr/LowOnFire%20v26.2%C2%A78.zip",
+    "icon_url": "https://cdn.modrinth.com/data/RRxvWKNC/06a7e7691a6da41798c255108a8563d7ffea171d.png",
+    "size_kb": 42
+  },
+  {
+    "id": "mandalas-gui-dark-mode",
+    "name": "Mandala's GUI - Dark mode",
+    "description": "Элегантный тёмный интерфейс для инвентаря, сундуков, верстака и всех меню Minecraft без изменения блоков (7.5M+ скачиваний).",
+    "version": "2.1",
+    "file_name": "mandalas-gui-dark-mode.zip",
+    "download_url": "https://cdn.modrinth.com/data/h6zxsNVF/versions/Z2ajDlEE/MandalasGUI%2BDakmode_1.21.6_v2.1.zip",
+    "icon_url": "https://cdn.modrinth.com/data/h6zxsNVF/458fb1c1a7c10c19f7a4a58e99defb73e54fbc93.png",
+    "size_kb": 710
+  },
+  {
+    "id": "low-shield-pack",
+    "name": "Low Shield",
+    "description": "Опускает щит ниже в руке, чтобы он не перекрывал противника и прицел во время боя (6M+ скачиваний).",
+    "version": "3.1.0",
+    "file_name": "low-shield-pack.zip",
+    "download_url": "https://cdn.modrinth.com/data/CZrLuVQo/versions/4LeYKTYX/Low%20Shield.zip",
+    "icon_url": "https://cdn.modrinth.com/data/CZrLuVQo/4ae626dba10d5bcc73f9a7b0a50c22e572075b6b.png",
+    "size_kb": 4
+  },
+  {
+    "id": "enhanced-boss-bars",
+    "name": "Enhanced Boss Bars",
+    "description": "Стильные детализированные полоски здоровья боссов для Дракона Края, Визера и рейдов (5.5M+ скачиваний).",
+    "version": "1.6",
+    "file_name": "enhanced-boss-bars.zip",
+    "download_url": "https://cdn.modrinth.com/data/U5SedJ9S/versions/ShyA8a0U/%5B1.6%5D%20Enhanced%20Boss%20Bars.zip",
+    "icon_url": "https://cdn.modrinth.com/data/U5SedJ9S/3097d03d95849c868725896a671a983914f3fad8.png",
+    "size_kb": 121
+  },
+  {
+    "id": "spunky-pvp-texture-pack",
+    "name": "Spunky PVP Texture Pack",
+    "description": "Популярный PvP-пак от Spunky Insaan: короткие мечи, низкий огонь и чистые текстуры для дуэлей и SMP (2.2M+ скачиваний).",
+    "version": "2.0",
+    "file_name": "spunky-pvp-texture-pack.zip",
+    "download_url": "https://cdn.modrinth.com/data/I1HDemew/versions/iGR1ooWQ/Spunky%20Pack%20Classic.zip",
+    "icon_url": "icons/mr-spunky-pvp-texture-pack.png",
+    "size_kb": 1708
+  },
+  {
+    "id": "small-shield-totem",
+    "name": "Small Shield & Totem",
+    "description": "Компактные щит и тотем бессмертия в руке + уменьшенная анимация срабатывания тотема (1.9M+ скачиваний).",
+    "version": "2.11",
+    "file_name": "small-shield-totem.zip",
+    "download_url": "https://cdn.modrinth.com/data/LSBNL0rO/versions/wS2JKhZl/Small_Shield_%26_Totem_2.11.zip",
+    "icon_url": "icons/mr-small-shield-totem.png",
+    "size_kb": 26
+  },
+  {
+    "id": "dungeons-crit-sound",
+    "name": "Dungeons Crit Sound",
+    "description": "Заменяет стандартный звук критического удара на сочный и отчётливый звук из Minecraft Dungeons (1.8M+ скачиваний).",
+    "version": "4",
+    "file_name": "dungeons-crit-sound.zip",
+    "download_url": "https://cdn.modrinth.com/data/Q2JYZUmr/versions/3COcYIxG/MC_Dungeons_Crit%2026.1.zip",
+    "icon_url": "icons/mr-dungeons-crit-sound.png",
+    "size_kb": 71
+  },
+  {
+    "id": "crystal-pvp-lt3-essentials",
+    "name": "CPVP Essentials ( Crystal PvP )",
+    "description": "Профессиональный пак для Crystal PvP с максимальной видимостью взрывов, чистым огнём и чёткими звуками (1.6M+ скачиваний).",
+    "version": "26",
+    "file_name": "crystal-pvp-lt3-essentials.zip",
+    "download_url": "https://cdn.modrinth.com/data/ih5VCK3n/versions/pduMMNq4/Crystal%20PvP%20LT3%20Essentials%20v26.zip",
+    "icon_url": "https://cdn.modrinth.com/data/ih5VCK3n/6bd43f541a03d9a9824f536301451c9604c2ab82.png",
+    "size_kb": 73310
+  },
+  {
+    "id": "teddy",
+    "name": "Teddy Totems",
+    "description": "Заменяет тотем бессмертия в левой руке на аккуратного плюшевого мишку, который не мешает обзору (1.5M+ скачиваний).",
+    "version": "1.2",
+    "file_name": "teddy.zip",
+    "download_url": "https://cdn.modrinth.com/data/PivlO0XW/versions/x3xnjmxl/%C2%A7lTeddy%20Totems.zip",
+    "icon_url": "icons/mr-teddy.png",
+    "size_kb": 62
+  },
+  {
+    "id": "pvp-crosshair",
+    "name": "PvP Crosshair",
+    "description": "Чёткий минималистичный киберспортивный прицел для точной наводки в PvP (1.5M+ скачиваний).",
+    "version": "1.0",
+    "file_name": "pvp-crosshair.zip",
+    "download_url": "https://cdn.modrinth.com/data/uFGhGxal/versions/vSay7e9U/PvP%20Crosshair.zip",
+    "icon_url": "https://cdn.modrinth.com/data/uFGhGxal/ed273bdaa07cf207bdc5a126f5e478433f64f317.png",
+    "size_kb": 2
+  },
+  {
+    "id": "no-pumpkin-blur",
+    "name": "No Pumpkin Blur",
+    "description": "Полностью убирает тёмную маску вырезанной тыквы с экрана для комфортных походов в Энд (1.3M+ скачиваний).",
+    "version": "1.4",
+    "file_name": "no-pumpkin-blur.zip",
+    "download_url": "https://cdn.modrinth.com/data/iQRsGaVM/versions/kcDL19Mv/No%20Pumpkin%20Blur%201.4.zip",
+    "icon_url": "icons/mr-no-pumpkin-blur.png",
+    "size_kb": 1
+  },
+  {
+    "id": "defrosted_pack",
+    "name": "defrosted",
+    "description": "Чистый, лёгкий и стильный PvP-пак 16x в ледяной палитре с аккуратным оружием и блоками (1.3M+ скачиваний).",
+    "version": "v1.4.1",
+    "file_name": "defrosted_pack.zip",
+    "download_url": "https://cdn.modrinth.com/data/NPzwNDRa/versions/qyBqNSLi/%21%20%20%20%20%20%C2%A73defrosted%20%C2%A78%5B%C2%A7f16x%C2%A78%5D%20%5Bv1.4.1%5D.zip",
+    "icon_url": "icons/mr-defrosted_pack.png",
+    "size_kb": 19379
+  },
+  {
+    "id": "mini-items-pack",
+    "name": "Mini Items",
+    "description": "Уменьшает предметы в руке вдвое, освобождая максимум места на экране во время PvP (1M+ скачиваний).",
+    "version": "1.9.0",
+    "file_name": "mini-items-pack.zip",
+    "download_url": "https://cdn.modrinth.com/data/ZmyjTSjb/versions/ozRtRWNt/Mini%20Items.zip",
+    "icon_url": "icons/mr-mini-items-pack.png",
+    "size_kb": 14
+  },
+  {
+    "id": "aimz-better-crosshair",
+    "name": "Aimz Better Crosshair",
+    "description": "Современный контрастный прицел, улучшающий стандартный крестик по центру экрана (930K+ скачиваний).",
+    "version": "1.0.2",
+    "file_name": "aimz-better-crosshair.zip",
+    "download_url": "https://cdn.modrinth.com/data/wmXxr9ku/versions/33RjBsDZ/Aimz%20-%20Better%20Crosshair.zip",
+    "icon_url": "icons/mr-aimz-better-crosshair.png",
+    "size_kb": 5
+  },
+  {
+    "id": "short-pvp-swords",
+    "name": "PvP Swords",
+    "description": "Укороченные мечи всех тиров в чистом ванильном стиле для удобного обзора в бою (880K+ скачиваний).",
+    "version": "1.0.5",
+    "file_name": "short-pvp-swords.zip",
+    "download_url": "https://cdn.modrinth.com/data/BpaObV8j/versions/TSnvYpcx/shorterswords.zip",
+    "icon_url": "https://cdn.modrinth.com/data/BpaObV8j/d9d9cbbc91ee857af2aad5b11803c9a94975160d.png",
+    "size_kb": 6
+  },
+  {
+    "id": "fresh-weapons-and-tools",
+    "name": "Fresh Weapons & Tools",
+    "description": "Обновлённые детализированные ванильные мечи, топоры, кирки и инструменты с уникальным дизайном (720K+ скачиваний).",
+    "version": "2.1.6",
+    "file_name": "fresh-weapons-and-tools.zip",
+    "download_url": "https://cdn.modrinth.com/data/sNfe5Lxl/versions/dBZoguyi/%C2%A73Fresh%20%C2%A7bWeapons%20%26%20Tools.zip",
+    "icon_url": "https://cdn.modrinth.com/data/sNfe5Lxl/7d62569f32ef467154c9bbb854c0dc0210da9965.png",
+    "size_kb": 34
+  },
+  {
+    "id": "small-totem-pop",
+    "name": "small totem pop",
+    "description": "Уменьшает всплывающую анимацию срабатывания тотема бессмертия, чтобы не перекрывать экран в бою (690K+ скачиваний).",
+    "version": "1.0.0",
+    "file_name": "small-totem-pop.zip",
+    "download_url": "https://cdn.modrinth.com/data/YSKIEHWP/versions/AUGbouxz/small_totem_pop.zip",
+    "icon_url": "https://cdn.modrinth.com/data/YSKIEHWP/1e608b6fc2e6cd201ec102fcfa6596115b127b9c.jpeg",
+    "size_kb": 86
+  },
+  {
+    "id": "transparent-gui-and-hud",
+    "name": "Transparent GUI and HUD",
+    "description": "Прозрачные меню инвентаря, сундуков и HUD — сквозь открытый инвентарь всегда видно врагов (650K+ скачиваний).",
+    "version": "1",
+    "file_name": "transparent-gui-and-hud.zip",
+    "download_url": "https://cdn.modrinth.com/data/CpA767Rl/versions/77EyiOWD/TransparentGUI-26.2.X-R1.zip",
+    "icon_url": "icons/mr-transparent-gui-and-hud.png",
+    "size_kb": 128
+  },
+  {
+    "id": "mace-fusion",
+    "name": "Mace Fusion",
+    "description": "Проработанная 3D-модель булавы (Mace) с чистыми пропорциями в ванильном стиле (640K+ скачиваний).",
+    "version": "3",
+    "file_name": "mace-fusion.zip",
+    "download_url": "https://cdn.modrinth.com/data/8262nqZo/versions/Z3JtFYNf/Mace%20Fusion%203.zip",
+    "icon_url": "https://cdn.modrinth.com/data/8262nqZo/20fa99597eb7edd136167121e085252164f953bb.png",
+    "size_kb": 10
+  },
+  {
+    "id": "reimaginedguidark",
+    "name": "Reimagined GUI (Dark)",
+    "description": "Современная тёмная переработка всех окон, кнопок и контейнеров Minecraft (630K+ скачиваний).",
+    "version": "1.10",
+    "file_name": "reimaginedguidark.zip",
+    "download_url": "https://cdn.modrinth.com/data/8olVtpyI/versions/CdEpPhO6/Reimagined%20GUI%20-%20Dark%20-%201.20.2-26.x.zip",
+    "icon_url": "https://cdn.modrinth.com/data/8olVtpyI/3402f8803067dfb946cfa4819819bc59dcd39402.png",
+    "size_kb": 6421
+  },
+  {
+    "id": "no-enchant-glint",
+    "name": "No Enchant Glint",
+    "description": "Убирает фиолетовый перелив зачарования с брони и оружия для чистого вида и плавного FPS (620K+ скачиваний).",
+    "version": "26.3",
+    "file_name": "no-enchant-glint.zip",
+    "download_url": "https://cdn.modrinth.com/data/OrWwrISO/versions/yA46J07Z/%C2%A75%C2%A7lNo%20Enchant%20Glint%20%C2%A7f%C2%A7l26.3.zip",
+    "icon_url": "icons/mr-no-enchant-glint.png",
+    "size_kb": 16
+  },
+  {
+    "id": "senpaispider-1-million-texture-pack",
+    "name": "SenpaiSpider 1 Million Texture Pack",
+    "description": "Знаменитый турнирный PvP-текстурпак от SenpaiSpider для дуэлей, Sword и SMP PvP (570K+ скачиваний).",
+    "version": "1.0.1",
+    "file_name": "senpaispider-1-million-texture-pack.zip",
+    "download_url": "https://cdn.modrinth.com/data/QdBlb8o2/versions/AT22R4ES/%C2%A7f%C2%A7lSenpaiSpider%20Not%20Animated%20%281%29.zip",
+    "icon_url": "https://cdn.modrinth.com/data/QdBlb8o2/bbd39467c8efb8e9dcb8586b7a711d85a44d44e0.jpeg",
+    "size_kb": 9336
+  },
+  {
+    "id": "animated-totem-of-undying",
+    "name": "Animated Totem of Undying",
+    "description": "Добавляет живую анимацию светящихся глаз у тотема бессмертия в руке (560K+ скачиваний).",
+    "version": "1.1.5",
+    "file_name": "animated-totem-of-undying.zip",
+    "download_url": "https://cdn.modrinth.com/data/T8okQJ4h/versions/moWzZqCL/animated-totem-respackopts-26_1_x.zip",
+    "icon_url": "icons/mr-animated-totem-of-undying.png",
+    "size_kb": 3791
+  },
+  {
+    "id": "amazing-mace-3d",
+    "name": "Amazing Mace 3d",
+    "description": "Объёмная 3D-булава с выразительным силуэтом и детальной текстурой (530K+ скачиваний).",
+    "version": "2.0",
+    "file_name": "amazing-mace-3d.zip",
+    "download_url": "https://cdn.modrinth.com/data/8fds9qyj/versions/lrIYRbFr/Amazing%20Mace%203D.zip",
+    "icon_url": "icons/mr-amazing-mace-3d.png",
+    "size_kb": 107
+  },
+  {
+    "id": "ore-outlines",
+    "name": "Outlined Ores",
+    "description": "Яркие контурные рамки вокруг всех руд в шахтах и пещерах — работает на чистой ваниле без модов (520K+ скачиваний).",
+    "version": "1.5.1",
+    "file_name": "ore-outlines.zip",
+    "download_url": "https://cdn.modrinth.com/data/ejJe3PWf/versions/iW4wPSbS/OutlinedOresCreateMod1-5-1.zip",
+    "icon_url": "icons/mr-ore-outlines.png",
+    "size_kb": 37
+  },
+  {
+    "id": "vanilla-connected-glass",
+    "name": "Vanilla Connected Glass",
+    "description": "Чистое бесшовное стекло без лишних рамок, работающее без OptiFine и совместимое с другими паками (490K+ скачиваний).",
+    "version": "1.2.0",
+    "file_name": "vanilla-connected-glass.zip",
+    "download_url": "https://cdn.modrinth.com/data/CUC4h0GP/versions/QnwQdxbm/vanilla-connected-glass-1.2.0.zip",
+    "icon_url": "icons/mr-vanilla-connected-glass.png",
+    "size_kb": 427
+  },
+  {
+    "id": "pvp-smp-deluxe",
+    "name": "PVP SMP Deluxe",
+    "description": "Сбалансированный ванильный PvP-пак для SMP: низкий огонь, низкий щит и аккуратное оружие (490K+ скачиваний).",
+    "version": "V2.3",
+    "file_name": "pvp-smp-deluxe.zip",
+    "download_url": "https://cdn.modrinth.com/data/8Ze79jCE/versions/GmeTZooZ/PVP%20SMP%20Deluxe%20V2.3.zip",
+    "icon_url": "icons/mr-pvp-smp-deluxe.png",
+    "size_kb": 865
+  },
+  {
+    "id": "crystal-vanilla-tweaks",
+    "name": "Crystal Vanilla Tweaks",
+    "description": "Набор улучшений для Crystal PvP на базе ванилы: низкий огонь, меньше частиц и чистый обзор (485K+ скачиваний).",
+    "version": "1.3",
+    "file_name": "crystal-vanilla-tweaks.zip",
+    "download_url": "https://cdn.modrinth.com/data/sn2HxtR3/versions/8QBpHAxy/Crystal%20Vanilla%20Tweaks%2026.3%201.3.zip",
+    "icon_url": "icons/mr-crystal-vanilla-tweaks.png",
+    "size_kb": 968
+  },
+  {
+    "id": "marlowww-plus",
+    "name": "Marlowww+",
+    "description": "Легендарный минималистичный CPvP-пак Marlowww+ с фокусом на читаемость боя и высокий FPS (480K+ скачиваний).",
+    "version": "1.21.11",
+    "file_name": "marlowww-plus.zip",
+    "download_url": "https://cdn.modrinth.com/data/roQwWt6y/versions/F5ruBnE0/Vanilla%2B%201.21.11.zip",
+    "icon_url": "https://cdn.modrinth.com/data/roQwWt6y/978799a7a4abe00c82a831569dc7aab9af22f9e7.png",
+    "size_kb": 1860
+  },
+  {
+    "id": "simple-bedwars",
+    "name": "Simple Bedwars",
+    "description": "Чистый и контрастный текстурпак для BedWars с аккуратной шерстью, блоками и оружием (190K+ скачиваний).",
+    "version": "0.12.0",
+    "file_name": "simple-bedwars.zip",
+    "download_url": "https://cdn.modrinth.com/data/U3iw4v7n/versions/ofGzUFok/Simple%20Bedwars%201.21.11.zip",
+    "icon_url": "https://cdn.modrinth.com/data/U3iw4v7n/44b8089d1efa4a5659abde9a65c1ffa3eebb7d3c.png",
+    "size_kb": 191
+  }
+]

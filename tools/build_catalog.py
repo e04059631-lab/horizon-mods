@@ -1,4 +1,4 @@
-"""Generates catalog.json and README.md for all 27 native WGSL shaders."""
+"""Generates catalog.json and README.md for 27 native WGSL shaders + 30 curated Modrinth PvP resource packs."""
 
 import json
 import math
@@ -9,6 +9,7 @@ from build_shaders import SHADERS
 ROOT = Path(__file__).resolve().parent.parent
 MODS_ROOT = ROOT / "mods"
 ICONS_ROOT = ROOT / "icons"
+MODRINTH_PACKS_FILE = Path(__file__).resolve().parent / "modrinth_pvp_packs.json"
 
 
 def main() -> None:
@@ -50,7 +51,29 @@ def main() -> None:
             }
         )
 
-    assert len(entries) == 27, f"Expected 27 shader entries, got {len(entries)}"
+    # 28..57: 30 Curated Modrinth PvP & Combat Resource Packs (direct cdn.modrinth.com downloads)
+    mr_packs = json.loads(MODRINTH_PACKS_FILE.read_text(encoding="utf-8"))
+    for p in mr_packs:
+        if not p["icon_url"].startswith("http"):
+            ipath = ROOT / p["icon_url"].split("?", 1)[0]
+            assert ipath.exists(), f"Missing converted Modrinth icon {ipath}"
+        entries.append(
+            {
+                "id": p["id"],
+                "name": p["name"],
+                "description": p["description"],
+                "version": p["version"],
+                "kind": "resourcepack",
+                "file_name": p["file_name"],
+                "download_url": p["download_url"],
+                "icon_url": p["icon_url"],
+                "size_kb": p["size_kb"],
+            }
+        )
+
+    shader_count = sum(1 for e in entries if e["kind"] == "shader")
+    rp_count = sum(1 for e in entries if e["kind"] == "resourcepack")
+    assert shader_count == 27 and rp_count == 30, f"Unexpected counts: {shader_count} shaders, {rp_count} packs"
 
     catalog = {"version": 1, "mods": entries}
     (ROOT / "catalog.json").write_text(
@@ -60,25 +83,42 @@ def main() -> None:
     )
 
     lines = [
-        "# Horizon Shaders Catalog (26.3)",
+        "# Horizon Mods & Shaders Catalog (26.3)",
         "",
-        "Официальный онлайн-каталог нативных WGSL-шейдеров для **Horizon Offline Launcher (Minecraft 26.3)**.",
-        "Все шейдеры работают **на 100% на стороне клиента** — и в одиночном мире, и на любом сервере, с поддержкой объединения нескольких шейдеров одновременно.",
+        "Официальный онлайн-каталог для **Horizon Offline Launcher (Minecraft 26.3)**:",
+        f"**{shader_count} нативных WGSL-шейдеров** (`.hshader`) и **{rp_count} популярных PvP/Combat ресурс-паков с Modrinth** (`.zip`, прямая загрузка с `cdn.modrinth.com`).",
+        "Все дополнения работают **на 100% на стороне клиента** — и в одиночном мире, и на любом сервере.",
         "",
-        f"**Всего в каталоге: {len(entries)} нативных `.hshader` WGSL-шейдеров.**",
+        f"## Нативные WGSL-шейдеры ({shader_count})",
         "",
         "| Превью | Название | Файл | Описание |",
         "| :---: | :--- | :--- | :--- |",
     ]
     for e in entries:
-        clean_icon = e["icon_url"].split("?", 1)[0]
-        lines.append(
-            f'| <img src="{clean_icon}" width="40" height="40" /> | **{e["name"]}** | `{e["file_name"]}` | {e["description"]} |'
-        )
+        if e["kind"] == "shader":
+            clean_icon = e["icon_url"].split("?", 1)[0]
+            lines.append(
+                f'| <img src="{clean_icon}" width="40" height="40" /> | **{e["name"]}** | `{e["file_name"]}` | {e["description"]} |'
+            )
+
+    lines += [
+        "",
+        f"## PvP и Combat ресурс-паки с Modrinth ({rp_count})",
+        "",
+        "| Иконка | Название | Modrinth | Описание |",
+        "| :---: | :--- | :--- | :--- |",
+    ]
+    for e in entries:
+        if e["kind"] == "resourcepack":
+            clean_icon = e["icon_url"].split("?", 1)[0]
+            mr_link = f"https://modrinth.com/resourcepack/{e['id']}"
+            lines.append(
+                f'| <img src="{clean_icon}" width="40" height="40" /> | **{e["name"]}** | [{e["id"]}]({mr_link}) | {e["description"]} |'
+            )
 
     lines.append("")
     (ROOT / "README.md").write_text("\n".join(lines), encoding="utf-8", newline="\n")
-    print(f"[OK] Wrote catalog.json and README.md with {len(entries)} native WGSL shaders!")
+    print(f"[OK] Wrote catalog.json and README.md with {len(entries)} entries ({shader_count} shaders + {rp_count} Modrinth PvP packs)!")
 
 
 if __name__ == "__main__":
