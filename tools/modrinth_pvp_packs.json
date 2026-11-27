@@ -680,16 +680,6 @@
     "size_kb": 93
   },
   {
-    "id": "fantasy-3d-weapons-cit",
-    "name": "Fantasy 3D Weapons CIT",
-    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (253K+ на Modrinth) — Adds 3D weapon models to MC! (Custom Item Textures)",
-    "version": "1.20A",
-    "file_name": "fantasy-3d-weapons-cit.zip",
-    "download_url": "https://cdn.modrinth.com/data/4XVKh1GK/versions/Uxk8yPAn/nongko%27s_Fantasy_Weapons_v1.20A.zip",
-    "icon_url": "icons/mr-fantasy-3d-weapons-cit.png",
-    "size_kb": 1656
-  },
-  {
     "id": "detail-brush",
     "name": "Detail Brush",
     "description": "Популярный PvP / Combat ресурс-пак с Modrinth (252K+ на Modrinth) — Polishes and redesigns a few items in Minecraft!",
@@ -1480,16 +1470,6 @@
     "size_kb": 15359
   },
   {
-    "id": "fresh-ai-tweaks",
-    "name": "Fresh AI Tweaks",
-    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (130K+ на Modrinth) — Allows Fresh Animations to work with Mob AI Tweaks",
-    "version": "1.8",
-    "file_name": "fresh-ai-tweaks.zip",
-    "download_url": "https://cdn.modrinth.com/data/SJ639K71/versions/3YKiFfRs/Fresh%20AI%20Tweaks%201.21.5-8.zip",
-    "icon_url": "icons/mr-fresh-ai-tweaks.png",
-    "size_kb": 51
-  },
-  {
     "id": "mythic-a-pixel-art-journey",
     "name": "MYTHIC - A Pixel Art Journey",
     "description": "Популярный PvP / Combat ресурс-пак с Modrinth (126K+ на Modrinth) — A 32x pure pixel art pack with an adventurous feel.",
@@ -1980,16 +1960,6 @@
     "size_kb": 44
   },
   {
-    "id": "excal-friends-and-foes-support",
-    "name": "Excalibur | Friends and Foes Support",
-    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (95K+ на Modrinth) — Friendly faces and fierce rivals, reimagined",
-    "version": "2.7",
-    "file_name": "excal-friends-and-foes-support.zip",
-    "download_url": "https://cdn.modrinth.com/data/pvAAHAMo/versions/QF0AhFAN/Excalibur%20FriendsFoes%202.7.zip",
-    "icon_url": "icons/mr-excal-friends-and-foes-support.png",
-    "size_kb": 182
-  },
-  {
     "id": "dark-transparent-gui",
     "name": "Dark Transparent GUI",
     "description": "Тёмный/обновлённый интерфейс GUI и HUD (95K+ на Modrinth) — See more through transparent gui",
@@ -2038,16 +2008,6 @@
     "download_url": "https://cdn.modrinth.com/data/9Zb6H9nr/versions/nAZaMdUd/Hellay%27s%20Redone%20Enderman%20-%20v1.1.zip",
     "icon_url": "icons/mr-redone-endermans.png",
     "size_kb": 28
-  },
-  {
-    "id": "reimagined-fresh-animations-patch",
-    "name": "Reimagined | Fresh Animations Patch",
-    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (91K+ на Modrinth) — Makes Reimagined compatible with Fresh Animations!",
-    "version": "v1.10a",
-    "file_name": "reimagined-fresh-animations-patch.zip",
-    "download_url": "https://cdn.modrinth.com/data/Lf5l2Z41/versions/AQeeSHj5/%C2%A7aReimagined%C2%A78-%C2%A7aFA-PATCH%C2%A70.zip",
-    "icon_url": "icons/mr-reimagined-fresh-animations-patch.png",
-    "size_kb": 440
   },
   {
     "id": "glowing-trim-totem",
@@ -2218,16 +2178,6 @@
     "download_url": "https://cdn.modrinth.com/data/Y7ve2Sdj/versions/ITwz2Kfb/No%20Explosion%20Sounds.zip",
     "icon_url": "icons/mr-no-explosion-sounds.png",
     "size_kb": 91
-  },
-  {
-    "id": "thfa",
-    "name": "Torturable Healthbars x Fresh Animations",
-    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (82K+ на Modrinth) — TH but with Fresh's Animations, now you can have injured mobs walking around in a cool way",
-    "version": "2.4.3",
-    "file_name": "thfa.zip",
-    "download_url": "https://cdn.modrinth.com/data/mQpUi57Q/versions/Pk5iG27E/%C2%A7bTH%20%2B%20Fresh%27s%20Animations%202.4.3.zip",
-    "icon_url": "icons/mr-thfa.png",
-    "size_kb": 1332
   },
   {
     "id": "smputils",
@@ -2900,16 +2850,6 @@
     "size_kb": 885
   },
   {
-    "id": "ksepsp-cit",
-    "name": "KSEPSP [Vanilla CIT]",
-    "description": "Популярный PvP / Combat ресурс-пак с Modrinth (54K+ на Modrinth) — Over 1700 custom items to vanilla game!",
-    "version": "9.5.1",
-    "file_name": "ksepsp-cit.zip",
-    "download_url": "https://cdn.modrinth.com/data/DhQ8Dck4/versions/ysDnFpHc/KSEPSP-9-5-1.zip",
-    "icon_url": "icons/mr-ksepsp-cit.png",
-    "size_kb": 7829
-  },
-  {
     "id": "sharpless-pvp",
     "name": "sharpless pvp",
     "description": "Популярный PvP / Combat ресурс-пак с Modrinth (53K+ на Modrinth) — Smooth, clean, boosted vanilla vibes. Better visibility, better gameplay, zero clutter and...",
@@ -3000,16 +2940,6 @@
     "size_kb": 6
   },
   {
-    "id": "fresh-animations",
-    "name": "Fresh Animations",
-    "description": "Минималистичный стиль в духе трейлеров Minecraft (53.1M+ на Modrinth) — Make your game like the trailers! Dynamic animated entities to freshen your Minecraft...",
-    "version": "1.11.2",
-    "file_name": "fresh-animations.zip",
-    "download_url": "https://cdn.modrinth.com/data/50dA9Sha/versions/xfE3qfr5/FreshAnimations_v1.11.2_26.1%2B.zip",
-    "icon_url": "icons/mr-fresh-animations.png",
-    "size_kb": 761
-  },
-  {
     "id": "better-leaves",
     "name": "Motschen's Better Leaves",
     "description": "Пышная природа, листва и растительность (22.0M+ на Modrinth) — Improves the appearance of leaves with high mod compatibility and performance!",
@@ -3020,16 +2950,6 @@
     "size_kb": 1931
   },
   {
-    "id": "chat-reporting-helper",
-    "name": "Chat Reporting Helper",
-    "description": "Реалистичный текстурпак (18.4M+ на Modrinth) — Adjusts game phrases to explain the player reporting functionality in a clearer way.",
-    "version": "7.0",
-    "file_name": "chat-reporting-helper.zip",
-    "download_url": "https://cdn.modrinth.com/data/tN4E9NfV/versions/lUxEuNbH/Chat%20Reporting%20Helper.zip",
-    "icon_url": "icons/mr-chat-reporting-helper.png",
-    "size_kb": 30
-  },
-  {
     "id": "fast-better-grass",
     "name": "Fast Better Grass",
     "description": "Пышная природа, листва и растительность (14.4M+ на Modrinth) — Makes grass and related blocks use the top texture on the sides. Works with other resource...",
@@ -3038,16 +2958,6 @@
     "download_url": "https://cdn.modrinth.com/data/dspVZXKP/versions/Alviiov6/Fast%20Better%20Grass.zip",
     "icon_url": "https://cdn.modrinth.com/data/dspVZXKP/5de0774f423d220fcd4e635b91f2bdfcb8a2b910.png",
     "size_kb": 11
-  },
-  {
-    "id": "fresh-animations-extensions",
-    "name": "Fresh Animations: Extensions",
-    "description": "Реалистичный текстурпак (12.2M+ на Modrinth) — A combination of offical extension packs for Fresh Animations",
-    "version": "1.10.1",
-    "file_name": "fresh-animations-extensions.zip",
-    "download_url": "https://cdn.modrinth.com/data/YAVTU8mK/versions/zphVu6Oe/FA%2BAll_Extensions-v1.10.1.zip",
-    "icon_url": "icons/mr-fresh-animations-extensions.png",
-    "size_kb": 537
   },
   {
     "id": "dramatic-skys",
@@ -3160,16 +3070,6 @@
     "size_kb": 49
   },
   {
-    "id": "fa-player-extension",
-    "name": "Fresh Animations: Player Extension",
-    "description": "Реалистичный текстурпак (5.4M+ на Modrinth) — Animates players in Fresh Animations' style. An official FA extension.",
-    "version": "1.1.0",
-    "file_name": "fa-player-extension.zip",
-    "download_url": "https://cdn.modrinth.com/data/TAIMVZCL/versions/Wj7NeGjP/FA%2BPlayer-v1.1.zip",
-    "icon_url": "icons/mr-fa-player-extension.png",
-    "size_kb": 108
-  },
-  {
     "id": "faithful-32x",
     "name": "Faithful 32x",
     "description": "Чёткий HD-текстурпак (32x/64x) (5.4M+ на Modrinth) — The original Minecraft texture feel, with double the resolution and double the fun!",
@@ -3278,16 +3178,6 @@
     "download_url": "https://cdn.modrinth.com/data/PgpTtNoI/versions/iKYRZwnm/crops-3d%282%29.zip",
     "icon_url": "icons/mr-3d-crops.png",
     "size_kb": 473
-  },
-  {
-    "id": "eeveelutions-reimagined",
-    "name": "Eeveelutions Reimagined",
-    "description": "QoL-пак и полезные улучшения видимости (3.7M+ на Modrinth) — Bringing you the official remodeled Eeveelutions, now animated and more expressive than ever.",
-    "version": "1.3",
-    "file_name": "eeveelutions-reimagined.zip",
-    "download_url": "https://cdn.modrinth.com/data/TC6XISro/versions/1IKSorXZ/EeveelutionsReimagined.zip",
-    "icon_url": "icons/mr-eeveelutions-reimagined.png",
-    "size_kb": 308
   },
   {
     "id": "als-creepers-revamped",
@@ -3460,26 +3350,6 @@
     "size_kb": 1827
   },
   {
-    "id": "fresh-animations-details",
-    "name": "Fresh Animations: Details",
-    "description": "Реалистичный текстурпак (2.3M+ на Modrinth) — Adds an assortment of extra details to mobs for Fresh Animations. An official FA extension.",
-    "version": "2.4.0",
-    "file_name": "fresh-animations-details.zip",
-    "download_url": "https://cdn.modrinth.com/data/lctgpCsu/versions/XM8VyQLk/FA%2BDetails-v2.4.zip",
-    "icon_url": "icons/mr-fresh-animations-details.png",
-    "size_kb": 392
-  },
-  {
-    "id": "fresh-animations-objects",
-    "name": "Fresh Animations: Objects",
-    "description": "Реалистичный текстурпак (2.3M+ на Modrinth) — Animates non-mob entities in Fresh Animations' style. An official FA extension.",
-    "version": "2.1.2",
-    "file_name": "fresh-animations-objects.zip",
-    "download_url": "https://cdn.modrinth.com/data/23O9JVMV/versions/AIGgXNdl/FA%2BObjects-v2.1.2.zip",
-    "icon_url": "icons/mr-fresh-animations-objects.png",
-    "size_kb": 139
-  },
-  {
     "id": "refined-buckets",
     "name": "Refined Buckets",
     "description": "Объёмные 3D-модели блоков и предметов (2.2M+ на Modrinth) — This resourcepack enhances the buckets by giving them refined 3D models.",
@@ -3530,26 +3400,6 @@
     "size_kb": 12
   },
   {
-    "id": "excalibur-lootr-support",
-    "name": "Excalibur | Lootr Support",
-    "description": "Популярный ресурс-пак с Modrinth (2.1M+ на Modrinth) — This is a support pack that converts Lootr Mod textures to match the awesome Excalibur...",
-    "version": "1.1",
-    "file_name": "excalibur-lootr-support.zip",
-    "download_url": "https://cdn.modrinth.com/data/dzo7g60I/versions/KyYDwuXI/Excalibur_Lootr_v1.1.zip",
-    "icon_url": "icons/mr-excalibur-lootr-support.png",
-    "size_kb": 76
-  },
-  {
-    "id": "create-sophisticated-backpacks",
-    "name": "Create Style Sophisticated Backpacks",
-    "description": "Vanilla+ улучшение стандартных текстур (2.0M+ на Modrinth) — Sophisticated Backpacks but Creatified!",
-    "version": "1.2",
-    "file_name": "create-sophisticated-backpacks.zip",
-    "download_url": "https://cdn.modrinth.com/data/srJbhHkf/versions/3WMwR0Mh/CreateSophBackpacks.zip",
-    "icon_url": "icons/mr-create-sophisticated-backpacks.png",
-    "size_kb": 545
-  },
-  {
     "id": "visual-effects-plus",
     "name": "Visual Effects+",
     "description": "Реалистичный текстурпак (2.0M+ на Modrinth) — Biome based dynamic and colored fog with custom particles and weather!",
@@ -3590,16 +3440,6 @@
     "size_kb": 789
   },
   {
-    "id": "fresh-animations-emissive",
-    "name": "Fresh Animations: Emissive",
-    "description": "Реалистичный текстурпак (1.9M+ на Modrinth) — Makes some Fresh Animations' textures emit light. An official FA extension.",
-    "version": "1.7.0",
-    "file_name": "fresh-animations-emissive.zip",
-    "download_url": "https://cdn.modrinth.com/data/VRS2YQn9/versions/A3tITCIa/FA%2BEmissive-v1.7.zip",
-    "icon_url": "icons/mr-fresh-animations-emissive.png",
-    "size_kb": 101
-  },
-  {
     "id": "gentler-weather-sounds",
     "name": "Gentler Weather Sounds",
     "description": "Звуковой пакет / улучшенное аудио (1.9M+ на Modrinth) — Weather sounds you won't mind listening to // Complete replacement for rain & thunder!",
@@ -3608,16 +3448,6 @@
     "download_url": "https://cdn.modrinth.com/data/GB2EXKpD/versions/VmBTRwCD/Gentler%20Weather%20Sounds%202.3.0.zip",
     "icon_url": "icons/mr-gentler-weather-sounds.png",
     "size_kb": 2566
-  },
-  {
-    "id": "als-piglins-revamped-x-fresh-animations",
-    "name": "AL's Piglins Revamped x Fresh Animations",
-    "description": "Vanilla+ улучшение стандартных текстур (1.9M+ на Modrinth) — A pack that makes AL's Piglins Revamped compatible with Fresh Animations by Fresh_LX!",
-    "version": "1.2",
-    "file_name": "als-piglins-revamped-x-fresh-animations.zip",
-    "download_url": "https://cdn.modrinth.com/data/RQUfNOVH/versions/WogeFltv/AL%27s%20Piglins%20Revamped%2BFA%201.2.zip",
-    "icon_url": "icons/mr-als-piglins-revamped-x-fresh-animations.png",
-    "size_kb": 612
   },
   {
     "id": "weskersons-torches",
@@ -3690,16 +3520,6 @@
     "size_kb": 55
   },
   {
-    "id": "created-simple-storage-network",
-    "name": "Created Simple Storage Network",
-    "description": "Лёгкий и гладкий стилизованный текстурпак (1.7M+ на Modrinth) — Created Storage Network is an Resource Pack that updates the textures of this incredible...",
-    "version": "1.3",
-    "file_name": "created-simple-storage-network.zip",
-    "download_url": "https://cdn.modrinth.com/data/Symh7COQ/versions/kHQsKGAe/Created%20Simple%20Storage%201.3.zip",
-    "icon_url": "icons/mr-created-simple-storage-network.png",
-    "size_kb": 159
-  },
-  {
     "id": "better-3d-beds",
     "name": "Better 3D Beds",
     "description": "Объёмные 3D-модели блоков и предметов (1.7M+ на Modrinth) — Better 3D Beds is a texture pack for Minecraft that significantly enhances the appearance...",
@@ -3708,16 +3528,6 @@
     "download_url": "https://cdn.modrinth.com/data/LukwUauE/versions/d3akIBaA/%C2%A7lBetter%20Beds.zip",
     "icon_url": "icons/mr-better-3d-beds.png",
     "size_kb": 112
-  },
-  {
-    "id": "als-enderman-revamped-x-fresh-animations",
-    "name": "AL's Enderman Revamped x Fresh Animations",
-    "description": "Vanilla+ улучшение стандартных текстур (1.7M+ на Modrinth) — A pack that makes AL's Enderman Revamped compatible with Fresh Animations by Fresh_LX!",
-    "version": "2.0",
-    "file_name": "als-enderman-revamped-x-fresh-animations.zip",
-    "download_url": "https://cdn.modrinth.com/data/ERTkxp3u/versions/2NKPmiD2/AL%27s%20Enderman%20Revamped%2BFA%202.0.zip",
-    "icon_url": "icons/mr-als-enderman-revamped-x-fresh-animations.png",
-    "size_kb": 1141
   },
   {
     "id": "clayful-512x",
@@ -3750,16 +3560,6 @@
     "size_kb": 97
   },
   {
-    "id": "fresh-skeleton-physics",
-    "name": "Fresh Skeleton Physics",
-    "description": "Vanilla+ улучшение стандартных текстур (1.7M+ на Modrinth) — Give skeletons physics - Now with Fresh Animations!",
-    "version": "2.0.1",
-    "file_name": "fresh-skeleton-physics.zip",
-    "download_url": "https://cdn.modrinth.com/data/XZhhYcY0/versions/y00ccPM4/Fresh%20Skeleton%20Physics.zip",
-    "icon_url": "icons/mr-fresh-skeleton-physics.png",
-    "size_kb": 37
-  },
-  {
     "id": "fancyfast-bushy-leaves",
     "name": "Optimized Bushy Leaves",
     "description": "Пышная природа, листва и растительность (1.7M+ на Modrinth) — Bushy leaves designed with performance in mind, especially for mid-range and lower-end PCs.",
@@ -3768,16 +3568,6 @@
     "download_url": "https://cdn.modrinth.com/data/pQHHONnS/versions/ZucFW9JT/Optimized%20Bushy%20Leaves.zip",
     "icon_url": "icons/mr-fancyfast-bushy-leaves.png",
     "size_kb": 459
-  },
-  {
-    "id": "assorted-allays-x-fresh-animations",
-    "name": "Assorted Allays x Fresh Animations",
-    "description": "Реалистичный текстурпак (1.7M+ на Modrinth) — For all the Freshly Animated Allays you'll ever need!",
-    "version": "12.0",
-    "file_name": "assorted-allays-x-fresh-animations.zip",
-    "download_url": "https://cdn.modrinth.com/data/36ri01j6/versions/na6m8LKl/Assorted%20Allays%20x%20FA%20-%20V.12.0.zip",
-    "icon_url": "icons/mr-assorted-allays-x-fresh-animations.png",
-    "size_kb": 963
   },
   {
     "id": "nautilus3d",
@@ -3810,16 +3600,6 @@
     "size_kb": 566
   },
   {
-    "id": "als-skeletons-revamped-x-fresh-animations",
-    "name": "AL's Skeletons Revamped x Fresh Animations",
-    "description": "Vanilla+ улучшение стандартных текстур (1.6M+ на Modrinth) — A pack that makes AL's Skeletons Revamped compatible with Fresh Animations by Fresh_LX!",
-    "version": "2.0",
-    "file_name": "als-skeletons-revamped-x-fresh-animations.zip",
-    "download_url": "https://cdn.modrinth.com/data/Q1DELmr6/versions/DF6KhnuJ/AL%27s%20Skeletons%20Revamped%2BFA%202.0.zip",
-    "icon_url": "icons/mr-als-skeletons-revamped-x-fresh-animations.png",
-    "size_kb": 765
-  },
-  {
     "id": "looshy",
     "name": "looshy",
     "description": "Обновлённый интерфейс GUI, HUD и шрифты (1.6M+ на Modrinth) — a different take on default... and maybe a few cats here and there",
@@ -3828,16 +3608,6 @@
     "download_url": "https://cdn.modrinth.com/data/pbipt9Sm/versions/Lhbm3wMQ/%C2%A7dlooshy%20%C2%A77%5B%C2%A7f26.1%C2%A77%5D%20%5Bv0.14%5D.zip",
     "icon_url": "icons/mr-looshy.png",
     "size_kb": 5680
-  },
-  {
-    "id": "fresh-animations-spiders",
-    "name": "Fresh Animations: Spiders",
-    "description": "Реалистичный текстурпак (1.5M+ на Modrinth) — Overhauls the design of spiders with Fresh Animations. An official FA extension.",
-    "version": "2.3.1",
-    "file_name": "fresh-animations-spiders.zip",
-    "download_url": "https://cdn.modrinth.com/data/aqKnWmBf/versions/KGZz80AO/FA%2BSpiders-v2.3.1.zip",
-    "icon_url": "icons/mr-fresh-animations-spiders.png",
-    "size_kb": 77
   },
   {
     "id": "eggs-n-eyes",
@@ -3908,26 +3678,6 @@
     "download_url": "https://cdn.modrinth.com/data/TjOXlt9Y/versions/UPBKvt5T/Midnighttigger%27s%20Default%20Connected%20Textures.zip",
     "icon_url": "icons/mr-mt-ct-d.png",
     "size_kb": 428
-  },
-  {
-    "id": "fresh-animations-creepers",
-    "name": "Fresh Animations: Creepers",
-    "description": "Реалистичный текстурпак (1.4M+ на Modrinth) — New look for creepers, compatible with Fresh Animations. An official FA extension.",
-    "version": "2.2.0",
-    "file_name": "fresh-animations-creepers.zip",
-    "download_url": "https://cdn.modrinth.com/data/AhPf2E1u/versions/b90eVujh/FA%2BCreepers-v2.2.zip",
-    "icon_url": "icons/mr-fresh-animations-creepers.png",
-    "size_kb": 80
-  },
-  {
-    "id": "bare-bones-x-fresh-animations",
-    "name": "Bare Bones x Fresh Animations",
-    "description": "Минималистичный стиль в духе трейлеров Minecraft (1.4M+ на Modrinth) — A Recource pack that makes Bare Bones compatible with Fresh Animations",
-    "version": "1.10.4",
-    "file_name": "bare-bones-x-fresh-animations.zip",
-    "download_url": "https://cdn.modrinth.com/data/DCHWs5EF/versions/QDcOd0qk/Bare%20Bones%20x%20Fresh%20Animations%201.10.4.zip",
-    "icon_url": "icons/mr-bare-bones-x-fresh-animations.png",
-    "size_kb": 187
   },
   {
     "id": "actually-3d-stuff",
@@ -4040,16 +3790,6 @@
     "size_kb": 271
   },
   {
-    "id": "als-scorpions-crabs-x-fresh-animations",
-    "name": "AL's Scorpions & Crabs x Fresh Animations",
-    "description": "Vanilla+ улучшение стандартных текстур (1.3M+ на Modrinth) — A pack that makes AL's Scorpions & Crabs compatible with Fresh Animations by Fresh_LX!",
-    "version": "2.0.1",
-    "file_name": "als-scorpions-crabs-x-fresh-animations.zip",
-    "download_url": "https://cdn.modrinth.com/data/6vTt8GmW/versions/oFYIzzrA/AL%27s%20Scorpions%20%26%20Crabs%2BFA%202.0.1.zip",
-    "icon_url": "icons/mr-als-scorpions-crabs-x-fresh-animations.png",
-    "size_kb": 153
-  },
-  {
     "id": "fresh-music-discs",
     "name": "Fresh Music Discs",
     "description": "Объёмные 3D-модели блоков и предметов (1.3M+ на Modrinth) — A Minecraft resource pack that adds 3D music disc models!",
@@ -4130,16 +3870,6 @@
     "size_kb": 245
   },
   {
-    "id": "excalibur-farmers-delight-support",
-    "name": "Excalibur | Farmer's Delight Support",
-    "description": "Обновлённый интерфейс GUI, HUD и шрифты (1.2M+ на Modrinth) — A retexture of the mod, Farmer's Delight. Adapted and made to run alongside the Excalibur...",
-    "version": "1.1.1",
-    "file_name": "excalibur-farmers-delight-support.zip",
-    "download_url": "https://cdn.modrinth.com/data/nvZcjWQN/versions/FldWrwyn/FarnersDelightExcaliburSupport_1.21.1.zip",
-    "icon_url": "icons/mr-excalibur-farmers-delight-support.png",
-    "size_kb": 1140
-  },
-  {
     "id": "whimscape",
     "name": "Whimscape",
     "description": "Обновлённый интерфейс GUI, HUD и шрифты (1.2M+ на Modrinth) — A fresh but familiar 16x16 pixel art look for Minecraft",
@@ -4180,16 +3910,6 @@
     "size_kb": 901
   },
   {
-    "id": "fresh-animations-quivers",
-    "name": "Fresh Animations: Quivers",
-    "description": "Реалистичный текстурпак (1.1M+ на Modrinth) — Gives skeletons quivers, compatible with Fresh Animations. An official FA extension.",
-    "version": "2.3.0",
-    "file_name": "fresh-animations-quivers.zip",
-    "download_url": "https://cdn.modrinth.com/data/T4pK4GiQ/versions/dxPm8dtx/FA%2BQuivers-v2.3.zip",
-    "icon_url": "icons/mr-fresh-animations-quivers.png",
-    "size_kb": 89
-  },
-  {
     "id": "classic-3d",
     "name": "Classic 3D",
     "description": "Объёмные 3D-модели блоков и предметов (1.1M+ на Modrinth) — Classic Minecraft look & feel with revamped 3D models.",
@@ -4218,36 +3938,6 @@
     "download_url": "https://cdn.modrinth.com/data/nEIVEFEF/versions/xSyuzHFh/No-Fog-2.1.1.zip",
     "icon_url": "https://cdn.modrinth.com/data/nEIVEFEF/26424e623ab8d7be9f4af6cc7b4d58cfc7569bae.png",
     "size_kb": 7
-  },
-  {
-    "id": "prominences-custom-lootr-chests",
-    "name": "Prominence's Custom Lootr Chests",
-    "description": "Популярный ресурс-пак с Modrinth (1.0M+ на Modrinth) — Makes Lootr chests have Prominence's art style.",
-    "version": "1.0.0",
-    "file_name": "prominences-custom-lootr-chests.zip",
-    "download_url": "https://cdn.modrinth.com/data/J0bGM0Lw/versions/N8OygPDq/Prominence-Custom-Lootr.zip",
-    "icon_url": "icons/mr-prominences-custom-lootr-chests.png",
-    "size_kb": 29
-  },
-  {
-    "id": "spellblades-frosty-deathchill",
-    "name": "Spellblades' Frosty Deathchill",
-    "description": "Средневековый / фэнтези текстурпак (1.0M+ на Modrinth) — Turns the Deatchill armor set into something inspired from Death Knights.",
-    "version": "1.0.0",
-    "file_name": "spellblades-frosty-deathchill.zip",
-    "download_url": "https://cdn.modrinth.com/data/zMki5qeL/versions/AARwoXsy/Frosty-Deathchill.zip",
-    "icon_url": "icons/mr-spellblades-frosty-deathchill.png",
-    "size_kb": 17
-  },
-  {
-    "id": "re-applied",
-    "name": "Re-Applied",
-    "description": "Обновлённый интерфейс GUI, HUD и шрифты (1.0M+ на Modrinth) — Re-Imagines the textures of Applied Energetics 2 to have a improved look than before",
-    "version": "0.1",
-    "file_name": "re-applied.zip",
-    "download_url": "https://cdn.modrinth.com/data/ExYShKjJ/versions/kG0JM8dm/ReApplied.zip",
-    "icon_url": "icons/mr-re-applied.png",
-    "size_kb": 238
   },
   {
     "id": "ashen-simple-glass",
@@ -4298,16 +3988,6 @@
     "download_url": "https://cdn.modrinth.com/data/flwLm9de/versions/6UtmoUBl/Tears%20%26%20Cheers%201.3.1.zip",
     "icon_url": "icons/mr-tears-and-cheers.png",
     "size_kb": 146
-  },
-  {
-    "id": "cobblehats",
-    "name": "CobbleHats - Now Craftable !",
-    "description": "Популярный ресурс-пак с Modrinth (940K+ на Modrinth) — Add various Pokémon-themed hats to your game!",
-    "version": "1.7.1",
-    "file_name": "cobblehats.zip",
-    "download_url": "https://cdn.modrinth.com/data/frGHdTp1/versions/VT7hamBx/1.7.1%20fix.zip",
-    "icon_url": "icons/mr-cobblehats.png",
-    "size_kb": 344
   },
   {
     "id": "fresh-flower-pots-compats",
@@ -4370,16 +4050,6 @@
     "size_kb": 196
   },
   {
-    "id": "re-imagine-tom-simple-storage",
-    "name": "Re-Imagine-Tom-Simple-Storage",
-    "description": "Обновлённый интерфейс GUI, HUD и шрифты (893K+ на Modrinth) — Re-Imagines the textures of Tom Simple Storage to have a more of an vanilla look!",
-    "version": "1.0",
-    "file_name": "re-imagine-tom-simple-storage.zip",
-    "download_url": "https://cdn.modrinth.com/data/AFl4lkap/versions/Wt0naTC3/Re-Simple-Storage.zip",
-    "icon_url": "https://cdn.modrinth.com/data/AFl4lkap/f5af2fbed94ba8d6bd0e68415e2bd8e6dc1c7d06.png",
-    "size_kb": 40
-  },
-  {
     "id": "brays-better-3d-bow",
     "name": "Bray's Better Bow & Arrows",
     "description": "Объёмные 3D-модели блоков и предметов (892K+ на Modrinth) — Greatly improves the look of bows and crossbows by loading and firing 3D projectiles! Works...",
@@ -4428,16 +4098,6 @@
     "download_url": "https://cdn.modrinth.com/data/XeOpZZbx/versions/7oRjUD9M/Clayful%20256x%20Demo%201.4.2.7.zip",
     "icon_url": "icons/mr-clayful-256x.png",
     "size_kb": 12255
-  },
-  {
-    "id": "brays-zombie-overhaul-fresh-animations",
-    "name": "Bray's Zombie Overhaul x Fresh Animations",
-    "description": "Vanilla+ улучшение стандартных текстур (865K+ на Modrinth) — Bray's Zombie Overhaul pack with Fresh Animations compatibility!",
-    "version": "1.5",
-    "file_name": "brays-zombie-overhaul-fresh-animations.zip",
-    "download_url": "https://cdn.modrinth.com/data/zxQU2hT0/versions/HEDwqhXB/Bray%27s%20Zombie%20Overhaul%20x%20Fresh%20Animations%20v1.5.zip",
-    "icon_url": "icons/mr-brays-zombie-overhaul-fresh-animations.png",
-    "size_kb": 527
   },
   {
     "id": "refined-torches",
@@ -4490,16 +4150,6 @@
     "size_kb": 39496
   },
   {
-    "id": "3d-harnesses-x-fresh-animations",
-    "name": "3D Harnesses x Fresh Animations",
-    "description": "Объёмные 3D-модели блоков и предметов (838K+ на Modrinth) — 3D Harnesses but with Fresh Animations support",
-    "version": "3.0.2",
-    "file_name": "3d-harnesses-x-fresh-animations.zip",
-    "download_url": "https://cdn.modrinth.com/data/1OR06fW9/versions/yWar9HWU/3D%20Harness%20x%20Fresh%20Animations.zip",
-    "icon_url": "icons/mr-3d-harnesses-x-fresh-animations.png",
-    "size_kb": 191
-  },
-  {
     "id": "poke-flute-pack",
     "name": "Josh's Poké Flute Pack",
     "description": "Звуковой пакет / улучшенное аудио (837K+ на Modrinth) — Replaces Goat Horns with Poké Flutes. As well as re-texturing other things into keyitems...",
@@ -4508,16 +4158,6 @@
     "download_url": "https://cdn.modrinth.com/data/TH8apR8i/versions/UF1esZ6B/Pok%C3%A9_Flute_Pack_v1.1.zip",
     "icon_url": "https://cdn.modrinth.com/data/TH8apR8i/fffef257bbd1e32f33ca972ea351961baebc67db.png",
     "size_kb": 1985
-  },
-  {
-    "id": "horse-armor-stuff-x-fresh-animations",
-    "name": "Horse Armor & Stuff x Fresh Animations",
-    "description": "Vanilla+ улучшение стандартных текстур (831K+ на Modrinth) — A pack that makes Horse Armor & Stuff compatible with Fresh Animations by Fresh_LX!",
-    "version": "1.3",
-    "file_name": "horse-armor-stuff-x-fresh-animations.zip",
-    "download_url": "https://cdn.modrinth.com/data/ZtzFTQ38/versions/SpkZADeF/%C2%A7eHorse%20Armor%20%26%20Stuff_FA_26.1%2B.zip",
-    "icon_url": "icons/mr-horse-armor-stuff-x-fresh-animations.png",
-    "size_kb": 84
   },
   {
     "id": "default-hd-sun-and-moon",
@@ -4538,36 +4178,6 @@
     "download_url": "https://cdn.modrinth.com/data/HtIrK6OV/versions/rGsRLRpm/Dimanic%20Beds%20v3.zip",
     "icon_url": "icons/mr-dimanic-beds.png",
     "size_kb": 1008
-  },
-  {
-    "id": "mob-crates",
-    "name": "Mob Crates",
-    "description": "Vanilla+ улучшение стандартных текстур (797K+ на Modrinth) — Replaces spawn eggs with mobs in Crates",
-    "version": "26.3_v2.4",
-    "file_name": "mob-crates.zip",
-    "download_url": "https://cdn.modrinth.com/data/bYcjtBki/versions/GuCZ1NeY/MobCrates_26.3_v2.4.zip",
-    "icon_url": "icons/mr-mob-crates.png",
-    "size_kb": 286
-  },
-  {
-    "id": "better-betterx",
-    "name": "Better BetterX",
-    "description": "QoL-пак и полезные улучшения видимости (793K+ на Modrinth) — This pack replaces a few BetterX textures with ones that feel more in line with other...",
-    "version": "1.2",
-    "file_name": "better-betterx.zip",
-    "download_url": "https://cdn.modrinth.com/data/o9KMjwmh/versions/60dvrWYW/BetterBetterX-v1.1-noStone.zip",
-    "icon_url": "icons/mr-better-betterx.png",
-    "size_kb": 814
-  },
-  {
-    "id": "fa-player-extension-plusjust-expressions",
-    "name": "Fresh Animations: Player Extension + Just Expressions",
-    "description": "Реалистичный текстурпак (782K+ на Modrinth) — Adds eyes animations from Just Expressions (Fresh Moves) to Fresh Animations: Player Extension.",
-    "version": "1.2",
-    "file_name": "fa-player-extension-plusjust-expressions.zip",
-    "download_url": "https://cdn.modrinth.com/data/E6UMWeLX/versions/4nucOSHc/FA%2BPlayer_Expressions-v1.2.zip",
-    "icon_url": "icons/mr-fa-player-extension-plusjust-expressions.png",
-    "size_kb": 146
   },
   {
     "id": "better-animations",
@@ -4608,16 +4218,6 @@
     "download_url": "https://cdn.modrinth.com/data/lkoaSYls/versions/7a17Zk1U/rE-oCd-263.zip",
     "icon_url": "https://cdn.modrinth.com/data/lkoaSYls/05ef04ff2be39be4ee6798943e2d2f94eb514890.png",
     "size_kb": 5065
-  },
-  {
-    "id": "visual-travelers-titles",
-    "name": "Visual Traveler's Titles",
-    "description": "Обновлённый интерфейс GUI, HUD и шрифты (749K+ на Modrinth) — Visual titles when entering dimensions!",
-    "version": "1.3",
-    "file_name": "visual-travelers-titles.zip",
-    "download_url": "https://cdn.modrinth.com/data/Z6cnZeGU/versions/AwVu5ygs/Visual%20Titles%201.3.zip",
-    "icon_url": "icons/mr-visual-travelers-titles.png",
-    "size_kb": 435
   },
   {
     "id": "joyful-motions",
@@ -4788,16 +4388,6 @@
     "download_url": "https://cdn.modrinth.com/data/pE8Ji9UH/versions/ZOJYV7US/Festive%20Mash-up.zip",
     "icon_url": "https://cdn.modrinth.com/data/pE8Ji9UH/267efb1f2bbe4b0c30fd00167e038a23b2a24e7e.png",
     "size_kb": 31564
-  },
-  {
-    "id": "presence-footsteps-eft",
-    "name": "Presence Footsteps: Escape From Tarkov",
-    "description": "Звуковой пакет / улучшенное аудио (444K+ на Modrinth) — Minecraft not tactical enough?",
-    "version": "1",
-    "file_name": "presence-footsteps-eft.zip",
-    "download_url": "https://cdn.modrinth.com/data/phXiwU8q/versions/pS2UGhmK/Presence%20Footsteps%20-%20EFT.zip",
-    "icon_url": "icons/mr-presence-footsteps-eft.png",
-    "size_kb": 14436
   },
   {
     "id": "greek-mythology-mash-up",
