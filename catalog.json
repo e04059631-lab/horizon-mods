@@ -310,6 +310,138 @@
       "size_kb": 2
     },
     {
+      "id": "vhs-camcorder",
+      "name": "VHS Camcorder 90s",
+      "description": "Эффект кассетной видеокамеры 90-х: полосы трекинга, размытие цветности, тёплое зерно плёнки и мягкая виньетка.",
+      "version": "1.0.0",
+      "kind": "shader",
+      "file_name": "vhs-camcorder.hshader",
+      "download_url": "mods/vhs-camcorder.hshader",
+      "icon_url": "icons/vhs-camcorder.png?v=3",
+      "size_kb": 2
+    },
+    {
+      "id": "matrix-rain",
+      "name": "Matrix Digital Rain",
+      "description": "Стиль «Матрицы»: зелёные потоки падающего цифрового кода поверх мира и фосфорно-изумрудная цветокоррекция.",
+      "version": "1.0.0",
+      "kind": "shader",
+      "file_name": "matrix-rain.hshader",
+      "download_url": "mods/matrix-rain.hshader",
+      "icon_url": "icons/matrix-rain.png?v=3",
+      "size_kb": 2
+    },
+    {
+      "id": "vaporwave-synthwave",
+      "name": "Vaporwave Synthwave",
+      "description": "Неоново-розовый закат 80-х, полосатое ретро-солнце на горизонте и сочная фиолетово-бирюзовая палитра мира.",
+      "version": "1.0.0",
+      "kind": "shader",
+      "file_name": "vaporwave-synthwave.hshader",
+      "download_url": "mods/vaporwave-synthwave.hshader",
+      "icon_url": "icons/vaporwave-synthwave.png?v=3",
+      "size_kb": 2
+    },
+    {
+      "id": "underwater-caustics",
+      "name": "Underwater Caustics",
+      "description": "Живые мерцающие солнечные блики-каустики на дне водоёмов и кристальная бирюзовая видимость под водой.",
+      "version": "1.0.0",
+      "kind": "shader",
+      "file_name": "underwater-caustics.hshader",
+      "download_url": "mods/underwater-caustics.hshader",
+      "icon_url": "icons/underwater-caustics.png?v=3",
+      "size_kb": 2
+    },
+    {
+      "id": "wet-rain-reflections",
+      "name": "Wet Rain Gloss",
+      "description": "Мокрые блестящие поверхности и лужи во время дождя: глубокие насыщенные цвета камня и блики неба на земле.",
+      "version": "1.0.0",
+      "kind": "shader",
+      "file_name": "wet-rain-reflections.hshader",
+      "download_url": "mods/wet-rain-reflections.hshader",
+      "icon_url": "icons/wet-rain-reflections.png?v=3",
+      "size_kb": 2
+    },
+    {
+      "id": "chromatic-prism",
+      "name": "Chromatic Prism",
+      "description": "Кинематографичная оптическая хроматическая аберрация по краям экрана и мягкий анаморфный блик на ярких объектах.",
+      "version": "1.0.0",
+      "kind": "shader",
+      "file_name": "chromatic-prism.hshader",
+      "download_url": "mods/chromatic-prism.hshader",
+      "icon_url": "icons/chromatic-prism.png?v=3",
+      "size_kb": 1
+    },
+    {
+      "id": "pixel-retro-gb",
+      "name": "Pixel Art Retro",
+      "description": "Пикселизация рендера в стиле ретро-консолей 16-bit с опциональной классической зелёной палитрой Game Boy.",
+      "version": "1.0.0",
+      "kind": "shader",
+      "file_name": "pixel-retro-gb.hshader",
+      "download_url": "mods/pixel-retro-gb.hshader",
+      "icon_url": "icons/pixel-retro-gb.png?v=3",
+      "size_kb": 1
+    },
+    {
+      "id": "comic-halftone",
+      "name": "Comic Ink & Halftone",
+      "description": "Стиль комиксов: чёткая чёрная тушевая обводка силуэтов, яркая поп-арт палитра и растровые точки в тенях.",
+      "version": "1.0.0",
+      "kind": "shader",
+      "file_name": "comic-halftone.hshader",
+      "download_url": "mods/comic-halftone.hshader",
+      "icon_url": "icons/comic-halftone.png?v=3",
+      "size_kb": 2
+    },
+    {
+      "id": "dreamy-soft-glow",
+      "name": "Dreamy Soft Glow",
+      "description": "Воздушное сказочное свечение (Orton-эффект): мягкий ореол вокруг светлых участков, пастельные тени и тёплая дымка.",
+      "version": "1.0.0",
+      "kind": "shader",
+      "file_name": "dreamy-soft-glow.hshader",
+      "download_url": "mods/dreamy-soft-glow.hshader",
+      "icon_url": "icons/dreamy-soft-glow.png?v=3",
+      "size_kb": 1
+    },
+    {
+      "id": "arctic-frost",
+      "name": "Arctic Frost",
+      "description": "Ледяная зимняя атмосфера: морозный иней по краям экрана, морозно-голубой тон и искрящиеся блики на снегу.",
+      "version": "1.0.0",
+      "kind": "shader",
+      "file_name": "arctic-frost.hshader",
+      "download_url": "mods/arctic-frost.hshader",
+      "icon_url": "icons/arctic-frost.png?v=3",
+      "size_kb": 2
+    },
+    {
+      "id": "neon-wireframe",
+      "name": "Neon Wireframe Tron",
+      "description": "Футуристичный режим в духе Tron: тёмный кибер-мир с яркой неоновой лазерной обводкой всех блоков и мобов.",
+      "version": "1.0.0",
+      "kind": "shader",
+      "file_name": "neon-wireframe.hshader",
+      "download_url": "mods/neon-wireframe.hshader",
+      "icon_url": "icons/neon-wireframe.png?v=3",
+      "size_kb": 2
+    },
+    {
+      "id": "cinema-film-24",
+      "name": "Cinema Film 2.39:1",
+      "description": "Киноформат IMAX/2.39:1: широкоэкранные чёрные полосы, голливудский Teal & Orange грейдинг и плёночное зерно Kodak.",
+      "version": "1.0.0",
+      "kind": "shader",
+      "file_name": "cinema-film-24.hshader",
+      "download_url": "mods/cinema-film-24.hshader",
+      "icon_url": "icons/cinema-film-24.png?v=3",
+      "size_kb": 2
+    },
+    {
       "id": "low-on-fire",
       "name": "Low On Fire",
       "description": "Опускает пламя огня вниз экрана при горении в ванильном стиле — не закрывает обзор в PvP (18M+ скачиваний на Modrinth).",

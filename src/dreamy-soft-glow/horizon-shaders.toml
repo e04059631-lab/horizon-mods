@@ -1,0 +1,18 @@
+schema = 1
+api = "0.1"
+id = "dreamy_soft_glow"
+name = "Dreamy Soft Glow"
+version = "1.0.0"
+
+[[options]]
+id = "dream_glow"
+name = "Dreamy Glow"
+description = "Strength of the soft Orton bloom effect."
+type = "float"
+default = 0.75
+min = 0.15
+max = 1.35
+step = 0.05
+
+[[post]]
+file = "post.wgsl"

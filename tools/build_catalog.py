@@ -73,7 +73,7 @@ def main() -> None:
 
     shader_count = sum(1 for e in entries if e["kind"] == "shader")
     rp_count = sum(1 for e in entries if e["kind"] == "resourcepack")
-    assert shader_count == 28 and rp_count >= 100, f"Unexpected counts: {shader_count} shaders, {rp_count} packs"
+    assert shader_count == 40 and rp_count >= 100, f"Unexpected counts: {shader_count} shaders, {rp_count} packs"
 
     catalog = {"version": 1, "mods": entries}
     (ROOT / "catalog.json").write_text(

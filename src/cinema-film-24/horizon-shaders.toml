@@ -1,0 +1,25 @@
+schema = 1
+api = "0.1"
+id = "cinema_film_24"
+name = "Cinema Film 2.39:1"
+version = "1.0.0"
+
+[[options]]
+id = "letterbox"
+name = "Cinema Bars (2.39:1)"
+description = "Show classic widescreen cinematic black bars top and bottom."
+type = "bool"
+default = true
+
+[[options]]
+id = "film_grain"
+name = "Kodak Film Grain"
+description = "Subtle organic 35mm cinema film grain."
+type = "float"
+default = 0.45
+min = 0.00
+max = 1.20
+step = 0.05
+
+[[post]]
+file = "post.wgsl"

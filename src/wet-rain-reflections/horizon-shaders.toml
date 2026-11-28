@@ -1,0 +1,25 @@
+schema = 1
+api = "0.1"
+id = "wet_rain_reflections"
+name = "Wet Rain Gloss"
+version = "1.0.0"
+
+[[options]]
+id = "wetness_boost"
+name = "Wet Gloss Strength"
+description = "Intensity of wet specular highlights during rain."
+type = "float"
+default = 0.95
+min = 0.20
+max = 1.50
+step = 0.05
+
+[[options]]
+id = "always_wet"
+name = "Always Wet Ground"
+description = "Keep subtle glossy wet look even in clear weather."
+type = "bool"
+default = false
+
+[material]
+file = "material.wgsl"

@@ -1,10 +1,10 @@
 # Horizon Mods & Shaders Catalog (26.3)
 
 Официальный онлайн-каталог для **Horizon Offline Launcher (Minecraft 26.3)**:
-**28 нативных WGSL-шейдеров** (`.hshader`) и **1298 популярных PvP/Combat ресурс-паков с Modrinth** (`.zip`, прямая загрузка с `cdn.modrinth.com`).
+**40 нативных WGSL-шейдеров** (`.hshader`) и **1298 популярных PvP/Combat ресурс-паков с Modrinth** (`.zip`, прямая загрузка с `cdn.modrinth.com`).
 Все дополнения работают **на 100% на стороне клиента** — и в одиночном мире, и на любом сервере.
 
-## Нативные WGSL-шейдеры (28)
+## Нативные WGSL-шейдеры (40)
 
 | Превью | Название | Файл | Описание |
 | :---: | :--- | :--- | :--- |
@@ -36,6 +36,18 @@
 | <img src="icons/blood-moon.png" width="40" height="40" /> | **Blood Moon** | `blood-moon.hshader` | Багровое ночное небо, кроваво-красный ореол вокруг луны и зловещее алое освещение по ночам. |
 | <img src="icons/pvp-boost-minimal.png" width="40" height="40" /> | **PvP Boost Minimal** | `pvp-boost-minimal.hshader` | Киберспортивный PvP-шейдер: мягкий Fullbright, чёткость CAS, отключённый туман и сочный контраст с нулевой потерей FPS. |
 | <img src="icons/cracked-glitch.png" width="40" height="40" /> | **Screen Glitch** | `cracked-glitch.hshader` | Цифровые глитчи экрана: RGB-расслоение, горизонтальные срывы кадров, вспышки помех и киберпанк-сканлайны (без трещин, всегда активен при включении). |
+| <img src="icons/vhs-camcorder.png" width="40" height="40" /> | **VHS Camcorder 90s** | `vhs-camcorder.hshader` | Эффект кассетной видеокамеры 90-х: полосы трекинга, размытие цветности, тёплое зерно плёнки и мягкая виньетка. |
+| <img src="icons/matrix-rain.png" width="40" height="40" /> | **Matrix Digital Rain** | `matrix-rain.hshader` | Стиль «Матрицы»: зелёные потоки падающего цифрового кода поверх мира и фосфорно-изумрудная цветокоррекция. |
+| <img src="icons/vaporwave-synthwave.png" width="40" height="40" /> | **Vaporwave Synthwave** | `vaporwave-synthwave.hshader` | Неоново-розовый закат 80-х, полосатое ретро-солнце на горизонте и сочная фиолетово-бирюзовая палитра мира. |
+| <img src="icons/underwater-caustics.png" width="40" height="40" /> | **Underwater Caustics** | `underwater-caustics.hshader` | Живые мерцающие солнечные блики-каустики на дне водоёмов и кристальная бирюзовая видимость под водой. |
+| <img src="icons/wet-rain-reflections.png" width="40" height="40" /> | **Wet Rain Gloss** | `wet-rain-reflections.hshader` | Мокрые блестящие поверхности и лужи во время дождя: глубокие насыщенные цвета камня и блики неба на земле. |
+| <img src="icons/chromatic-prism.png" width="40" height="40" /> | **Chromatic Prism** | `chromatic-prism.hshader` | Кинематографичная оптическая хроматическая аберрация по краям экрана и мягкий анаморфный блик на ярких объектах. |
+| <img src="icons/pixel-retro-gb.png" width="40" height="40" /> | **Pixel Art Retro** | `pixel-retro-gb.hshader` | Пикселизация рендера в стиле ретро-консолей 16-bit с опциональной классической зелёной палитрой Game Boy. |
+| <img src="icons/comic-halftone.png" width="40" height="40" /> | **Comic Ink & Halftone** | `comic-halftone.hshader` | Стиль комиксов: чёткая чёрная тушевая обводка силуэтов, яркая поп-арт палитра и растровые точки в тенях. |
+| <img src="icons/dreamy-soft-glow.png" width="40" height="40" /> | **Dreamy Soft Glow** | `dreamy-soft-glow.hshader` | Воздушное сказочное свечение (Orton-эффект): мягкий ореол вокруг светлых участков, пастельные тени и тёплая дымка. |
+| <img src="icons/arctic-frost.png" width="40" height="40" /> | **Arctic Frost** | `arctic-frost.hshader` | Ледяная зимняя атмосфера: морозный иней по краям экрана, морозно-голубой тон и искрящиеся блики на снегу. |
+| <img src="icons/neon-wireframe.png" width="40" height="40" /> | **Neon Wireframe Tron** | `neon-wireframe.hshader` | Футуристичный режим в духе Tron: тёмный кибер-мир с яркой неоновой лазерной обводкой всех блоков и мобов. |
+| <img src="icons/cinema-film-24.png" width="40" height="40" /> | **Cinema Film 2.39:1** | `cinema-film-24.hshader` | Киноформат IMAX/2.39:1: широкоэкранные чёрные полосы, голливудский Teal & Orange грейдинг и плёночное зерно Kodak. |
 
 ## Ресурс-паки с Modrinth (1298 шт. — топ-100 показаны ниже, все 1298 доступны в лаунчере и `catalog.json`)
 

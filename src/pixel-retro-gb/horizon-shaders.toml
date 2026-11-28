@@ -1,0 +1,25 @@
+schema = 1
+api = "0.1"
+id = "pixel_retro_gb"
+name = "Pixel Art Retro"
+version = "1.0.0"
+
+[[options]]
+id = "pixel_scale"
+name = "Pixel Size"
+description = "Screen pixel block size (higher = chunkier retro pixels)."
+type = "float"
+default = 3.0
+min = 1.5
+max = 8.0
+step = 0.5
+
+[[options]]
+id = "gameboy_palette"
+name = "Game Boy Green Mode"
+description = "Use classic 4-shade handheld green LCD palette."
+type = "bool"
+default = false
+
+[[post]]
+file = "post.wgsl"

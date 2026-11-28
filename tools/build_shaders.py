@@ -1890,9 +1890,793 @@ fn post(input: PostInput) -> vec4<f32> {
     },
 )
 
+# 28 (#42). VHS Camcorder 90s
+add_shader(
+    "vhs-camcorder",
+    "vhs_camcorder",
+    "VHS Camcorder 90s",
+    "Эффект кассетной видеокамеры 90-х: полосы трекинга, размытие цветности, тёплое зерно плёнки и мягкая виньетка.",
+    """
+[[options]]
+id = "tape_wear"
+name = "Tape Wear"
+description = "Strength of VHS tracking lines, jitter and analog grain."
+type = "float"
+default = 0.80
+min = 0.20
+max = 1.50
+step = 0.05
+
+[[post]]
+file = "post.wgsl"
+""",
+    {
+        "post.wgsl": """
+override tape_wear: f32 = 0.80;
+
+fn vhs_hash(p: vec2<f32>) -> f32 {
+    return fract(sin(dot(p, vec2<f32>(127.1, 311.7))) * 43758.5453);
+}
+
+fn post(input: PostInput) -> vec4<f32> {
+    var uv = input.uv;
+    let t = frame.time;
+
+    // Rolling analog tracking distortion band
+    let roll = fract(t * 0.14);
+    let band = exp(-pow((uv.y - roll) * 14.0, 2.0));
+    let jitter = (vhs_hash(vec2<f32>(floor(uv.y * 180.0), floor(t * 24.0))) - 0.5) * 0.018 * band * tape_wear;
+    let bottom_tear = smoothstep(0.94, 1.0, uv.y) * (vhs_hash(vec2<f32>(floor(uv.y * 120.0), floor(t * 30.0))) - 0.5) * 0.035 * tape_wear;
+    uv.x = uv.x + jitter + bottom_tear;
+
+    // Horizontal chroma bleed (classic VHS Y/C separation)
+    let bleed = (0.0035 + band * 0.006) * tape_wear;
+    let r = textureSampleLevel(previous, linear_sampler, clamp(uv + vec2<f32>(bleed, 0.0), vec2<f32>(0.001), vec2<f32>(0.999)), 0.0).r;
+    let g = textureSampleLevel(previous, linear_sampler, clamp(uv, vec2<f32>(0.001), vec2<f32>(0.999)), 0.0).g;
+    let b = textureSampleLevel(previous, linear_sampler, clamp(uv - vec2<f32>(bleed * 1.2, 0.0), vec2<f32>(0.001), vec2<f32>(0.999)), 0.0).b;
+    var col = vec3<f32>(r, g, b);
+
+    // Warm slightly washed analog tape grade
+    let luma = dot(col, vec3<f32>(0.299, 0.587, 0.114));
+    col = mix(vec3<f32>(luma), col, 0.86) * vec3<f32>(1.04, 1.01, 0.94) + vec3<f32>(0.015, 0.010, 0.020);
+
+    // Scanlines + tape snow noise
+    let scan = sin(uv.y * max(frame.resolution.y, 320.0) * 1.4) * 0.5 + 0.5;
+    col = col * (1.0 - scan * 0.09 * tape_wear);
+    let snow = (vhs_hash(uv * 420.0 + vec2<f32>(t * 19.0, t * 31.0)) - 0.5) * (0.07 + band * 0.16) * tape_wear;
+    col = col + vec3<f32>(snow);
+
+    // Soft camcorder vignette
+    let d = length(input.uv - vec2<f32>(0.5));
+    col = col * smoothstep(0.92, 0.36, d);
+    return vec4<f32>(clamp(col, vec3<f32>(0.0), vec3<f32>(1.0)), input.color.a);
+}
+"""
+    },
+)
+
+# 29 (#43). Matrix Digital Rain
+add_shader(
+    "matrix-rain",
+    "matrix_rain",
+    "Matrix Digital Rain",
+    "Стиль «Матрицы»: зелёные потоки падающего цифрового кода поверх мира и фосфорно-изумрудная цветокоррекция.",
+    """
+[[options]]
+id = "rain_intensity"
+name = "Code Rain Brightness"
+description = "Visibility of falling green digital code streams."
+type = "float"
+default = 0.75
+min = 0.15
+max = 1.40
+step = 0.05
+
+[[options]]
+id = "green_grade"
+name = "Matrix Green Tint"
+description = "Strength of the iconic emerald cinema color grade."
+type = "float"
+default = 0.65
+min = 0.00
+max = 1.00
+step = 0.05
+
+[[post]]
+file = "post.wgsl"
+""",
+    {
+        "post.wgsl": """
+override rain_intensity: f32 = 0.75;
+override green_grade: f32 = 0.65;
+
+fn mx_hash(p: vec2<f32>) -> f32 {
+    return fract(sin(dot(p, vec2<f32>(127.1, 311.7))) * 43758.5453);
+}
+
+fn post(input: PostInput) -> vec4<f32> {
+    let uv = input.uv;
+    let t = frame.time;
+    var col = input.color.rgb;
+
+    // Matrix cinema emerald color grading
+    let luma = dot(col, vec3<f32>(0.2126, 0.7152, 0.0722));
+    let matrix_col = vec3<f32>(col.r * 0.62, max(col.g * 1.12, luma * 1.08), col.b * 0.66);
+    col = mix(col, matrix_col, green_grade);
+
+    // Falling digital glyph columns (subtle in center, stronger on outer frame)
+    let cols = 64.0;
+    let rows = 36.0;
+    let cell = vec2<f32>(floor(uv.x * cols), floor(uv.y * rows));
+    let local = fract(uv * vec2<f32>(cols, rows));
+
+    let speed = 3.5 + mx_hash(vec2<f32>(cell.x, 1.3)) * 6.5;
+    let offset = mx_hash(vec2<f32>(cell.x, 7.9)) * 40.0;
+    let stream_pos = fract((uv.y * 1.8) - (t * speed * 0.06) + offset);
+    let trail = pow(clamp(1.0 - stream_pos, 0.0, 1.0), 4.5);
+    let head = smoothstep(0.06, 0.0, stream_pos);
+
+    // Crisp procedural micro-glyph pattern per cell
+    let glyph_seed = mx_hash(cell + vec2<f32>(0.0, floor(t * 7.0 + cell.x)));
+    let sub = floor(local * vec2<f32>(3.0, 4.0));
+    let glyph_px = step(0.45, mx_hash(sub + vec2<f32>(glyph_seed * 19.0, cell.x)));
+    let pad = step(0.18, local.x) * step(local.x, 0.82) * step(0.15, local.y) * step(local.y, 0.85);
+    let glyph = glyph_px * pad;
+
+    let edge_boost = 0.45 + 0.55 * smoothstep(0.18, 0.62, length(uv - vec2<f32>(0.5)));
+    let code_glow = vec3<f32>(0.10, 0.95, 0.35) * trail * glyph * 0.55 + vec3<f32>(0.78, 1.0, 0.85) * head * glyph * 0.85;
+    col = col + code_glow * rain_intensity * edge_boost;
+
+    return vec4<f32>(clamp(col, vec3<f32>(0.0), vec3<f32>(1.0)), input.color.a);
+}
+"""
+    },
+)
+
+# 30 (#44). Vaporwave Synthwave
+add_shader(
+    "vaporwave-synthwave",
+    "vaporwave_synthwave",
+    "Vaporwave Synthwave",
+    "Неоново-розовый закат 80-х, полосатое ретро-солнце на горизонте и сочная фиолетово-бирюзовая палитра мира.",
+    """
+[[options]]
+id = "synth_strength"
+name = "Synthwave Intensity"
+description = "Overall strength of neon pink/cyan retro aesthetic."
+type = "float"
+default = 0.85
+min = 0.20
+max = 1.40
+step = 0.05
+
+[sky]
+file = "sky.wgsl"
+
+[material]
+file = "material.wgsl"
+
+[[post]]
+file = "post.wgsl"
+""",
+    {
+        "sky.wgsl": """
+override synth_strength: f32 = 0.85;
+
+fn sky(input: SkyInput) -> vec4<f32> {
+    let d = normalize(input.direction);
+    let h = clamp(d.y * 0.5 + 0.5, 0.0, 1.0);
+    let top_col = vec3<f32>(0.08, 0.04, 0.24);
+    let mid_col = vec3<f32>(0.42, 0.08, 0.52);
+    let hor_col = vec3<f32>(1.0, 0.28, 0.62);
+    var synth_sky = mix(hor_col, mid_col, smoothstep(0.46, 0.68, h));
+    synth_sky = mix(synth_sky, top_col, smoothstep(0.66, 0.94, h));
+
+    // Striped retro sun glow in sun direction
+    let sun_dir = normalize(vec3<f32>(frame.sun_direction.x, max(frame.sun_direction.y, 0.12), frame.sun_direction.z));
+    let sd = dot(d, sun_dir);
+    let sun_disc = smoothstep(0.988, 0.992, sd);
+    let stripe = step(0.32, fract(d.y * 42.0));
+    let sun_col = mix(vec3<f32>(1.0, 0.22, 0.55), vec3<f32>(1.0, 0.92, 0.30), smoothstep(0.05, 0.28, d.y));
+    synth_sky = synth_sky + sun_col * sun_disc * stripe * 0.95 + vec3<f32>(1.0, 0.35, 0.72) * pow(max(sd, 0.0), 18.0) * 0.55;
+
+    let col = mix(input.color.rgb, synth_sky, clamp(synth_strength * 0.82, 0.0, 1.0));
+    return vec4<f32>(col, 1.0);
+}
+""",
+        "material.wgsl": """
+override synth_strength: f32 = 0.85;
+
+fn material(input: MaterialInput) -> Surface {
+    let rim = pow(1.0 - abs(input.normal.y), 2.0);
+    let tint = mix(vec3<f32>(1.0), vec3<f32>(1.14, 0.88, 1.18), synth_strength * 0.55);
+    let cyan_bounce = vec3<f32>(0.10, 0.32, 0.42) * rim * synth_strength * 0.28;
+    let lit = input.albedo.rgb * input.tint.rgb * input.lightmap * tint + input.albedo.rgb * cyan_bounce;
+    return Surface(vec4<f32>(lit, input.albedo.a * input.tint.a));
+}
+""",
+        "post.wgsl": """
+override synth_strength: f32 = 0.85;
+
+fn post(input: PostInput) -> vec4<f32> {
+    var col = input.color.rgb;
+    let shadows = vec3<f32>(0.06, 0.02, 0.14) * (1.0 - col) * synth_strength * 0.35;
+    let highs = max(col - vec3<f32>(0.68), vec3<f32>(0.0)) * vec3<f32>(1.25, 0.65, 1.35) * synth_strength * 0.45;
+    col = col + shadows + highs;
+    return vec4<f32>(clamp(col, vec3<f32>(0.0), vec3<f32>(1.0)), input.color.a);
+}
+""",
+    },
+)
+
+# 31 (#45). Underwater Caustics
+add_shader(
+    "underwater-caustics",
+    "underwater_caustics",
+    "Underwater Caustics",
+    "Живые мерцающие солнечные блики-каустики на дне водоёмов и кристальная бирюзовая видимость под водой.",
+    """
+[[options]]
+id = "caustics_strength"
+name = "Caustics Brightness"
+description = "Intensity of animated underwater caustic light webs."
+type = "float"
+default = 0.90
+min = 0.20
+max = 1.50
+step = 0.05
+
+[material]
+file = "material.wgsl"
+
+[[post]]
+file = "post.wgsl"
+""",
+    {
+        "material.wgsl": """
+override caustics_strength: f32 = 0.90;
+
+fn uc_wave(p: vec2<f32>, t: f32) -> f32 {
+    let a = sin(p.x * 1.7 + t * 1.4 + sin(p.y * 1.3 - t * 0.9));
+    let b = cos(p.y * 1.9 - t * 1.2 + cos(p.x * 1.5 + t * 1.1));
+    return pow(clamp(1.0 - abs(a + b) * 0.55, 0.0, 1.0), 4.0);
+}
+
+fn material(input: MaterialInput) -> Surface {
+    var lit = input.albedo.rgb * input.tint.rgb * input.lightmap;
+    let is_under = select(0.0, 1.0, frame.eye_in == 1);
+    let upward = max(input.normal.y, 0.15);
+    let sun_up = smoothstep(-0.05, 0.30, frame.sun_direction.y);
+    let wp = input.position.xz * 0.85 + vec2<f32>(input.position.y * 0.25, -input.position.y * 0.20);
+    let c1 = uc_wave(wp, frame.time);
+    let c2 = uc_wave(wp * 1.45 + vec2<f32>(4.2, 1.7), -frame.time * 0.85);
+    let caustic = (c1 + c2) * 0.5 * upward * sun_up * is_under * caustics_strength;
+    let aqua = vec3<f32>(0.42, 0.92, 1.0) * caustic * 0.65;
+    lit = lit + input.albedo.rgb * aqua;
+    return Surface(vec4<f32>(lit, input.albedo.a * input.tint.a));
+}
+""",
+        "post.wgsl": """
+override caustics_strength: f32 = 0.90;
+
+fn post(input: PostInput) -> vec4<f32> {
+    var col = input.color.rgb;
+    if (frame.eye_in == 1) {
+        let lift = mix(col, col * vec3<f32>(0.90, 1.10, 1.16) + vec3<f32>(0.01, 0.04, 0.06), 0.45 * clamp(caustics_strength, 0.0, 1.2));
+        col = lift;
+    }
+    return vec4<f32>(clamp(col, vec3<f32>(0.0), vec3<f32>(1.0)), input.color.a);
+}
+""",
+    },
+)
+
+# 32 (#46). Wet Rain Gloss
+add_shader(
+    "wet-rain-reflections",
+    "wet_rain_reflections",
+    "Wet Rain Gloss",
+    "Мокрые блестящие поверхности и лужи во время дождя: глубокие насыщенные цвета камня и блики неба на земле.",
+    """
+[[options]]
+id = "wetness_boost"
+name = "Wet Gloss Strength"
+description = "Intensity of wet specular highlights during rain."
+type = "float"
+default = 0.95
+min = 0.20
+max = 1.50
+step = 0.05
+
+[[options]]
+id = "always_wet"
+name = "Always Wet Ground"
+description = "Keep subtle glossy wet look even in clear weather."
+type = "bool"
+default = false
+
+[material]
+file = "material.wgsl"
+""",
+    {
+        "material.wgsl": """
+override wetness_boost: f32 = 0.95;
+override always_wet: bool = false;
+
+fn wr_puddle(p: vec2<f32>) -> f32 {
+    let n = sin(p.x * 0.45 + sin(p.y * 0.35)) * cos(p.y * 0.52 - cos(p.x * 0.38));
+    return smoothstep(0.05, 0.55, n * 0.5 + 0.5);
+}
+
+fn material(input: MaterialInput) -> Surface {
+    var wet = frame.rain;
+    if (always_wet) {
+        wet = max(wet, 0.75);
+    }
+    let sky_exposed = smoothstep(0.45, 0.92, input.light.y);
+    let top_face = smoothstep(0.55, 0.95, input.normal.y);
+    let puddle = wr_puddle(input.position.xz);
+    let w = wet * sky_exposed * top_face * wetness_boost;
+
+    var base = input.albedo.rgb * input.tint.rgb;
+    // Wet materials look richer and slightly darker
+    base = mix(base, base * base * 0.95 + base * 0.28, clamp(w * (0.45 + puddle * 0.35), 0.0, 0.72));
+    var lit = base * input.lightmap;
+
+    // Fresnel sky reflection sheen + subtle raindrop ripple sparkle
+    let view_dir = normalize(frame.camera_position - input.position);
+    let ndotv = clamp(dot(normalize(input.normal), view_dir), 0.0, 1.0);
+    let fresnel = pow(1.0 - ndotv, 3.2);
+    let ripple = sin(length(fract(input.position.xz * 0.5) - vec2<f32>(0.5)) * 28.0 - frame.time * 9.0) * 0.5 + 0.5;
+    let sheen = (fresnel * (0.45 + puddle * 0.65) + ripple * puddle * 0.08 * frame.rain) * w;
+    lit = lit + max(frame.sky_color, vec3<f32>(0.25, 0.32, 0.42)) * sheen * 0.55;
+
+    return Surface(vec4<f32>(lit, input.albedo.a * input.tint.a));
+}
+"""
+    },
+)
+
+# 33 (#47). Chromatic Prism
+add_shader(
+    "chromatic-prism",
+    "chromatic_prism",
+    "Chromatic Prism",
+    "Кинематографичная оптическая хроматическая аберрация по краям экрана и мягкий анаморфный блик на ярких объектах.",
+    """
+[[options]]
+id = "prism_strength"
+name = "Prism Dispersion"
+description = "Amount of radial RGB lens dispersion near screen edges."
+type = "float"
+default = 0.80
+min = 0.15
+max = 1.50
+step = 0.05
+
+[[post]]
+file = "post.wgsl"
+""",
+    {
+        "post.wgsl": """
+override prism_strength: f32 = 0.80;
+
+fn post(input: PostInput) -> vec4<f32> {
+    let uv = input.uv;
+    let delta = uv - vec2<f32>(0.5);
+    let dist = length(delta);
+    let shift = delta * (0.006 + dist * 0.018) * prism_strength;
+
+    let uv_r = clamp(uv + shift, vec2<f32>(0.001), vec2<f32>(0.999));
+    let uv_b = clamp(uv - shift, vec2<f32>(0.001), vec2<f32>(0.999));
+
+    let r = textureSampleLevel(previous, linear_sampler, uv_r, 0.0).r;
+    let g = input.color.g;
+    let b = textureSampleLevel(previous, linear_sampler, uv_b, 0.0).b;
+    var col = vec3<f32>(r, g, b);
+
+    // Subtle horizontal anamorphic cyan-blue streak on very bright highlights
+    let px = 1.0 / max(frame.resolution, vec2<f32>(320.0));
+    var flare = vec3<f32>(0.0);
+    for (var i: i32 = -3; i <= 3; i = i + 1) {
+        let fuv = clamp(uv + vec2<f32>(f32(i) * px.x * 7.0, 0.0), vec2<f32>(0.001), vec2<f32>(0.999));
+        let s = textureSampleLevel(previous, linear_sampler, fuv, 0.0).rgb;
+        let br = max(dot(s, vec3<f32>(0.2126, 0.7152, 0.0722)) - 0.82, 0.0);
+        flare = flare + vec3<f32>(0.35, 0.65, 1.0) * br;
+    }
+    col = col + (flare / 7.0) * 0.35 * prism_strength;
+    return vec4<f32>(clamp(col, vec3<f32>(0.0), vec3<f32>(1.0)), input.color.a);
+}
+"""
+    },
+)
+
+# 34 (#48). Pixel Art Retro
+add_shader(
+    "pixel-retro-gb",
+    "pixel_retro_gb",
+    "Pixel Art Retro",
+    "Пикселизация рендера в стиле ретро-консолей 16-bit с опциональной классической зелёной палитрой Game Boy.",
+    """
+[[options]]
+id = "pixel_scale"
+name = "Pixel Size"
+description = "Screen pixel block size (higher = chunkier retro pixels)."
+type = "float"
+default = 3.0
+min = 1.5
+max = 8.0
+step = 0.5
+
+[[options]]
+id = "gameboy_palette"
+name = "Game Boy Green Mode"
+description = "Use classic 4-shade handheld green LCD palette."
+type = "bool"
+default = false
+
+[[post]]
+file = "post.wgsl"
+""",
+    {
+        "post.wgsl": """
+override pixel_scale: f32 = 3.0;
+override gameboy_palette: bool = false;
+
+fn post(input: PostInput) -> vec4<f32> {
+    let res = max(frame.resolution, vec2<f32>(320.0));
+    let grid = max(res / max(pixel_scale, 1.0), vec2<f32>(64.0));
+    let puv = clamp((floor(input.uv * grid) + vec2<f32>(0.5)) / grid, vec2<f32>(0.001), vec2<f32>(0.999));
+    var col = textureSampleLevel(previous, linear_sampler, puv, 0.0).rgb;
+
+    if (gameboy_palette) {
+        let luma = clamp(dot(col, vec3<f32>(0.299, 0.587, 0.114)), 0.0, 1.0);
+        let q = floor(luma * 3.99);
+        if (q < 0.5) {
+            col = vec3<f32>(0.06, 0.22, 0.06);
+        } else if (q < 1.5) {
+            col = vec3<f32>(0.19, 0.38, 0.19);
+        } else if (q < 2.5) {
+            col = vec3<f32>(0.55, 0.67, 0.06);
+        } else {
+            col = vec3<f32>(0.61, 0.74, 0.06);
+        }
+    } else {
+        // Crisp 16-bit color posterization
+        col = floor(col * 16.0 + vec3<f32>(0.5)) / 16.0;
+    }
+
+    return vec4<f32>(clamp(col, vec3<f32>(0.0), vec3<f32>(1.0)), input.color.a);
+}
+"""
+    },
+)
+
+# 35 (#49). Comic Ink & Halftone
+add_shader(
+    "comic-halftone",
+    "comic_halftone",
+    "Comic Ink & Halftone",
+    "Стиль комиксов: чёткая чёрная тушевая обводка силуэтов, яркая поп-арт палитра и растровые точки в тенях.",
+    """
+[[options]]
+id = "ink_strength"
+name = "Ink Outline Strength"
+description = "Thickness and darkness of comic ink outlines."
+type = "float"
+default = 0.90
+min = 0.20
+max = 1.50
+step = 0.05
+
+[[options]]
+id = "halftone_amount"
+name = "Halftone Dots"
+description = "Visibility of comic-book halftone dot shading in shadows."
+type = "float"
+default = 0.65
+min = 0.00
+max = 1.20
+step = 0.05
+
+[[post]]
+file = "post.wgsl"
+""",
+    {
+        "post.wgsl": """
+override ink_strength: f32 = 0.90;
+override halftone_amount: f32 = 0.65;
+
+fn post(input: PostInput) -> vec4<f32> {
+    let uv = input.uv;
+    let res = max(frame.resolution, vec2<f32>(320.0));
+    let px = 1.5 / res;
+
+    let c = input.color.rgb;
+    let c_r = textureSampleLevel(previous, linear_sampler, clamp(uv + vec2<f32>(px.x, 0.0), vec2<f32>(0.001), vec2<f32>(0.999)), 0.0).rgb;
+    let c_l = textureSampleLevel(previous, linear_sampler, clamp(uv - vec2<f32>(px.x, 0.0), vec2<f32>(0.001), vec2<f32>(0.999)), 0.0).rgb;
+    let c_u = textureSampleLevel(previous, linear_sampler, clamp(uv + vec2<f32>(0.0, px.y), vec2<f32>(0.001), vec2<f32>(0.999)), 0.0).rgb;
+    let c_d = textureSampleLevel(previous, linear_sampler, clamp(uv - vec2<f32>(0.0, px.y), vec2<f32>(0.001), vec2<f32>(0.999)), 0.0).rgb;
+
+    let gx = length(c_r - c_l);
+    let gy = length(c_u - c_d);
+    let col_edge = sqrt(gx * gx + gy * gy);
+
+    // Depth silhouette edges
+    let d0 = input.depth;
+    let dr = depth_at(clamp(uv + vec2<f32>(px.x, 0.0), vec2<f32>(0.001), vec2<f32>(0.999)));
+    let du = depth_at(clamp(uv + vec2<f32>(0.0, px.y), vec2<f32>(0.001), vec2<f32>(0.999)));
+    let depth_edge = (abs(d0 - dr) + abs(d0 - du)) * 45.0;
+
+    let ink = smoothstep(0.18, 0.42, (col_edge + depth_edge) * ink_strength);
+
+    // Vibrant cel-shaded comic posterization
+    let luma = dot(c, vec3<f32>(0.2126, 0.7152, 0.0722));
+    var col = mix(vec3<f32>(luma), c, 1.28);
+    col = floor(col * 7.0 + vec3<f32>(0.5)) / 7.0;
+
+    // Halftone dots in darker shadow regions
+    let dot_pos = fract(uv * res * 0.16) - vec2<f32>(0.5);
+    let dot_r = length(dot_pos);
+    let shadow_amt = smoothstep(0.58, 0.10, luma);
+    let halftone = smoothstep(0.38 * shadow_amt, 0.38 * shadow_amt - 0.06, dot_r);
+    col = col * (1.0 - halftone * 0.28 * halftone_amount);
+
+    // Apply black ink outline
+    col = mix(col, vec3<f32>(0.04, 0.04, 0.06), clamp(ink, 0.0, 0.92));
+    return vec4<f32>(clamp(col, vec3<f32>(0.0), vec3<f32>(1.0)), input.color.a);
+}
+"""
+    },
+)
+
+# 36 (#50). Dreamy Soft Glow
+add_shader(
+    "dreamy-soft-glow",
+    "dreamy_soft_glow",
+    "Dreamy Soft Glow",
+    "Воздушное сказочное свечение (Orton-эффект): мягкий ореол вокруг светлых участков, пастельные тени и тёплая дымка.",
+    """
+[[options]]
+id = "dream_glow"
+name = "Dreamy Glow"
+description = "Strength of the soft Orton bloom effect."
+type = "float"
+default = 0.75
+min = 0.15
+max = 1.35
+step = 0.05
+
+[[post]]
+file = "post.wgsl"
+""",
+    {
+        "post.wgsl": """
+override dream_glow: f32 = 0.75;
+
+fn post(input: PostInput) -> vec4<f32> {
+    let uv = input.uv;
+    let px = 1.0 / max(frame.resolution, vec2<f32>(320.0));
+
+    var blur = input.color.rgb * 0.20;
+    for (var i: i32 = 0; i < 8; i = i + 1) {
+        let a = f32(i) * 0.78539816;
+        let off1 = vec2<f32>(cos(a), sin(a)) * px * 5.0;
+        let off2 = vec2<f32>(cos(a + 0.39), sin(a + 0.39)) * px * 11.0;
+        blur = blur + textureSampleLevel(previous, linear_sampler, clamp(uv + off1, vec2<f32>(0.001), vec2<f32>(0.999)), 0.0).rgb * 0.06;
+        blur = blur + textureSampleLevel(previous, linear_sampler, clamp(uv + off2, vec2<f32>(0.001), vec2<f32>(0.999)), 0.0).rgb * 0.04;
+    }
+
+    // Orton-style soft dreamy blend + warm pastel shadow lift
+    let screen_blend = vec3<f32>(1.0) - (vec3<f32>(1.0) - input.color.rgb) * (vec3<f32>(1.0) - blur * 0.72);
+    var col = mix(input.color.rgb, screen_blend, clamp(dream_glow * 0.58, 0.0, 0.85));
+    col = col + vec3<f32>(0.025, 0.018, 0.032) * dream_glow * (1.0 - col);
+    return vec4<f32>(clamp(col, vec3<f32>(0.0), vec3<f32>(1.0)), input.color.a);
+}
+"""
+    },
+)
+
+# 37 (#51). Arctic Frost
+add_shader(
+    "arctic-frost",
+    "arctic_frost",
+    "Arctic Frost",
+    "Ледяная зимняя атмосфера: морозный иней по краям экрана, морозно-голубой тон и искрящиеся блики на снегу.",
+    """
+[[options]]
+id = "frost_amount"
+name = "Frost Border"
+description = "Intensity of crystalline ice frost along screen edges."
+type = "float"
+default = 0.85
+min = 0.15
+max = 1.40
+step = 0.05
+
+[[post]]
+file = "post.wgsl"
+""",
+    {
+        "post.wgsl": """
+override frost_amount: f32 = 0.85;
+
+fn af_hash(p: vec2<f32>) -> f32 {
+    return fract(sin(dot(p, vec2<f32>(127.1, 311.7))) * 43758.5453);
+}
+
+fn af_noise(p: vec2<f32>) -> f32 {
+    let i = floor(p);
+    let f = fract(p);
+    let u = f * f * (vec2<f32>(3.0) - 2.0 * f);
+    let a = af_hash(i);
+    let b = af_hash(i + vec2<f32>(1.0, 0.0));
+    let c = af_hash(i + vec2<f32>(0.0, 1.0));
+    let d = af_hash(i + vec2<f32>(1.0, 1.0));
+    return mix(mix(a, b, u.x), mix(c, d, u.x), u.y);
+}
+
+fn post(input: PostInput) -> vec4<f32> {
+    let uv = input.uv;
+    let d = length((uv - vec2<f32>(0.5)) * vec2<f32>(1.25, 1.0));
+
+    // Crystalline frost pattern concentrated at screen borders
+    let n1 = af_noise(uv * 16.0);
+    let n2 = af_noise(uv * 38.0 + vec2<f32>(n1 * 2.5));
+    let crystal = n1 * 0.55 + n2 * 0.45;
+    let frost_mask = smoothstep(0.46, 0.86, d + (crystal - 0.5) * 0.24) * clamp(frost_amount, 0.0, 1.4);
+
+    // Slight icy refraction inside frosted rim
+    let refr_uv = clamp(uv + (vec2<f32>(n2, n1) - vec2<f32>(0.5)) * 0.012 * frost_mask, vec2<f32>(0.001), vec2<f32>(0.999));
+    var col = textureSampleLevel(previous, linear_sampler, refr_uv, 0.0).rgb;
+
+    // Crisp winter cool color grade + snow sparkle
+    col = col * vec3<f32>(0.92, 0.99, 1.08);
+    let luma = dot(col, vec3<f32>(0.2126, 0.7152, 0.0722));
+    let sparkle = step(0.96, af_hash(floor(uv * 220.0) + vec2<f32>(floor(frame.time * 4.0), 0.0))) * smoothstep(0.75, 0.98, luma);
+    col = col + vec3<f32>(0.6, 0.85, 1.0) * sparkle * 0.45;
+
+    // Icy frosted glass overlay around edges
+    let ice_col = mix(vec3<f32>(0.68, 0.88, 1.0), vec3<f32>(0.92, 0.97, 1.0), crystal);
+    col = mix(col, ice_col, clamp(frost_mask * 0.62, 0.0, 0.78));
+    return vec4<f32>(clamp(col, vec3<f32>(0.0), vec3<f32>(1.0)), input.color.a);
+}
+"""
+    },
+)
+
+# 38 (#52). Neon Wireframe Tron
+add_shader(
+    "neon-wireframe",
+    "neon_wireframe",
+    "Neon Wireframe Tron",
+    "Футуристичный режим в духе Tron: тёмный кибер-мир с яркой неоновой лазерной обводкой всех блоков и мобов.",
+    """
+[[options]]
+id = "wire_glow"
+name = "Neon Edge Glow"
+description = "Brightness of neon wireframe silhouettes."
+type = "float"
+default = 1.00
+min = 0.30
+max = 1.60
+step = 0.05
+
+[[options]]
+id = "keep_world_dim"
+name = "Keep World Visible"
+description = "How much of the underlying world stays visible behind neon edges."
+type = "float"
+default = 0.32
+min = 0.05
+max = 0.85
+step = 0.05
+
+[[post]]
+file = "post.wgsl"
+""",
+    {
+        "post.wgsl": """
+override wire_glow: f32 = 1.00;
+override keep_world_dim: f32 = 0.32;
+
+fn post(input: PostInput) -> vec4<f32> {
+    let uv = input.uv;
+    let px = 1.35 / max(frame.resolution, vec2<f32>(320.0));
+
+    let c = input.color.rgb;
+    let cl = textureSampleLevel(previous, linear_sampler, clamp(uv - vec2<f32>(px.x, 0.0), vec2<f32>(0.001), vec2<f32>(0.999)), 0.0).rgb;
+    let cr = textureSampleLevel(previous, linear_sampler, clamp(uv + vec2<f32>(px.x, 0.0), vec2<f32>(0.001), vec2<f32>(0.999)), 0.0).rgb;
+    let cu = textureSampleLevel(previous, linear_sampler, clamp(uv - vec2<f32>(0.0, px.y), vec2<f32>(0.001), vec2<f32>(0.999)), 0.0).rgb;
+    let cd = textureSampleLevel(previous, linear_sampler, clamp(uv + vec2<f32>(0.0, px.y), vec2<f32>(0.001), vec2<f32>(0.999)), 0.0).rgb;
+
+    let edge_c = length(cr - cl) + length(cd - cu);
+    let d0 = input.depth;
+    let d_edge = (abs(d0 - depth_at(clamp(uv + vec2<f32>(px.x, 0.0), vec2<f32>(0.001), vec2<f32>(0.999))))
+        + abs(d0 - depth_at(clamp(uv + vec2<f32>(0.0, px.y), vec2<f32>(0.001), vec2<f32>(0.999))))) * 55.0;
+
+    let edge = smoothstep(0.14, 0.45, edge_c + d_edge);
+
+    // Animated cyan-to-magenta neon pulse sweeping across the scene
+    let pulse = sin(uv.y * 5.0 - frame.time * 2.2) * 0.5 + 0.5;
+    let neon_col = mix(vec3<f32>(0.0, 0.92, 1.0), vec3<f32>(1.0, 0.15, 0.78), pulse * 0.55);
+
+    let bg = c * vec3<f32>(0.45, 0.62, 0.95) * keep_world_dim + vec3<f32>(0.01, 0.02, 0.05);
+    let col = bg + neon_col * edge * 1.15 * wire_glow;
+    return vec4<f32>(clamp(col, vec3<f32>(0.0), vec3<f32>(1.0)), input.color.a);
+}
+"""
+    },
+)
+
+# 39 (#53). Cinema Film 2.39:1
+add_shader(
+    "cinema-film-24",
+    "cinema_film_24",
+    "Cinema Film 2.39:1",
+    "Киноформат IMAX/2.39:1: широкоэкранные чёрные полосы, голливудский Teal & Orange грейдинг и плёночное зерно Kodak.",
+    """
+[[options]]
+id = "letterbox"
+name = "Cinema Bars (2.39:1)"
+description = "Show classic widescreen cinematic black bars top and bottom."
+type = "bool"
+default = true
+
+[[options]]
+id = "film_grain"
+name = "Kodak Film Grain"
+description = "Subtle organic 35mm cinema film grain."
+type = "float"
+default = 0.45
+min = 0.00
+max = 1.20
+step = 0.05
+
+[[post]]
+file = "post.wgsl"
+""",
+    {
+        "post.wgsl": """
+override letterbox: bool = true;
+override film_grain: f32 = 0.45;
+
+fn cf_hash(p: vec2<f32>) -> f32 {
+    return fract(sin(dot(p, vec2<f32>(127.1, 311.7))) * 43758.5453);
+}
+
+fn post(input: PostInput) -> vec4<f32> {
+    let uv = input.uv;
+    if (letterbox && (uv.y < 0.11 || uv.y > 0.89)) {
+        return vec4<f32>(0.0, 0.0, 0.0, input.color.a);
+    }
+
+    var col = input.color.rgb;
+    // Hollywood Teal & Orange cinema color grading
+    let luma = dot(col, vec3<f32>(0.2126, 0.7152, 0.0722));
+    let teal_shadow = vec3<f32>(0.04, 0.14, 0.19);
+    let orange_high = vec3<f32>(1.14, 0.96, 0.82);
+    col = mix(col + teal_shadow * (1.0 - luma) * 0.42, col * orange_high, smoothstep(0.28, 0.82, luma) * 0.52);
+
+    // Filmic S-curve contrast
+    col = clamp((col - vec3<f32>(0.04)) * 1.10, vec3<f32>(0.0), vec3<f32>(1.0));
+
+    // Fine 35mm film grain
+    let grain = (cf_hash(uv * max(frame.resolution, vec2<f32>(320.0)) + vec2<f32>(frame.time * 24.0, frame.time * 13.0)) - 0.5) * 0.055 * film_grain;
+    col = col + vec3<f32>(grain);
+
+    // Subtle cinema lens vignette
+    let d = length(uv - vec2<f32>(0.5));
+    col = col * smoothstep(0.95, 0.42, d);
+    return vec4<f32>(clamp(col, vec3<f32>(0.0), vec3<f32>(1.0)), input.color.a);
+}
+"""
+    },
+)
+
 
 def main() -> None:
-    assert len(SHADERS) == 27, f"Expected 27 shaders, got {len(SHADERS)}"
+    assert len(SHADERS) == 39, f"Expected 39 shaders, got {len(SHADERS)}"
     MODS_ROOT.mkdir(parents=True, exist_ok=True)
     for sh in SHADERS:
         sdir = SRC_ROOT / sh["id"]

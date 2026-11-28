@@ -1,0 +1,28 @@
+schema = 1
+api = "0.1"
+id = "comic_halftone"
+name = "Comic Ink & Halftone"
+version = "1.0.0"
+
+[[options]]
+id = "ink_strength"
+name = "Ink Outline Strength"
+description = "Thickness and darkness of comic ink outlines."
+type = "float"
+default = 0.90
+min = 0.20
+max = 1.50
+step = 0.05
+
+[[options]]
+id = "halftone_amount"
+name = "Halftone Dots"
+description = "Visibility of comic-book halftone dot shading in shadows."
+type = "float"
+default = 0.65
+min = 0.00
+max = 1.20
+step = 0.05
+
+[[post]]
+file = "post.wgsl"

@@ -1,0 +1,21 @@
+schema = 1
+api = "0.1"
+id = "underwater_caustics"
+name = "Underwater Caustics"
+version = "1.0.0"
+
+[[options]]
+id = "caustics_strength"
+name = "Caustics Brightness"
+description = "Intensity of animated underwater caustic light webs."
+type = "float"
+default = 0.90
+min = 0.20
+max = 1.50
+step = 0.05
+
+[material]
+file = "material.wgsl"
+
+[[post]]
+file = "post.wgsl"
