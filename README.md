@@ -35,7 +35,7 @@
 | <img src="icons/heat-haze.png" width="40" height="40" /> | **Heat Haze** | `heat-haze.hshader` | Реалистичное марево раскалённого воздуха в пустынях, саваннах, бесплодных землях и в Незере. |
 | <img src="icons/blood-moon.png" width="40" height="40" /> | **Blood Moon** | `blood-moon.hshader` | Багровое ночное небо, кроваво-красный ореол вокруг луны и зловещее алое освещение по ночам. |
 | <img src="icons/pvp-boost-minimal.png" width="40" height="40" /> | **PvP Boost Minimal** | `pvp-boost-minimal.hshader` | Киберспортивный PvP-шейдер: мягкий Fullbright, чёткость CAS, отключённый туман и сочный контраст с нулевой потерей FPS. |
-| <img src="icons/cracked-glitch.png" width="40" height="40" /> | **Cracked Screen Glitch** | `cracked-glitch.hshader` | Эффект разбитого экрана с трещинами стекла, преломлением осколков, RGB-глитчами и цифровыми сбоями (всегда активен при включении). |
+| <img src="icons/cracked-glitch.png" width="40" height="40" /> | **Screen Glitch** | `cracked-glitch.hshader` | Цифровые глитчи экрана: RGB-расслоение, горизонтальные срывы кадров, вспышки помех и киберпанк-сканлайны (без трещин, всегда активен при включении). |
 
 ## Ресурс-паки с Modrinth (1298 шт. — топ-100 показаны ниже, все 1298 доступны в лаунчере и `catalog.json`)
 

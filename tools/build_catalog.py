@@ -46,7 +46,7 @@ def main() -> None:
                 "kind": "shader",
                 "file_name": sh["file_name"],
                 "download_url": f"mods/{sh['file_name']}",
-                "icon_url": f"icons/{sh['id']}.png?v=3",
+                "icon_url": f"icons/{sh['id']}.png?v={'4' if sh['id'] == 'cracked-glitch' else '3'}",
                 "size_kb": max(1, math.ceil(fpath.stat().st_size / 1024)),
             }
         )

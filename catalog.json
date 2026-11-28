@@ -300,14 +300,14 @@
     },
     {
       "id": "cracked-glitch",
-      "name": "Cracked Screen Glitch",
-      "description": "Эффект разбитого экрана с трещинами стекла, преломлением осколков, RGB-глитчами и цифровыми сбоями (всегда активен при включении).",
+      "name": "Screen Glitch",
+      "description": "Цифровые глитчи экрана: RGB-расслоение, горизонтальные срывы кадров, вспышки помех и киберпанк-сканлайны (без трещин, всегда активен при включении).",
       "version": "1.0.0",
       "kind": "shader",
       "file_name": "cracked-glitch.hshader",
       "download_url": "mods/cracked-glitch.hshader",
-      "icon_url": "icons/cracked-glitch.png?v=3",
-      "size_kb": 3
+      "icon_url": "icons/cracked-glitch.png?v=4",
+      "size_kb": 2
     },
     {
       "id": "low-on-fire",
