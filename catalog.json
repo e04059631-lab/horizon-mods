@@ -299,6 +299,17 @@
       "size_kb": 2
     },
     {
+      "id": "cracked-glitch",
+      "name": "Cracked Screen Glitch",
+      "description": "Эффект разбитого экрана с трещинами стекла, преломлением осколков, RGB-глитчами и цифровыми сбоями (всегда активен при включении).",
+      "version": "1.0.0",
+      "kind": "shader",
+      "file_name": "cracked-glitch.hshader",
+      "download_url": "mods/cracked-glitch.hshader",
+      "icon_url": "icons/cracked-glitch.png?v=3",
+      "size_kb": 3
+    },
+    {
       "id": "low-on-fire",
       "name": "Low On Fire",
       "description": "Опускает пламя огня вниз экрана при горении в ванильном стиле — не закрывает обзор в PvP (18M+ скачиваний на Modrinth).",

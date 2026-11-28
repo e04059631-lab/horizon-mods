@@ -1,0 +1,28 @@
+schema = 1
+api = "0.1"
+id = "cracked_glitch"
+name = "Cracked Screen Glitch"
+version = "1.0.0"
+
+[[options]]
+id = "crack_strength"
+name = "Crack Intensity"
+description = "Visibility of shattered glass cracks and shard refraction."
+type = "float"
+default = 0.95
+min = 0.20
+max = 1.50
+step = 0.05
+
+[[options]]
+id = "glitch_strength"
+name = "Glitch Intensity"
+description = "Strength of RGB chromatic split, scanline tears and glitch bursts."
+type = "float"
+default = 0.90
+min = 0.00
+max = 1.50
+step = 0.05
+
+[[post]]
+file = "post.wgsl"
